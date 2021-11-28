@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route, useRouteMatch } from "react-router-dom";
 import HelpList from "./HelpList";
+import "./BrowseAllHelp.css";
 
 const Charities = ({ match }) => {
 
@@ -40,9 +41,12 @@ const Charities = ({ match }) => {
   /* Create an array of `<li>` items for each product */
   const linkList = helpData.map((HelpList) => {
     return (
-      <li key={HelpList.id}>
+
+     
+     < li key={HelpList.id}> 
         <Link to={`${url}/${HelpList.id}`}>{HelpList.name}</Link>
       </li>
+     
     );
   });
 
@@ -56,10 +60,21 @@ const Charities = ({ match }) => {
       </div>
 
       <Route path={`${url}/:helpListId`}>
+
+        
         <HelpList data={helpData} />
+      
       </Route>
       <Route exact path={url}>
         <p>Please select a Charity to learn more about.</p>
+
+
+
+  
+
+
+
+
       </Route>
     </div>
   );

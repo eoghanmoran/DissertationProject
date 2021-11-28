@@ -98,12 +98,13 @@ const theme = createTheme({
              
             </div>
             <div className={classes.bigSpace}>
-              <Footer/>
+            
             </div>
           </ThemeProvider>
     
     
           </div>
+          <Footer/>
   </div>
  // </div>
     

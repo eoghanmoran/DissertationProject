@@ -11,6 +11,8 @@ import Home from "./Home";
 import Map from "./SupportMap";
 import ContactDetails from "./ContactUs";
 import SearchHelp from "./SearchForHelp";
+import ContactUs from  "./ContactUs";
+
 
 
 const theme = createTheme({
@@ -64,6 +66,8 @@ const styles = makeStyles({
 
 export default function App() {
   <Home/>
+
+
   //const classes = styles(); 
   return (
 
@@ -81,11 +85,10 @@ export default function App() {
     
         <Route path="/supportMap"><Map/></Route>
         <Route path="/crisisHelp"><Help/></Route>
-        <Route path="/contactUs"><ContactDetails/></Route>
+        <Route path="/contactUs"><ContactUs/></Route>
         <Route path="/searchHelp"><SearchHelp/></Route>
 
       </Switch>
-
 
 </div>
 
