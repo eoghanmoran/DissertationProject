@@ -5,12 +5,29 @@
 border-radius: 10px;
 margin-bottom: 15px;
 font-size: calc(10px + 2vmin);
+}
+.logo{
+ 
+  margin: 10px;
+}
+.mappicture {
 
+  margin: 70px;
+}
+.searchpicture{
+
+
+        height: auto;
 
 }
+.background {
+
+  width: 100%;
 
 
-
+	background-size: cover;
+  background-image: url(./background.png);
+}
 
 
 .App-logo {
@@ -19,9 +36,6 @@ font-size: calc(10px + 2vmin);
 }
 
 .container{
-  background-image: url(./background.png);
-
-
  font-size: calc(10px + 2vmin);
   padding-right: 80px;
   padding-bottom: 100px;

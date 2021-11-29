@@ -1,24 +1,11 @@
-import ReactDOM from "react-dom";
-import { useState } from "react";
-
 import React from "react";
-import ContactForm from "./ContactForm";
-import Home from "./Home";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
 import {Typography} from '@material-ui/core'; 
-import Grid from './components/Grid'
 import Footer from './components/Footer'
-import{ init } from 'emailjs-com';
-import  { useRef } from 'react';
-import emailjs from 'emailjs-com';
-init("user_sg6N53jdpPfJ9d2oTOpFK");
-
-
-
-
-
-
+import CrisisHelpDetails from './CrisisHelpDetails';
+import './App.css';
+import logo from './logosmall.png';
 
 
 const theme = createTheme({
@@ -45,15 +32,13 @@ const theme = createTheme({
     },
   },
 });
-
 const styles = makeStyles({
   wrapper: {
     width: "100%",
     margin: "auto",
     textAlign: "center"
   },
-  bigSpace: {
-   
+  bigSpace: { 
   },
   littleSpace:{
     marginTop: "2.5rem",
@@ -65,39 +50,39 @@ const styles = makeStyles({
     flexWrap: "wrap", 
   },
 })
-
-
-
-export default function App() {
+export default function crisisHelp() {
+  
   const classes = styles(); 
 
 
+  return( 
+    <div className = "background">
+   <div className ="container">      
+   <div className="App">
+   <ThemeProvider theme={theme}>     
+         <div className={classes.wrapper}>
+
+         <div className = "logo">
+<img src={logo} alt="this is a logo image" />
+</div>
 
 
-  return (
+           <Typography variant="h4" className={classes.bigSpace} color="primary">
+              Forward south Partnership
+              
+           </Typography>
 
 
-    <div className ="container">
-        
-    <div className="App">
-    <ThemeProvider theme={theme}>
-          
-          <div className={classes.wrapper}>
-            <Typography variant="h4" className={classes.bigSpace} color="primary">
-               Forward south Partnership
-            </Typography>
+         
 
 
-
-<ContactForm/>
-
+<CrisisHelpDetails/>
 
 </div>
 </ThemeProvider> 
 </div>
 <Footer/>
 </div>
-
-  );
-}
-
+</div>
+ );
+} 

@@ -5,13 +5,13 @@ import { createTheme } from "@mui/material/styles";
 import NavBar from './components/NavBar'
 import './App.css';
 
-import Charities from "./BrowseAllHelp";
-import Help from "./CrisisHelp";
+import Charities from "./BrowseAllHelpPage";
+import Help from "./CrisisHelpPage";
 import Home from "./Home";
-import Map from "./SupportMap";
-import ContactDetails from "./ContactUs";
-import SearchHelp from "./SearchForHelp";
-import ContactUs from  "./ContactUs";
+import Map from "./SupportMapPage";
+import ContactDetails from "./ContactFormPage";
+import SearchHelp from "./SearchForHelpPage";
+import ContactUs from  "./ContactFormPage";
 
 
 
