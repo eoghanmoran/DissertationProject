@@ -56,8 +56,12 @@ export default function NavBar() {
                 <img src={logoMobile} className={classes.logoMobile}/> 
 
                 
+
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/">  Home </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                <Link to= "/searchHelp">  Search </Link>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/supportMap">   Support Map </Link>
@@ -65,9 +69,6 @@ export default function NavBar() {
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/crisisHelp">   Crisis help </Link>
                 </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/browseAllHelp">  Browse all help </Link>
-                </Typography> 
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/contactUs">    Contact Us </Link>
                 </Typography>

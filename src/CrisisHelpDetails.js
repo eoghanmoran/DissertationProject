@@ -1,15 +1,27 @@
+import { padding, textAlign } from "@mui/system";
+import App from "./App";
 
-export default function crisisHelp() {
+export default function CrisishelpDetails() {
 
-    const Help = () => (
-        <div>
-          
-        </div>
-      );
+
+
+  
    return( 
 
-    <div>
-  <h2>Crisis Metal Health Services</h2>
+
+
+    
+
+    <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: '2rem'
+        }}
+      >
+
+
 
   <table>
     <tr>
@@ -35,7 +47,11 @@ export default function crisisHelp() {
       </tr>
     </tbody>
   </table>
+  
 </div>
+
 
    );
 }
+
+

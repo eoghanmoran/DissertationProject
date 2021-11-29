@@ -1,7 +1,9 @@
+
 import React from "react";
 import { Link, Route, useRouteMatch } from "react-router-dom";
 import HelpList from "./HelpList";
-import "./BrowseAllHelp.css";
+import "./BrowseAllHelpDetails.js";
+import './App.css';
 
 const Charities = ({ match }) => {
 

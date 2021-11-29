@@ -12,6 +12,7 @@ import HelpIcon from '@mui/icons-material/Help';
 import SearchIcon from '@mui/icons-material/Search';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+import logo from './logosmall.png';
 
 
 const theme = createTheme({
@@ -65,14 +66,21 @@ const theme = createTheme({
   const classes = styles(); 
  return (
   
-     // <div class="jumbotron text-center vertical center">
-    
+  
+     <div className ="background">
       <div className ="container">
         
       <div className="App">
           <ThemeProvider theme={theme}>
           
             <div className={classes.wrapper}>
+
+            <div className = "logo">
+<img src={logo} alt="this is a logo image" />
+</div>
+
+
+
               <Typography variant="h4" className={classes.bigSpace} color="primary">
                  Forward south Partnership
               </Typography>
@@ -106,7 +114,8 @@ const theme = createTheme({
           </div>
           <Footer/>
   </div>
- // </div>
+  </div>
+
     
    );
  }
