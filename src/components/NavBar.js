@@ -1,10 +1,8 @@
 import React from 'react'
-import CustomBtn from './CustomBtn'
 import logo from '../logo.jpeg'
 import logoMobile from '../logo.jpeg'
 import {Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from "@material-ui/styles"; 
-import { padding } from '@mui/system';
 import { Link } from 'react-router-dom';
 
 const styles = makeStyles({
@@ -54,8 +52,6 @@ export default function NavBar() {
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo} alt = "Forward south logo"/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 
-
-                
 
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/">  Home </Link>
