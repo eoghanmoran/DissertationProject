@@ -3,7 +3,6 @@ import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
 import {Typography} from '@material-ui/core'; 
 import Footer from './components/Footer'
-import Map from './SupportMapDetails';
 import Charities from "./BrowseAllHelpDetails";
 import './App.css';
 import logo from './logosmall.png';

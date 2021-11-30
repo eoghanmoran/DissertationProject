@@ -1,17 +1,7 @@
-import { padding, textAlign } from "@mui/system";
-import App from "./App";
 
 export default function CrisishelpDetails() {
-
-
-
   
    return( 
-
-
-
-    
-
     <div
         style={{
           display: "flex",
@@ -20,8 +10,6 @@ export default function CrisishelpDetails() {
           padding: '2rem'
         }}
       >
-
-
 
   <table>
     <tr>
