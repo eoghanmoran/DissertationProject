@@ -16,7 +16,7 @@ const HelpList = ({ data }) => {
       </div>
     );
   } else {
-    helpListData = <h2> Sorry. Product doesn't exist </h2>;
+    helpListData = <h2> Sorry. This service doesnt exist </h2>;
   }
 
   return (

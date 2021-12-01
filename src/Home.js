@@ -105,15 +105,15 @@ const theme = createTheme({
             <div className={`${classes.grid} ${classes.littleSpace}`}>  
              
             </div>
-            <div className={classes.bigSpace}>
-            
-            </div>
+           
           </ThemeProvider>
     
+     
     
           </div>
           <Footer/>
   </div>
+
   </div>
 
     

@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import './App.css';
 import logo from './logosmall.png';
 import SearchForHelpDetails from "./SearchForHelpDetails";
+import { Dropdown, Option } from "./Dropdown";
 
 import searchpicture from "./searchhelp2.png";
 const theme = createTheme({
@@ -71,15 +72,12 @@ export default function searchForHelp() {
             </Typography>
 
 
-            <div className = "searchpicture">
-            <img src={searchpicture} alt="this is a search image" />
-            </div>
-
 
 <SearchForHelpDetails/>
 
 </div>
 </ThemeProvider> 
+
 </div>
 <Footer/>
 </div>

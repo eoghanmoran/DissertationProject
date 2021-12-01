@@ -56,7 +56,8 @@ const Charities = ({ match }) => {
     <div>
       <div>
         <div>
-          <h3>All Help Available </h3>
+          
+          <h4> Select a charity to learn more: </h4>
           <ul>{linkList}</ul>
         </div>
       </div>
@@ -68,13 +69,7 @@ const Charities = ({ match }) => {
       
       </Route>
       <Route exact path={url}>
-        <p>Please select a Charity to learn more about.</p>
-
-
-
-  
-
-
+        
 
 
       </Route>
