@@ -1,15 +1,32 @@
 .App {
   background-color: azure;
-  
+ 
   border: 12px solid #00bcd4;
 border-radius: 10px;
 margin-bottom: 15px;
 font-size: calc(10px + 2vmin);
+
+
 }
 .logo{
  
   margin: 10px;
 }
+
+
+.logomappage{
+margin: 10px;
+}
+
+.mapwrap{
+
+
+  padding-bottom: 120px;
+margin-bottom: auto;
+  border: 12px white;
+
+}
+
 .mappicture {
 
   margin: 70px;
@@ -21,9 +38,11 @@ font-size: calc(10px + 2vmin);
 
 }
 .background {
-
-  width: 100%;
-
+ 
+  position:absolute;
+  width:100%;
+ 
+  margin: auto;
 
 	background-size: cover;
   background-image: url(./background.png);
@@ -44,6 +63,8 @@ font-size: calc(10px + 2vmin);
   border: 12px white;
 border-radius: 10px;
 margin-top: 15px;
+margin-bottom: 100px;
+
  
 }
 
@@ -77,3 +98,14 @@ margin-top: 15px;
   }
 }
 
+
+.dropdown {
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer{
+
+}

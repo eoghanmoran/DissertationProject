@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import CrisisHelpDetails from './CrisisHelpDetails';
 import './App.css';
 import logo from './logosmall.png';
+import Charities from "./BrowseAllHelpDetails";
 
 
 const theme = createTheme({
@@ -77,7 +78,7 @@ export default function crisisHelp() {
 
 
 <CrisisHelpDetails/>
-
+<Charities/>
 </div>
 </ThemeProvider> 
 </div>

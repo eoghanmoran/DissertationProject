@@ -55,33 +55,54 @@ export default function supportMap() {
 
    return( 
      <div className = "background">
-    <div className ="container">      
+
+    <div className ="container">   
+
     <div className="App">
+
     <ThemeProvider theme={theme}>     
           <div className={classes.wrapper}>
 
-          <div className = "logo">
+        
+
+
+
+
+
+
+
+
+
+          <div className = "logomappage">
 <img src={logo} alt="this is a logo image" />
 </div>
 
 
             <Typography variant="h4" className={classes.bigSpace} color="primary">
                Forward south Partnership
-               
+            
+
+
+
             </Typography>
 
 
 
+            <div className ="container">   
 
-<Map/>
+<div className="mapwrap">
 
-<div className = "mappicture">
-<img src={mappicture} alt="this is a map image" />
+            <Map/>
+</div>
 </div>
 </div>
 </ThemeProvider> 
 </div>
+
+
+<div classname = "footer">
 <Footer/>
+</div>
 </div>
 </div>
   );
