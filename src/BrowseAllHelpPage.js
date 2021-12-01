@@ -69,9 +69,6 @@ export default function helpAvailable() {
                Forward south Partnership
             </Typography>
 
-            
-
-
 <Charities/>
 </div>
 </ThemeProvider> 

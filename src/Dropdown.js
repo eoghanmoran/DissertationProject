@@ -20,7 +20,6 @@ export function Dropdown(props) {
     </DropdownWrapper>
   );
 }
-
 export function Option(props) {
   return (
     <StyledOption selected={props.selected}>

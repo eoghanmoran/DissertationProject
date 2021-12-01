@@ -10,7 +10,6 @@ import Map from "./SupportMapPage";
 import SearchHelp from "./SearchForHelpPage";
 import ContactUs from  "./ContactFormPage";
 
-
 export default function App() {
   <Home/>
 
@@ -23,7 +22,6 @@ export default function App() {
       <Switch>
       <Route exact path="/"><Home /></Route>
         <Route path="/browseAllHelp"><Charities/></Route>
-    
         <Route path="/supportMap"><Map/></Route>
         <Route path="/crisisHelp"><Help/></Route>
         <Route path="/contactUs"><ContactUs/></Route>

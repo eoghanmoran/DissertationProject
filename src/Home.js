@@ -72,15 +72,12 @@ const theme = createTheme({
         
       <div className="App">
           <ThemeProvider theme={theme}>
-          
+
             <div className={classes.wrapper}>
 
             <div className = "logo">
 <img src={logo} alt="this is a logo image" />
 </div>
-
-
-
               <Typography variant="h4" className={classes.bigSpace} color="primary">
                  Forward south Partnership
               </Typography>
@@ -88,9 +85,6 @@ const theme = createTheme({
                 
               </Typography>
             </div>
-    
-           
-
             <div className={`${classes.grid} ${classes.bigSpace}`}>
             <Link to= "/crisisHelp"><Grid icon={<HelpIcon style={{fill: "#e91e63", height:"125", width:"125"}}/>} title="Crisis help" btnTitle="Show me More" /> </Link>
             
@@ -107,15 +101,11 @@ const theme = createTheme({
             </div>
            
           </ThemeProvider>
-    
-     
-    
           </div>
           <Footer/>
   </div>
 
   </div>
-
     
    );
  }

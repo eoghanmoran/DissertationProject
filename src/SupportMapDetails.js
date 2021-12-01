@@ -1,11 +1,8 @@
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
+
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import React, {Component} from "react";
-import { ThemeProvider, makeStyles } from '@material-ui/styles';
-import { createTheme } from "@mui/material/styles";
+
 import './App.css';
-
-
 
 const mapStyles = {
     width: '30%',
@@ -21,14 +18,10 @@ const mapStyles = {
 
   export class SupportMapDetails extends Component {
     
-
     render() {
       return (
-        
-        
-     <div className = "mapwrapper">
-    
-    
+              
+     <div className = "mapwrapper"> 
 
         <Map
           google={this.props.google}
@@ -41,11 +34,6 @@ const mapStyles = {
             }
           }
         />
-
-
-      
-
-
 </div>
 
       );
@@ -55,4 +43,3 @@ const mapStyles = {
   export default GoogleApiWrapper({
     apiKey: 'AIzaSyAtSOXld25pvSi0_NqOxiRMgB9Fg6g7Dk0'
   })(SupportMapDetails);
-
