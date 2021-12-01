@@ -5,8 +5,7 @@ export const DropdownWrapper = styled.form`
 
   justify-content: center;
 `;
-
-  
+ 
 export const StyledSelect = styled.select`
 `;
 

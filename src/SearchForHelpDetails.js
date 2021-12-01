@@ -62,25 +62,15 @@ export default function SearchHelp() {
     console.log(e.target.value);
     setOptionValue(e.target.value);
   };
-
-
-
-
-
-
-
     return (
 
 <div>
-
-
 
 <ThemeProvider theme={theme}>     
 <h1>Which service are you interested in?</h1>
 <Typography variant="h6" className={classes.menuItem}>
   <div classname = "dropdown">
-
-      
+    
   <Dropdown
         formLabel="Choose a service"
         buttonText="Send form"
@@ -99,11 +89,7 @@ export default function SearchHelp() {
                 </Typography> 
  
 </ThemeProvider>
-
 </div>
-
-
     )
-
 }
 

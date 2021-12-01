@@ -6,9 +6,7 @@ import Footer from './components/Footer'
 import './App.css';
 import logo from './logosmall.png';
 import SearchForHelpDetails from "./SearchForHelpDetails";
-import { Dropdown, Option } from "./Dropdown";
 
-import searchpicture from "./searchhelp2.png";
 const theme = createTheme({
   palette: {
     primary: {
@@ -64,14 +62,10 @@ export default function searchForHelp() {
           <div className = "logo">
 <img src={logo} alt="this is a logo image" />
 </div>
-
-
             <Typography variant="h4" className={classes.bigSpace} color="primary">
                Forward south Partnership
                
             </Typography>
-
-
 
 <SearchForHelpDetails/>
 

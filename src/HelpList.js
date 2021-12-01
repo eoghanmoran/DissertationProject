@@ -5,7 +5,6 @@ const HelpList = ({ data }) => {
   const { helpListId } = useParams();
   const helpList = data.find(p => p.id === Number(helpListId));
   let helpListData;
-
   if (helpList) {
     helpListData = (
       <div>
@@ -18,12 +17,10 @@ const HelpList = ({ data }) => {
   } else {
     helpListData = <h2> Sorry. This service doesnt exist </h2>;
   }
-
   return (
     <div>
       <div>{helpListData}</div>
     </div>
   );
 };
-
 export default HelpList;

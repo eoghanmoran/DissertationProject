@@ -5,7 +5,6 @@ import {Typography} from '@material-ui/core';
 import Footer from './components/Footer'
 import Map from './SupportMapDetails';
 import './App.css';
-import mappicture from './mappicture.png';
 import logo from './logosmall.png';
 
 const theme = createTheme({
@@ -62,36 +61,16 @@ export default function supportMap() {
 
     <ThemeProvider theme={theme}>     
           <div className={classes.wrapper}>
-
-        
-
-
-
-
-
-
-
-
-
           <div className = "logomappage">
 <img src={logo} alt="this is a logo image" />
 </div>
 
-
             <Typography variant="h4" className={classes.bigSpace} color="primary">
                Forward south Partnership
-            
-
-
-
             </Typography>
-
-
-
             <div className ="container">   
 
 <div className="mapwrap">
-
             <Map/>
 </div>
 </div>
