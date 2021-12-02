@@ -2,11 +2,11 @@ import React from "react";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
 import {Typography} from '@material-ui/core'; 
-import Footer from './components/Footer'
+import Footer from '../../components/Footer'
 import CrisisHelpDetails from './CrisisHelpDetails';
-import './App.css';
-import logo from './logosmall.png';
-import Charities from "./BrowseAllHelpDetails";
+import '../../App.css';
+import logo from '../../../src/images/logosmall.png';
+import Charities from "../BrowseAllHelp/BrowseAllHelpDetails";
 
 
 const theme = createTheme({

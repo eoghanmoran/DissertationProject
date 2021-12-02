@@ -12,7 +12,7 @@ import HelpIcon from '@mui/icons-material/Help';
 import SearchIcon from '@mui/icons-material/Search';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
-import logo from './logosmall.png';
+import logo from './images/logosmall.png';
 
 
 const theme = createTheme({

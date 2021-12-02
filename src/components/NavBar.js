@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../logo.jpeg'
-import logoMobile from '../logo.jpeg'
+import logo from '../images/logo.jpeg'
+import logoMobile from '../images/logo.jpeg'
 import {Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from "@material-ui/styles"; 
 import { Link } from 'react-router-dom';

@@ -1,6 +1,6 @@
-import './App.css';
+import '../../App.css';
 import React, { useState } from "react";
-import { Dropdown, Option } from "./Dropdown";
+import { Dropdown, Option } from "../../Dropdown";
 import {  makeStyles } from '@material-ui/styles';
 import { Link } from "react-router-dom";
 import {Typography} from '@material-ui/core'; 
