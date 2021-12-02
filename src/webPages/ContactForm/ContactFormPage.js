@@ -1,11 +1,14 @@
 import React from "react";
+import ContactForm from "./ContactFormDetails";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
 import {Typography} from '@material-ui/core'; 
-import Footer from './components/Footer'
-import './App.css';
-import logo from './logosmall.png';
-import SearchForHelpDetails from "./SearchForHelpDetails";
+import Footer from '../../components/Footer'
+import{ init } from 'emailjs-com';
+import logo from '../../../src/images/logosmall.png';
+import '../../App.css';
+
+init("user_sg6N53jdpPfJ9d2oTOpFK");
 
 const theme = createTheme({
   palette: {
@@ -31,13 +34,15 @@ const theme = createTheme({
     },
   },
 });
+
 const styles = makeStyles({
   wrapper: {
     width: "100%",
     margin: "auto",
     textAlign: "center"
   },
-  bigSpace: { 
+  bigSpace: {
+   
   },
   littleSpace:{
     marginTop: "2.5rem",
@@ -49,32 +54,39 @@ const styles = makeStyles({
     flexWrap: "wrap", 
   },
 })
-export default function searchForHelp() {
+
+
+export default function contactForm() {
   const classes = styles(); 
 
-   return( 
-     <div className = "background">
-    <div className ="container">      
+
+  return (
+
+    <div className = "background">
+    <div className ="container">
+        
     <div className="App">
-    <ThemeProvider theme={theme}>     
+
+    <ThemeProvider theme={theme}>
+        
           <div className={classes.wrapper}>
 
           <div className = "logo">
 <img src={logo} alt="this is a logo image" />
 </div>
+
             <Typography variant="h4" className={classes.bigSpace} color="primary">
                Forward south Partnership
-               
             </Typography>
 
-<SearchForHelpDetails/>
-
+<ContactForm/>
 </div>
 </ThemeProvider> 
-
 </div>
 <Footer/>
 </div>
 </div>
+
   );
-} 
+}
+
