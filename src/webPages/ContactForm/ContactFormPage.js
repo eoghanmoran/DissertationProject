@@ -8,7 +8,7 @@ import{ init } from 'emailjs-com';
 import logo from '../../../src/images/logosmall.png';
 import '../../App.css';
 
-init("user_sg6N53jdpPfJ9d2oTOpFK");
+//  init(""); 
 
 const theme = createTheme({
   palette: {

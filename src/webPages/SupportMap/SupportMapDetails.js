@@ -41,5 +41,5 @@ const mapStyles = {
   }
   
   export default GoogleApiWrapper({
-    apiKey: 'AIzaSyAtSOXld25pvSi0_NqOxiRMgB9Fg6g7Dk0'
+    apiKey: ''
   })(SupportMapDetails);

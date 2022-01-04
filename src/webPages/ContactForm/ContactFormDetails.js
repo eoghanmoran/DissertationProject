@@ -45,10 +45,10 @@ export default function ContactForm() {
     };
 
     setFormSubmitted({ title: 'Sending message...', paragraph: '' });
-    emailjs.send('PrototypeID', 'PrototypeForm',
+    emailjs.send('', '',  //insert your own email js names here 
       
     params,
-    'user_sg6N53jdpPfJ9d2oTOpFK',
+    '', //user details here
     )
       .then(({ status }) => {
         if (status === 200) {
@@ -117,7 +117,7 @@ export default function ContactForm() {
         </form>
       ) : (
         <ReCAPTCHA
-          sitekey={'6Lfb12EdAAAAAFdVlUMz2ask21gfnPwbAki6Gb7e'}
+          sitekey={''} //sitekey here
           onChange={sendEmail}
         />
       )}
