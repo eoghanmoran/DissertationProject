@@ -69,7 +69,6 @@ export default function crisisHelp() {
                 Forward south Partnership
               </Typography>
               <CrisisHelpDetails />
-              <Charities />
             </div>
           </ThemeProvider>
         </div>
