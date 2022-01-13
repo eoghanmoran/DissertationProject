@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
-import {Typography} from '@material-ui/core'; 
+import { Typography } from '@material-ui/core';
 import Footer from '../../components/Footer'
 import Charities from "./BrowseAllHelpDetails";
 import '../../App.css';
@@ -11,10 +11,10 @@ import logo from '../../../src/images/logosmall.png';
 const theme = createTheme({
   palette: {
     primary: {
-      main:"#2e1667",
+      main: "#2e1667",
     },
     secondary: {
-      main:"#c7d8ed",
+      main: "#c7d8ed",
     },
   },
   typography: {
@@ -25,7 +25,7 @@ const theme = createTheme({
       fontSize: '20px',
       fontWeight: 600,
       lineHeight: '2rem',
-      },
+    },
     h5: {
       fontWeight: 300,
       lineHeight: '2rem',
@@ -38,43 +38,43 @@ const styles = makeStyles({
     margin: "auto",
     textAlign: "center"
   },
-  bigSpace: { 
+  bigSpace: {
   },
-  littleSpace:{
+  littleSpace: {
     marginTop: "2.5rem",
   },
-  grid:{
-    display: "flex", 
+  grid: {
+    display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexWrap: "wrap", 
+    flexWrap: "wrap",
   },
 })
 export default function helpAvailable() {
-  const classes = styles(); 
+  const classes = styles();
 
-   return( 
+  return (
 
-    <div className = "background">
-    <div className ="container">      
-    <div className="App">
-    <ThemeProvider theme={theme}>     
-          <div className={classes.wrapper}>
+    <div className="background">
+      <div className="container">
+        <div className="App">
+          <ThemeProvider theme={theme}>
+            <div className={classes.wrapper}>
 
-          <div className = "logo">
-<img src={logo} alt="this is a logo image" />
-</div>
+              <div className="logo">
+                <img src={logo} alt="this is a logo image" />
+              </div>
 
-            <Typography variant="h4" className={classes.bigSpace} color="primary">
-               Forward south Partnership
-            </Typography>
+              <Typography variant="h4" className={classes.bigSpace} color="primary">
+                Forward south Partnership
+              </Typography>
 
-<Charities/>
-</div>
-</ThemeProvider> 
-</div>
-<Footer/>
-</div>
-</div>
-  );
+              <Charities />
+            </div>
+          </ThemeProvider>
+        </div>
+        <Footer />
+      </div>
+    </div>
+  );//return
 } 
