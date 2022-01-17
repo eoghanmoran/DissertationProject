@@ -60,6 +60,7 @@ function Map() {
           <div>
             <h2>{selectedPark.properties.NAME}</h2>
             <p>{selectedPark.properties.DESCRIPTIO}</p>
+            <p>Contact Number : {selectedPark.properties.CONTACT_NUMBER}</p>
           </div>
         </InfoWindow>
       )}
