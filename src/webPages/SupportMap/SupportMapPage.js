@@ -54,9 +54,7 @@ export default function supportMap() {
 
   return (
     <div className="background">
-
       <div className="container">
-
         <div className="App">
 
           <ThemeProvider theme={theme}>
