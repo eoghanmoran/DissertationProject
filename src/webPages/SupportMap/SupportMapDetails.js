@@ -11,8 +11,6 @@ import '../../App.css';
 import * as parkData from "../../data/hospitals.json";
 import mapStyles from "./mapStyles";
 
-
-
 function Map() {
   const [selectedPark, setSelectedPark] = useState(null);
 
