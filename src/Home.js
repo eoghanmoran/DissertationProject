@@ -95,8 +95,7 @@ export default function Home() {
               <Link to="/searchHelp">  <Grid icon={<SearchIcon style={{ fill: "#4360A6", height: "125", width: "125" }} />} title="Search for help" btnTitle="Show me More" /> </Link>
               <Link to="/supportMap"><Grid icon={<RoomIcon style={{ fill: "#449A76", height: "125", width: "125" }} />} title="Support Map" btnTitle="Show me More" /> </Link>
               <Link to="/contactUs"> <Grid icon={<LocalPhoneIcon style={{ fill: "#00bcd4", height: "125", width: "125" }} />} title="Contact Us" btnTitle="Show me More" /> </Link>
-              <Link to="/login"> <Grid icon={<LocalPhoneIcon style={{ fill: "#00bcd4", height: "125", width: "125" }} />} title="Login" btnTitle="Show me More" /> </Link>
-            
+              
             </div>
             <div className={`${classes.grid} ${classes.littleSpace}`}>
 

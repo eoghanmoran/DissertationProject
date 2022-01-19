@@ -47,7 +47,6 @@ export default class Login extends Component {
                     </Grid>
                     <Footer />
                 </div>
-
             </div>
         )
     }

@@ -68,6 +68,9 @@ export default function NavBar() {
                 <Typography variant="h6" className={classes.menuItem}>
                 <Link to= "/contactUs">    Contact Us </Link>
                 </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                <Link to= "/login">    Admin Login </Link>
+                </Typography>
             </Toolbar>
     )
 }
