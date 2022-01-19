@@ -2,9 +2,9 @@ import React from "react";
 import ContactForm from "./ContactFormDetails";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
-import {Typography} from '@material-ui/core'; 
+import { Typography } from '@material-ui/core';
 import Footer from '../../components/Footer'
-import{ init } from 'emailjs-com';
+import { init } from 'emailjs-com';
 import logo from '../../../src/images/logosmall.png';
 import '../../App.css';
 
@@ -13,10 +13,10 @@ import '../../App.css';
 const theme = createTheme({
   palette: {
     primary: {
-      main:"#2e1667",
+      main: "#2e1667",
     },
     secondary: {
-      main:"#c7d8ed",
+      main: "#c7d8ed",
     },
   },
   typography: {
@@ -27,7 +27,7 @@ const theme = createTheme({
       fontSize: '20px',
       fontWeight: 600,
       lineHeight: '2rem',
-      },
+    },
     h5: {
       fontWeight: 300,
       lineHeight: '2rem',
@@ -42,50 +42,50 @@ const styles = makeStyles({
     textAlign: "center"
   },
   bigSpace: {
-   
+
   },
-  littleSpace:{
+  littleSpace: {
     marginTop: "2.5rem",
   },
-  grid:{
-    display: "flex", 
+  grid: {
+    display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexWrap: "wrap", 
+    flexWrap: "wrap",
   },
 })
 
 
 export default function contactForm() {
-  const classes = styles(); 
+  const classes = styles();
 
 
   return (
 
-    <div className = "background">
-    <div className ="container">
-        
-    <div className="App">
+    <div className="background">
+      <div className="container">
 
-    <ThemeProvider theme={theme}>
-        
-          <div className={classes.wrapper}>
+        <div className="App">
 
-          <div className = "logo">
-<img src={logo} alt="this is a logo image" />
-</div>
+          <ThemeProvider theme={theme}>
 
-            <Typography variant="h4" className={classes.bigSpace} color="primary">
-               Forward south Partnership
-            </Typography>
+            <div className={classes.wrapper}>
 
-<ContactForm/>
-</div>
-</ThemeProvider> 
-</div>
-<Footer/>
-</div>
-</div>
+              <div className="logo">
+                <img src={logo} alt="this is a logo image" />
+              </div>
+
+              <Typography variant="h4" className={classes.bigSpace} color="primary">
+                Forward south Partnership
+              </Typography>
+
+              <ContactForm />
+            </div>
+          </ThemeProvider>
+        </div>
+        <Footer />
+      </div>
+    </div>
 
   );
 }

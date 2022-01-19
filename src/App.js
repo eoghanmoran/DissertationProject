@@ -1,5 +1,5 @@
 import React from "react";
-import {  Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar'
 import './App.css';
 
@@ -8,29 +8,30 @@ import Help from "./webPages/Crisis/CrisisHelpPage";
 import Home from "./Home";
 import Map from "./webPages/SupportMap/SupportMapPage";
 import SearchHelp from "./webPages/SearchHelp/SearchForHelpPage";
-import ContactUs from  "./webPages/ContactForm/ContactFormPage";
+import ContactUs from "./webPages/ContactForm/ContactFormPage";
+import Login from "./webPages/LoginIn/Login";
 
 export default function App() {
-  <Home/>
+  <Home />
 
   return (
-    <div className ="navbar">
+    <div className="navbar">
 
-        <NavBar/>
-       
+      <NavBar />
+
 
       <Switch>
-      <Route exact path="/"><Home /></Route>
-        <Route path="/browseAllHelp"><Charities/></Route>
-        <Route path="/supportMap"><Map/></Route>
-        <Route path="/crisisHelp"><Help/></Route>
-        <Route path="/contactUs"><ContactUs/></Route>
-        <Route path="/searchHelp"><SearchHelp/></Route>
-
+        <Route exact path="/"><Home /></Route>
+        <Route path="/browseAllHelp"><Charities /></Route>
+        <Route path="/supportMap"><Map /></Route>
+        <Route path="/crisisHelp"><Help /></Route>
+        <Route path="/contactUs"><ContactUs /></Route>
+        <Route path="/searchHelp"><SearchHelp /></Route>
+        <Route path="/login"><Login /></Route>
       </Switch>
 
-</div> 
-   
+    </div>
+
   );
 }
 
