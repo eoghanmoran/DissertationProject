@@ -45,6 +45,7 @@ export default class Login extends Component {
                             </Typography>
                         </Paper>
                     </Grid>
+                    <Footer />
                 </div>
 
             </div>
