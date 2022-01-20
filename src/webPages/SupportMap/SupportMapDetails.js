@@ -73,8 +73,8 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
   return (
 
-    <div style={{ width: "50vw", height: "75vh" }}>
-      <h1>Hospital</h1>
+    <div style={{ width: "75vw", height: "75vh" }}>
+      <h3>Local Hospitals</h3>
       <MapWrapped
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
           }`}

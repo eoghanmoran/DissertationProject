@@ -68,7 +68,7 @@ export default function supportMap() {
               </Typography>
               <div className="container">
 
-                <div className="mapwrap">
+                <div className="mapwrap" align="center">
                   <Map />
                 </div>
               </div>
