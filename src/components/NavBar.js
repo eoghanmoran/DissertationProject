@@ -3,12 +3,14 @@ import logo from '../images/logo.jpeg'
 import logoMobile from '../images/logo.jpeg'
 import {Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from "@material-ui/styles"; 
+
 import { Link } from 'react-router-dom';
+
 
 const styles = makeStyles({
     bar:{
         paddingTop: "1rem",
-        backgroundColor: "#fff",
+        backgroundColor: "#FFFFFF",
         ['@media (max-width:780px)']: { 
            flexDirection: "column"
           }
@@ -37,7 +39,7 @@ const styles = makeStyles({
         borderBlockColor: "black",
         flexGrow: 1,
         "&:hover": {
-            color:  "#e91e63"
+            color:  "#87898a"
         },
         ['@media (max-width:780px)']: { 
             paddingBottom: "1rem" ,
@@ -46,9 +48,11 @@ const styles = makeStyles({
     }
 })
 
+
 export default function NavBar() {
-    const classes = styles()
+    const classes = styles() 
     return (
+
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo} alt = "Forward south logo"/> 
                 <img src={logoMobile} className={classes.logoMobile}/> 

@@ -1,71 +1,56 @@
 .App {
   background-color: azure;
- 
-  border: 12px solid #00bcd4;
-border-radius: 10px;
-margin-bottom: 15px;
-font-size: calc(10px + 2vmin);
 
-
+  border: 6px solid #00bcd4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: calc(10px + 2vmin);
 }
-.logo{
- 
+.logo {
   margin: 10px;
 }
 
-
-.logomappage{
-margin: 10px;
+.logomappage {
+  margin: 10px;
 }
 
-.mapwrap{
-
-
+.mapwrap {
   padding-bottom: 120px;
-margin-bottom: auto;
+  margin-bottom: auto;
   border: 12px white;
-
 }
 
 .mappicture {
-
   margin: 70px;
 }
-.searchpicture{
-
-
-        height: auto;
-
+.searchpicture {
+  height: auto;
 }
 .background {
- 
-  position:absolute;
-  width:100%;
- 
+  position: absolute;
+  width: 100%;
+
   margin: auto;
 
-	background-size: cover;
+  background-size: cover;
   background-image: url(images/background.png);
 }
-
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.container{
- font-size: calc(10px + 2vmin);
+.container {
+  font-size: calc(10px + 2vmin);
   padding-right: 80px;
   padding-bottom: 100px;
   padding-left: 80px;
   padding-top: 70px;
   border: 12px white;
-border-radius: 10px;
-margin-top: 15px;
-margin-bottom: 100px;
-
- 
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -75,9 +60,10 @@ margin-bottom: 100px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5c7ec2;
   min-height: 100vh;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -89,16 +75,12 @@ margin-bottom: 100px;
   color: #61dafb;
 }
 
-
-
-
 .dropdown {
-
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.footer{
-
+.footer {
+  display: flex;
 }

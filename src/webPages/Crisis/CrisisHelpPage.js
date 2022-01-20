@@ -23,7 +23,7 @@ const theme = createTheme({
       'Roboto'
     ],
     h4: {
-      fontSize: '20px',
+      fontSize: '30px',
       fontWeight: 600,
       lineHeight: '2rem',
     },
@@ -42,7 +42,7 @@ const styles = makeStyles({
   bigSpace: {
   },
   littleSpace: {
-    marginTop: "2.5rem",
+    marginTop: "1.0rem",
   },
   grid: {
     display: "flex",
@@ -66,7 +66,7 @@ export default function crisisHelp() {
                 <img src={logo} alt="this is a logo image" />
               </div>
               <Typography variant="h4" className={classes.bigSpace} color="primary">
-                Forward south Partnership
+                Forward South Partnership
               </Typography>
               <CrisisHelpDetails />
             </div>

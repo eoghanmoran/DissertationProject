@@ -9,7 +9,7 @@ import { createTheme } from "@mui/material/styles";
 
 const styles = makeStyles({
   wrapper: {
-    width: "100%",
+    width: "150%",
     margin: "auto",
     textAlign: "center"
   },
