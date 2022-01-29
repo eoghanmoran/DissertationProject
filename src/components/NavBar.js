@@ -1,80 +1,58 @@
-import React from 'react'
-import logo from '../images/logo.jpeg'
-import logoMobile from '../images/logo.jpeg'
-import {Toolbar, Typography} from '@material-ui/core'
-import {makeStyles} from "@material-ui/styles"; 
-
+import React, { useState } from "react";
+//import LogoImg from "../images/logosmall.jpeg"
+import LogoImg from "../images/logosmall.png";
+import { makeStyles } from "@material-ui/styles";
 import { Link } from 'react-router-dom';
+import {
+    NavbarContainer,
+    LeftContainer,
+    RightContainer,
+    NavbarExtendedContainer,
+    NavbarInnerContainer,
+    NavbarLinkContainer,
+    NavbarLink,
+    Logo,
+    OpenLinksButton,
+    NavbarLinkExtended,
+} from "./Navbar.style.js"
 
+function Navbar() {
+    const [extendNavbar, setExtendNavbar] = useState(false);
 
-const styles = makeStyles({
-    bar:{
-        paddingTop: "1rem",
-        backgroundColor: "#FFFFFF",
-        ['@media (max-width:780px)']: { 
-           flexDirection: "column"
-          }
-    },
-    logo: {
-        width: "6%", 
-        paddingRight: "10rem",
-        ['@media (max-width:780px)']: { 
-           display: "none",
-           padding: "5rem"
-
-           }
-    },
-    logoMobile:{
-        width: "30%", 
-        display: "none", 
-        padding: "1rem",
-
-        ['@media (max-width:780px)']: { 
-            display: "inline-block",
-            
-            }
-    },
-    menuItem: {
-        cursor: "pointer", 
-        borderBlockColor: "black",
-        flexGrow: 1,
-        "&:hover": {
-            color:  "#87898a"
-        },
-        ['@media (max-width:780px)']: { 
-            paddingBottom: "1rem" ,
-       
-        }
-    }
-})
-
-
-export default function NavBar() {
-    const classes = styles() 
     return (
-
-            <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
-                <img src={logo} className={classes.logo} alt = "Forward south logo"/> 
-                <img src={logoMobile} className={classes.logoMobile}/> 
-
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/">  Home </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/searchHelp">  Search </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/supportMap">   Support Map </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/crisisHelp">   Crisis help </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/contactUs">    Contact Us </Link>
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                <Link to= "/login">    Admin Login </Link>
-                </Typography>
-            </Toolbar>
-    )
+        <NavbarContainer extendNavbar={extendNavbar}>
+            <NavbarInnerContainer>
+                <LeftContainer>
+                    <NavbarLinkContainer>
+                        <NavbarLink to="/"> Home</NavbarLink>
+                        <NavbarLink to="/searchHelp"> Search Help</NavbarLink>
+                        <NavbarLink to="/supportMap"> Support Map</NavbarLink>
+                        <NavbarLink to="/crisisHelp"> Crisis Help</NavbarLink>
+                        <NavbarLink to="/contactUs"> Contact Us</NavbarLink>
+                        <OpenLinksButton
+                            onClick={() => {
+                                setExtendNavbar((curr) => !curr);
+                            }}
+                        >
+                            {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
+                        </OpenLinksButton>
+                    </NavbarLinkContainer>
+                </LeftContainer>
+                <RightContainer>
+                    <Logo src={LogoImg}></Logo>
+                </RightContainer>
+            </NavbarInnerContainer>
+            {extendNavbar && (
+                <NavbarExtendedContainer>
+                    <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/searchHelp"> Search Help</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/supportMap"> Support Map</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/crisisHelp"> Crisis Help</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/contactUs"> Contact Us</NavbarLinkExtended>
+                </NavbarExtendedContainer>
+            )}
+        </NavbarContainer>
+    );
 }
+
+export default Navbar;

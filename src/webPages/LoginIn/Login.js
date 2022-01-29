@@ -14,6 +14,7 @@ import {
     signOut,
 } from "firebase/auth";
 import { auth } from "./firebase-config";
+import { useHistory } from "react-router-dom";
 
 function App() {
     const [registerEmail, setRegisterEmail] = useState("");
@@ -21,7 +22,8 @@ function App() {
     const [loginEmail, setLoginEmail] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
     const [user, setUser] = useState({});
-
+    const history = useHistory()
+    
     onAuthStateChanged(auth, (currentUser) => {
         setUser(currentUser);
     });
@@ -33,6 +35,7 @@ function App() {
                 loginEmail,
                 loginPassword
             );
+            history.push("/admin");
             console.log(user);
         } catch (error) {
             console.log(error.message);
