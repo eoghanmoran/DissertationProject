@@ -11,7 +11,7 @@ import Map from "./webPages/SupportMap/SupportMapPage";
 import SearchHelp from "./webPages/SearchHelp/SearchForHelpPage";
 import ContactUs from "./webPages/ContactForm/ContactFormPage";
 import Login from "./webPages/LoginIn/Login";
-import Admin from "./webPages/LoginIn/Admin";
+import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
 
 export default function App() {

@@ -82,8 +82,7 @@ function App() {
                         <Button onClick={logout} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign out</Button>
 
                         <Grid align="center">
-                            <h6> User Logged In: </h6>
-                            <h6>{user?.email}</h6>
+    
                         </Grid>
                     </Paper>
                 </Grid>
