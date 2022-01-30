@@ -12,7 +12,8 @@ import HelpIcon from '@mui/icons-material/Help';
 import SearchIcon from '@mui/icons-material/Search';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
-import logo from './images/logosmall.png';
+//import HelplineIcon from "./images/Helpline.png"
+import logo from './images/Helpline.png';
 
 
 const theme = createTheme({
@@ -83,8 +84,7 @@ export default function Home() {
               </Typography>
             </div>
             <div className={`${classes.grid} ${classes.bigSpace}`}>
-              <Link to="/crisisHelp"><Grid icon={<HelpIcon style={{ fill: "#e91e63", height: "125", width: "125" }} />} title="Crisis help" btnTitle="Show me More" /> </Link>
-
+              <Link to="/crisisHelp"><Grid icon={<LocalPhoneIcon style={{ fill: "#e91e63", height: "125", width: "125" }} />} title="Crisis help" btnTitle="Show me More" /> </Link>
             </div>
 
             <div className={`${classes.grid} ${classes.bigSpace}`}>

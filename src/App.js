@@ -13,6 +13,7 @@ import ContactUs from "./webPages/ContactForm/ContactFormPage";
 import Login from "./webPages/LoginIn/Login";
 import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
+import Users from "./webPages/Admin/Users";
 
 export default function App() {
   <Home />
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/searchHelp"><SearchHelp /></Route>
           <Route path="/login"><Login /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
+          <Route path="/users"><Users /></Route>
         </Switch>
       </AuthProvider>
 

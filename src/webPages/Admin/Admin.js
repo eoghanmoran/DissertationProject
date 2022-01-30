@@ -8,11 +8,19 @@ import { auth } from "../LoginIn/firebase-config";
 import {
   signOut,
 } from "firebase/auth";
+import { useHistory } from "react-router-dom";
 
 function Menu() {
+
+  const history = useHistory()
+
   const logout = async () => {
     await signOut(auth);
   };
+  const handleClick = async () => {
+    history.push("/users");
+  };
+
   const btnstyle = { margin: '8px 0' }
   return (
     <div className="background">
@@ -27,8 +35,9 @@ function Menu() {
                   image={menuItem.image}
                   name={menuItem.name}
                 />
-              );
+                 );
             })}
+            
           </div>
         </div>
         <Button onClick={logout} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign out</Button>
