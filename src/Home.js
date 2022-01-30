@@ -75,11 +75,8 @@ export default function Home() {
 
             <div className={classes.wrapper}>
 
-              <div className="logo">
-                <img src={logo} alt="this is a logo image" />
-              </div>
               <Typography variant="h4" className={classes.bigSpace} color="primary">
-                Forward south Partnership
+                Forward South Partnership
               </Typography>
               <Typography variant="h5" className={classes.littleSpace} color="primary">
 

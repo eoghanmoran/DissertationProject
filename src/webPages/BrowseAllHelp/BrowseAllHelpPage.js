@@ -61,10 +61,6 @@ export default function helpAvailable() {
           <ThemeProvider theme={theme}>
             <div className={classes.wrapper}>
 
-              <div className="logo">
-                <img src={logo} alt="this is a logo image" />
-              </div>
-
               <Typography variant="h4" className={classes.bigSpace} color="primary">
                 Forward south Partnership
               </Typography>

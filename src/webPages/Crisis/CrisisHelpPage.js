@@ -59,19 +59,16 @@ export default function crisisHelp() {
   return (
     <div className="background">
       <div className="container">
-        <div className="App">
+        
           <ThemeProvider theme={theme}>
             <div className={classes.wrapper}>
-              <div className="logo">
-                <img src={logo} alt="this is a logo image" />
-              </div>
-              <Typography variant="h4" className={classes.bigSpace} color="primary">
-                Forward South Partnership
+              <Typography variant="h4" className={classes.bigSpace} color="Black">
+              
               </Typography>
               <CrisisHelpDetails />
             </div>
           </ThemeProvider>
-        </div>
+        
         <Footer />
       </div>
     </div>
