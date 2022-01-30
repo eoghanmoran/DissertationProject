@@ -1,57 +1,38 @@
 import React, { useState } from "react";
-//import LogoImg from "../images/logosmall.jpeg"
-import LogoImg from "../images/logosmall.png";
-import { makeStyles } from "@material-ui/styles";
-import { Link } from 'react-router-dom';
-import {
-    NavbarContainer,
-    LeftContainer,
-    RightContainer,
-    NavbarExtendedContainer,
-    NavbarInnerContainer,
-    NavbarLinkContainer,
-    NavbarLink,
-    Logo,
-    OpenLinksButton,
-    NavbarLinkExtended,
-} from "./Navbar.style.js"
+import Logo from "../../src/images/logosmall.png"
+import { Link } from "react-router-dom";
+import ReorderIcon from "@material-ui/icons/Reorder";
+import "./Navbar.css";
 
 function Navbar() {
-    const [extendNavbar, setExtendNavbar] = useState(false);
+    const [openLinks, setOpenLinks] = useState(false);
 
+    const toggleNavbar = () => {
+        setOpenLinks(!openLinks);
+    };
     return (
-        <NavbarContainer extendNavbar={extendNavbar}>
-            <NavbarInnerContainer>
-                <LeftContainer>
-                    <NavbarLinkContainer>
-                        <NavbarLink to="/"> Home</NavbarLink>
-                        <NavbarLink to="/searchHelp"> Search Help</NavbarLink>
-                        <NavbarLink to="/supportMap"> Support Map</NavbarLink>
-                        <NavbarLink to="/crisisHelp"> Crisis Help</NavbarLink>
-                        <NavbarLink to="/contactUs"> Contact Us</NavbarLink>
-                        <OpenLinksButton
-                            onClick={() => {
-                                setExtendNavbar((curr) => !curr);
-                            }}
-                        >
-                            {extendNavbar ? <>&#10005;</> : <> &#8801;</>}
-                        </OpenLinksButton>
-                    </NavbarLinkContainer>
-                </LeftContainer>
-                <RightContainer>
-                    <Logo src={LogoImg}></Logo>
-                </RightContainer>
-            </NavbarInnerContainer>
-            {extendNavbar && (
-                <NavbarExtendedContainer>
-                    <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/searchHelp"> Search Help</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/supportMap"> Support Map</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/crisisHelp"> Crisis Help</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/contactUs"> Contact Us</NavbarLinkExtended>
-                </NavbarExtendedContainer>
-            )}
-        </NavbarContainer>
+        <div className="navbar">
+            <div className="leftSide" id={openLinks ? "open" : "close"}>
+                <img src={Logo} />
+                <div className="hiddenLinks">
+                    <Link to="/"> Home </Link>
+                    <Link to="/searchHelp"> Search Help </Link>
+                    <Link to="/crisisHelp"> Crisis Help </Link>
+                    <Link to="/contactUs"> Contact </Link>
+                    <Link to="/admin"> Admin </Link>
+                </div>
+            </div>
+            <div className="rightSide">
+                <Link to="/"> Home </Link>
+                <Link to="/searchHelp"> Search Help </Link>
+                <Link to="/crisisHelp"> Crisis Help </Link>
+                <Link to="/contactUs"> Contact </Link>
+                <Link to="/admin"> Admin </Link>
+                <button onClick={toggleNavbar}>
+                    <ReorderIcon />
+                </button>
+            </div>
+        </div>
     );
 }
 

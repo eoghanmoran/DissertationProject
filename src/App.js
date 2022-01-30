@@ -18,23 +18,23 @@ export default function App() {
   <Home />
 
   return (
-    <div className="navbar">
 
+    <div>
       <NavBar />
-        <AuthProvider>
-          <Switch>
-            <Route exact path="/"><Home /></Route>
-            <Route path="/browseAllHelp"><Charities /></Route>
-            <Route path="/supportMap"><Map /></Route>
-            <Route path="/crisisHelp"><Help /></Route>
-            <Route path="/contactUs"><ContactUs /></Route>
-            <Route path="/searchHelp"><SearchHelp /></Route>
-            <Route path="/login"><Login /></Route>
-            <PrivateRoute exact path="/admin" component={Admin} />
-          </Switch>
-        </AuthProvider>
-    </div>
+      <AuthProvider>
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route path="/browseAllHelp"><Charities /></Route>
+          <Route path="/supportMap"><Map /></Route>
+          <Route path="/crisisHelp"><Help /></Route>
+          <Route path="/contactUs"><ContactUs /></Route>
+          <Route path="/searchHelp"><SearchHelp /></Route>
+          <Route path="/login"><Login /></Route>
+          <PrivateRoute exact path="/admin" component={Admin} />
+        </Switch>
+      </AuthProvider>
 
+    </div>
   );
 }
 
