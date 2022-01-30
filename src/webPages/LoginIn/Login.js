@@ -3,8 +3,7 @@ import { Grid, Paper, Avatar, TextField, Button, Typography, Link } from '@mater
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Footer from '../../components/Footer'
-import logo from '../../../src/images/logosmall.png';
+import Footer from '../../components/Footer';
 import '../../App.css';
 import { useState } from "react";
 import {
