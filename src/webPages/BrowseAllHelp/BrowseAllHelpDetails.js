@@ -10,32 +10,49 @@ const Charities = ({ match }) => {
     const helpData = [
         {
           id: 1,
-          name: "Charity name: 1 ",
+          name: "Belfast Carers Centre ",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie.",
-          status: "mental health support",
+            " Contact Number: 90434700",
+          status: "Mental Health Support",
         },
         {
           id: 2,
-          name: "Charity name: 2",
+          name: "Belfast Trust Carers Co-ordinator",
           description:
-            "Mauris finibus, massa eu tempor volutpat, magna dolor euismod dolor.",
-          status: "mental health support",
+            " Contact Number: 90636819",
+          status: "Mental Health Support",
         },
         {
           id: 3,
-          name: "Charity name: 3",
+          name: "Carers NI ",
           description:
-            "Maecenas condimentum porttitor auctor. Maecenas viverra fringilla felis, eu pretium.",
+            " Contact Number: 90439843",
           status: "mental health support",
         },
         {
           id: 4,
-          name: "Charity name: 4",
+          name: "CAUSE",
           description:
-            "Ut hendrerit venenatis lacus, vel lacinia ipsum fermentum vel. Cras.",
-          status: "mental health support",
+            "Contact Number: 90238284 ",
+          status: "Mental Health Support",
         },
+        {
+        id: 5,
+        name: "CAUSE Helpline",
+        description:
+          " 365 days 9am – 9pm Contact Number: 90238284 ",
+        status: "Mental Health Support",
+      },
+      {
+        id: 6,
+        name: "Crossroads",
+        description:
+          "Contact Number: 91814455 ",
+        status: "Mental Health Support",
+      },
+
+
+
       ];
     
   const { url } = useRouteMatch();

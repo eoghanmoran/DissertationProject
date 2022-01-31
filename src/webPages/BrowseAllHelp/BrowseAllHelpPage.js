@@ -62,7 +62,7 @@ export default function helpAvailable() {
             <div className={classes.wrapper}>
 
               <Typography variant="h4" className={classes.bigSpace} color="primary">
-                Forward south Partnership
+                Forward South Partnership
               </Typography>
 
               <Charities />
