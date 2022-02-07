@@ -17,6 +17,7 @@ function Navbar() {
                 <div className="hiddenLinks">
                     <Link to="/"> Home </Link>
                     <Link to="/searchHelp"> Search Help </Link>
+                    <Link to="/supportMap"> Support Map </Link>
                     <Link to="/crisisHelp"> Crisis Help </Link>
                     <Link to="/contactUs"> Contact </Link>
                     <Link to="/admin"> Admin </Link>
@@ -25,6 +26,7 @@ function Navbar() {
             <div className="rightSide">
                 <Link to="/"> Home </Link>
                 <Link to="/searchHelp"> Search Help </Link>
+                <Link to="/supportMap"> Support Map </Link>
                 <Link to="/crisisHelp"> Crisis Help </Link>
                 <Link to="/contactUs"> Contact </Link>
                 <Link to="/admin"> Admin </Link>

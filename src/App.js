@@ -14,6 +14,7 @@ import Login from "./webPages/LoginIn/Login";
 import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
 import Users from "./webPages/Admin/Users";
+import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
 
 export default function App() {
   <Home />
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/login"><Login /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
           <Route path="/users"><Users /></Route>
+          <Route path="/supportMap2"><SupportMap2 /></Route>
         </Switch>
       </AuthProvider>
 

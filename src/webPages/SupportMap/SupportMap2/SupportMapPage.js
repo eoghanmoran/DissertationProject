@@ -2,9 +2,10 @@ import React from "react";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
 import { Typography } from '@material-ui/core';
-import Footer from '../../components/Footer'
+import Footer from "../../../components/Footer"
 import Map from './SupportMapDetails';
-import '../../App.css';
+import '../../../App.css';
+import logo from '../../../../src/images/logosmall.png';
 
 const theme = createTheme({
   palette: {
@@ -58,12 +59,7 @@ export default function supportMap() {
 
           <ThemeProvider theme={theme}>
             <div className={classes.wrapper}>
-
-              <Typography variant="h4" className={classes.bigSpace} color="primary">
-               
-              </Typography>
               <div className="container">
-
                 <div className="mapwrap" align="center">
                   <Map />
                 </div>
