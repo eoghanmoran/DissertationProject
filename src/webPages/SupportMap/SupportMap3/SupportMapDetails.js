@@ -7,12 +7,25 @@ import {
   Marker,
   InfoWindow
 } from "react-google-maps";
-import '../../App.css';
-import * as parkData from "../../data/hospitals.json";
+import "../../../App.css";
+import * as parkData from "../../../data/allServices.json";
+import mapStyles from "../mapStyles";
+import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
+
 
 function Map() {
   const [selectedPark, setSelectedPark] = useState(null);
+  const history = useHistory()
+
+
+  const routeChange = async () => {
+    try {
+        history.push("/supportMap");
+    } catch (error) {
+        console.log(error.message);
+    }
+};
 
   useEffect(() => {
     const listener = e => {
@@ -74,12 +87,11 @@ export default function App() {
   return (
 
     <div style={{ width: "75vw", height: "75vh" }}>
-      <h3>Local Hospitals</h3>
+      <h3>All Services</h3>
       <Link to="/supportMap3"><button>All Services</button></Link>
       <Link to="/supportMap"><button>Hospitals</button></Link>
       <Link to="/supportMap2"><button>Community Ornagisations</button></Link>
       
-
       <MapWrapped
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
           }`}

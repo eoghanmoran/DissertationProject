@@ -88,8 +88,10 @@ export default function App() {
 
     <div style={{ width: "75vw", height: "75vh" }}>
       <h3>Community Organisations</h3>
+      <Link to="/supportMap3"><button>All Services</button></Link>
       <Link to="/supportMap"><button>Hospitals</button></Link>
       <Link to="/supportMap2"><button>Community Ornagisations</button></Link>
+      
       <MapWrapped
         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
           }`}

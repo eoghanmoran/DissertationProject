@@ -17,15 +17,13 @@ import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
 import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
-
+import SupportMap3 from "./webPages/SupportMap/SupportMap3/SupportMapPage";
 import Addiction from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 
 export default function App() {
   <Home />
 
   return (
-    
-    
     <div>
       
       <NavBar />
@@ -42,6 +40,7 @@ export default function App() {
           <Route path="/UpdateAdminUsers"><UpdateAdminUsers /></Route>
           <Route path="/UpdateDatabaseTable"><UpdateDatabaseTable /></Route>
           <Route path="/supportMap2"><SupportMap2 /></Route>
+          <Route path="/supportMap3"><SupportMap3 /></Route>
           <Route path="/updateAddiction"><Addiction /></Route>
         </Switch>
       </AuthProvider>

@@ -70,6 +70,74 @@
           "type": "Point",
           "coordinates": [-5.919950, 54.586610]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Royal Victoria Hospital",
+          "NAME_FR": "Royal Victoria Hospital",
+          "ADDRESS": "274 Grosvenor Rd",
+          "ADDRESS_FR": "274 Grosvenor Rd",
+          "CONTACT_NUMBER": "02890240503",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.946910, 54.595268]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Belfast City Hospital",
+          "NAME_FR": "Belfast City Hospital",
+          "ADDRESS": "Lisburn Rd, Belfast BT9 7AB",
+          "ADDRESS_FR": "7292, chemin Parkway",
+          "CONTACT_NUMBER": "02890329241",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941920, 54.586578]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Mater Hospital",
+          "NAME_FR": "Planchodrome Greely Village",
+          "ADDRESS": "45-51 Crumlin Rd, Belfast BT14 6AB",
+          "ADDRESS_FR": "7292, chemin Parkway",
+          "CONTACT_NUMBER": "02890741211",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.945250, 54.609310]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Musgrave Park Hospital",
+          "NAME_FR": "Planchomdrome Innovation",
+          "ADDRESS": "Stockmans Ln, Belfast BT9 7JB",
+          "ADDRESS_FR": "4101, promenade Innovation",
+          "CONTACT_NUMBER": "02890902000",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.976800, 54.570000]
+        }
       }
     ]
   }
