@@ -13,8 +13,12 @@ import ContactUs from "./webPages/ContactForm/ContactFormPage";
 import Login from "./webPages/LoginIn/Login";
 import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
-import Users from "./webPages/Admin/Users";
+
+import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
+import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
 import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
+
+import Addiction from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 
 export default function App() {
   <Home />
@@ -35,8 +39,10 @@ export default function App() {
           <Route path="/searchHelp"><SearchHelp/></Route>
           <Route path="/login"><Login /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
-          <Route path="/users"><Users /></Route>
+          <Route path="/UpdateAdminUsers"><UpdateAdminUsers /></Route>
+          <Route path="/UpdateDatabaseTable"><UpdateDatabaseTable /></Route>
           <Route path="/supportMap2"><SupportMap2 /></Route>
+          <Route path="/updateAddiction"><Addiction /></Route>
         </Switch>
       </AuthProvider>
       </div>
