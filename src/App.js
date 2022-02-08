@@ -20,8 +20,10 @@ export default function App() {
   <Home />
 
   return (
-
+    
+    
     <div>
+      
       <NavBar />
       <AuthProvider>
         <Switch>
@@ -30,15 +32,17 @@ export default function App() {
           <Route path="/supportMap"><Map /></Route>
           <Route path="/crisisHelp"><Help /></Route>
           <Route path="/contactUs"><ContactUs /></Route>
-          <Route path="/searchHelp"><SearchHelp /></Route>
+          <Route path="/searchHelp"><SearchHelp/></Route>
           <Route path="/login"><Login /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
           <Route path="/users"><Users /></Route>
           <Route path="/supportMap2"><SupportMap2 /></Route>
         </Switch>
       </AuthProvider>
-
-    </div>
+      </div>
+  
+      
+      
   );
 }
 

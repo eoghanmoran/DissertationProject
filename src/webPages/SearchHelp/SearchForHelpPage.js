@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import { createTheme } from "@mui/material/styles";
@@ -6,10 +6,13 @@ import { Typography } from '@material-ui/core';
 import Grid from "../../components/Grid"
 import Footer from "../../components/Footer"
 import "../../App.css";
+import SearchBar from "./SearchBar";
+import BookData from "../../Data.json";
 //changes to imports 
 import ElderlyOutlinedIcon from '@mui/icons-material/ElderlyOutlined';
 import ContactPhoneOutlinedIcon from '@mui/icons-material/ContactPhoneOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+
 
 
 const theme = createTheme({
@@ -58,46 +61,53 @@ const styles = makeStyles({
 })
 
 
-export default function Home() {
+export default function Search({placeholder,data}) 
+{
 
-  const classes = styles();
-  return (
-
-
-    <div className="background">
-      <div className="container">
-
-        <div className="App">
-          <ThemeProvider theme={theme}>
-
-            <div className={classes.wrapper}>
-
-              <Typography variant="h4" className={classes.bigSpace} color="primary">
-                Forward South Partnership
-              </Typography>
-              <Typography variant="h5" className={classes.littleSpace} color="primary">
-
-              </Typography>
-            </div>
-            <div className={`${classes.grid} ${classes.bigSpace}`}>
-              <Link to="/crisisHelp"><Grid icon={<ContactPhoneOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />} btnTitle="Crisis Support" /> </Link>
-            </div>
-
-            <div className={`${classes.grid} ${classes.bigSpace}`}>
-              <Link to="/browseAllHelp"> <Grid icon={<ElderlyOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />} btnTitle="Carer Support" /> </Link>
-              <Link to="/searchHelp">  <Grid icon={<FavoriteBorderOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />}  btnTitle="Heart Disease Support" /> </Link>
-              
-            </div>
-            <div className={`${classes.grid} ${classes.littleSpace}`}>
-
-            </div>
-
-          </ThemeProvider>
+    const classes = styles();
+    return (
+  
+       
+      <div className="background">
+        <div className="container">
+  
+          <div className="App">
+            <SearchBar placeholder= "Search Here...." data ={BookData} />
+            <ThemeProvider theme={theme}>
+  
+              <div className={classes.wrapper}>
+  
+                <Typography variant="h4" className={classes.bigSpace} color="primary">
+                  Forward South Partnership
+                </Typography>
+                <Typography variant="h5" className={classes.littleSpace} color="primary">
+  
+                </Typography>
+              </div>
+              <div className={`${classes.grid} ${classes.bigSpace}`}>
+                <Link to="/crisisHelp"><Grid icon={<ContactPhoneOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />} btnTitle="Crisis Support" /> </Link>
+              </div>
+  
+              <div className={`${classes.grid} ${classes.bigSpace}`}>
+                <Link to="/browseAllHelp"> <Grid icon={<ElderlyOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />} btnTitle="Carer Support" /> </Link>
+                <Link to="/searchHelp">  <Grid icon={<FavoriteBorderOutlinedIcon style={{ fill: "#000000", height: "125", width: "125" }} />}  btnTitle="Heart Disease Support" /> </Link>
+                
+              </div>
+              <div className={`${classes.grid} ${classes.littleSpace}`}>
+            
+              </div>
+  
+            </ThemeProvider>
+          </div>
+          <Footer/>
+          <SearchBar/>
+          
         </div>
-        <Footer />
+  
       </div>
-
-    </div>
-
-  );
-}
+  
+    
+    )
+  }
+  
+  
