@@ -16,8 +16,6 @@ import { auth } from "./firebase-config";
 import { useHistory } from "react-router-dom";
 
 function App() {
-    const [registerEmail, setRegisterEmail] = useState("");
-    const [registerPassword, setRegisterPassword] = useState("");
     const [loginEmail, setLoginEmail] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
     const [user, setUser] = useState({});
