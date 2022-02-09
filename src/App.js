@@ -18,7 +18,9 @@ import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
 import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
 import SupportMap3 from "./webPages/SupportMap/SupportMap3/SupportMapPage";
+
 import Addiction from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
+import Benefits from "./webPages/Admin/Benefits/Benefits";
 
 export default function App() {
   <Home />
@@ -42,6 +44,7 @@ export default function App() {
           <Route path="/supportMap2"><SupportMap2 /></Route>
           <Route path="/supportMap3"><SupportMap3 /></Route>
           <Route path="/updateAddiction"><Addiction /></Route>
+          <Route path="/updateBenefits"><Benefits /></Route>
         </Switch>
       </AuthProvider>
       </div>

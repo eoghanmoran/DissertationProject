@@ -58,7 +58,7 @@ function App() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Link to="/UpdateAdminUsers"><Button size="small">Update</Button></Link>
+              <Link to="/updateBenefits"><Button size="small">Update</Button></Link>
             </CardActions>
           </Card>
 
