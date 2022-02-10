@@ -71,7 +71,7 @@ export default function Home() {
     <div className="background">
       <div className="container">
 
-        <div className="App">
+      <div className="whiteBackground">
           <ThemeProvider theme={theme}>
 
             <div className={classes.wrapper}>
