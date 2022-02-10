@@ -21,7 +21,7 @@ import CancerSupportView from "./webPages/SearchHelp/HelpPages/CancerSupport";
 import CarerSupportView from "./webPages/SearchHelp/HelpPages/Carers";
 import CommunityOrganisationView from "./webPages/SearchHelp/HelpPages/CommunityOrganisations";
 import CounsellingView from "./webPages/SearchHelp/HelpPages/CounsellingSupport";
-
+import DisabilitySupportView from "./webPages/SearchHelp/HelpPages/DisabilitySupport";
 
 
 
@@ -63,7 +63,7 @@ export default function App() {
           <Route path="/carerSupport"><CarerSupportView /></Route>
           <Route path="/communityOrganisation"><CommunityOrganisationView /></Route>
           <Route path="/counsellingSupport"><CounsellingView /></Route>
-
+          <Route path="/disabilitySupport"><DisabilitySupportView /></Route>
 
 
 

@@ -38,6 +38,9 @@ const Search = () => {
     else if (title == "Counselling") {
       history.push("/counsellingSupport");
     }
+    else if (title == "Disability Support") {
+      history.push("/disabilitySupport");
+    }
   }
   
   return (
