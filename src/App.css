@@ -28,8 +28,8 @@
 }
 .background {
   position: absolute;
-  width: 100%;
-
+  
+width: 100%;
   margin: auto;
 
   background-size: cover;
@@ -42,6 +42,7 @@
 }
 
 .container {
+  height: 100%;
   font-size: calc(10px + 2vmin);
   padding-right: 80px;
   padding-bottom: 100px;
@@ -53,11 +54,21 @@
   margin-bottom: 100px;
 }
 
+
+.whiteBackground {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #5c7ec2;
