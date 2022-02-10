@@ -18,14 +18,28 @@ const Search = () => {
   })
 
 
-  function handleClick(title){
-    if (title == "Addiction Support"){
-      history.push("/admin");
-    } else if (title == "Benefits Support"){
-      history.push("/");
+  function handleClick(title) {
+    if (title == "Addiction Support") {
+      history.push("/addictionSupport");
+    } else if (title == "Benefits Support") {
+      history.push("/benefitSupport");
+    } else if (title == "Bereavement Support") {
+      history.push("/bereavementSupport");
+    }
+    else if (title == "Cancer Support") {
+      history.push("/cancerSupport");
+    }
+    else if (title == "Carers Support") {
+      history.push("/carerSupport");
+    }
+    else if (title == "Community Organisations") {
+      history.push("/communityOrganisation");
+    }
+    else if (title == "Counselling") {
+      history.push("/counsellingSupport");
     }
   }
-
+  
   return (
     <div className="background">
       <div className="container">
@@ -47,7 +61,7 @@ const Search = () => {
               {dataSearch.map((item, index) => {
                 return (
                   <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" onClick={() => handleClick(item.title)}>
-                   
+
                     <div className="card p-0 overflow-hidden h-100 shadow" >
                       <img src={item.img} className="card-img-top"></img>
                       <div className="card-body">
@@ -61,11 +75,11 @@ const Search = () => {
             </div>
 
           </section>
-          
+
         </div>
-       
+
       </div>
-      <Footer/>
+      <Footer />
     </div>
 
   )

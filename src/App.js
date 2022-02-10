@@ -14,13 +14,26 @@ import Login from "./webPages/LoginIn/Login";
 import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
 
+import AddictionView from "./webPages/SearchHelp/HelpPages/Addiction";
+import BenefitView from "./webPages/SearchHelp/HelpPages/Benefits";
+import BereavementView from "./webPages/SearchHelp/HelpPages/Bereavement";
+import CancerSupportView from "./webPages/SearchHelp/HelpPages/CancerSupport";
+import CarerSupportView from "./webPages/SearchHelp/HelpPages/Carers";
+import CommunityOrganisationView from "./webPages/SearchHelp/HelpPages/CommunityOrganisations";
+import CounsellingView from "./webPages/SearchHelp/HelpPages/CounsellingSupport";
+
+
+
+
+
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
 import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
 import SupportMap3 from "./webPages/SupportMap/SupportMap3/SupportMapPage";
+import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
+import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
 
-import Addiction from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
-import Benefits from "./webPages/Admin/Benefits/Benefits";
+
 
 export default function App() {
   <Home />
@@ -43,8 +56,19 @@ export default function App() {
           <Route path="/UpdateDatabaseTable"><UpdateDatabaseTable /></Route>
           <Route path="/supportMap2"><SupportMap2 /></Route>
           <Route path="/supportMap3"><SupportMap3 /></Route>
-          <Route path="/updateAddiction"><Addiction /></Route>
-          <Route path="/updateBenefits"><Benefits /></Route>
+          <Route path="/addictionSupport"><AddictionView /></Route>
+          <Route path="/benefitSupport"><BenefitView /></Route>
+          <Route path="/bereavementSupport"><BereavementView /></Route>
+          <Route path="/cancerSupport"><CancerSupportView /></Route>
+          <Route path="/carerSupport"><CarerSupportView /></Route>
+          <Route path="/communityOrganisation"><CommunityOrganisationView /></Route>
+          <Route path="/counsellingSupport"><CounsellingView /></Route>
+
+
+
+
+          <Route path="/updateAddiction"><AddictionUpdate /></Route>
+          <Route path="/updateBenefits"><BenefitsUpdate /></Route>
         </Switch>
       </AuthProvider>
       </div>
