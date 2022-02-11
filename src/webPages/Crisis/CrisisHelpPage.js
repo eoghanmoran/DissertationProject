@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 import CrisisHelpDetails from './CrisisHelpDetails';
 import '../../App.css';
 import logo from '../../../src/images/logosmall.png';
-import Charities from "../BrowseAllHelp/BrowseAllHelpDetails";
+
 
 
 const theme = createTheme({

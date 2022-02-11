@@ -3,7 +3,7 @@ import { Container, Navbar, Row, Col } from "react-bootstrap";
 import "../../../../App.css";
 import AddService from "./AddService"
 import ServiceList from "./ServiceList"
-import "./CRUD.css";
+//import "./CRUD.css";
 
 function App() {
 

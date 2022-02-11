@@ -28,8 +28,8 @@
 }
 .background {
   position: absolute;
-  
-width: 100%;
+
+  width: 100%;
   margin: auto;
 
   background-size: cover;
@@ -54,7 +54,6 @@ width: 100%;
   margin-bottom: 100px;
 }
 
-
 .whiteBackground {
   height: 100%;
   justify-content: center;
@@ -68,7 +67,6 @@ width: 100%;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 .App-header {
   background-color: #5c7ec2;
