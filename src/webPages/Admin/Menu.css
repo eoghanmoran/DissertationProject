@@ -44,12 +44,6 @@
   background-size: cover;
 }
 
-.menuItem:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease-in;
-  cursor: pointer;
-}
-
 .menuItem h1,
 .menuItem p {
   margin-left: 20px;

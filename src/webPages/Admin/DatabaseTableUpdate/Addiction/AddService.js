@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Form, Alert, InputGroup, Button, ButtonGroup } from "react-bootstrap";
 import crudServices from "./crud.services";
+import "./CRUD.css"
 import ServiceDataService from "./crud.services";
 
 
