@@ -86,7 +86,7 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
   return (
 
-    <div style={{ width: "75vw", height: "75vh" }}>
+    <div style={{ width: "55vw", height: "75vh" }}>
       <h3>Community Organisations</h3>
       <Link to="/supportMap3"><button>All Services</button></Link>
       <Link to="/supportMap"><button>Hospitals</button></Link>
