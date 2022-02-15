@@ -27,6 +27,16 @@ import EthnicMinority from "./webPages/SearchHelp/HelpPages/EthnicMinoritySuppor
 import FamilyChildcare from "./webPages/SearchHelp/HelpPages/FamilyChildCareSupport";
 import HeartCirculatory from "./webPages/SearchHelp/HelpPages/HeartCirculatoryDisease";
 import Helplines2 from "./webPages/SearchHelp/HelpPages/Helplines";
+import Homelessness from "./webPages/SearchHelp/HelpPages/Homelessness";
+import Hospitals from "./webPages/SearchHelp/HelpPages/Hospitals";
+import MentalHealth from "./webPages/SearchHelp/HelpPages/MentalHealth";
+import Elderly from "./webPages/SearchHelp/HelpPages/Elderly";
+import Relationships from "./webPages/SearchHelp/HelpPages/Relationship";
+import SexOrientation from "./webPages/SearchHelp/HelpPages/SexOreintation";
+import ViolenceTrauma from "./webPages/SearchHelp/HelpPages/ViolenceTrauma";
+import WomenSupport from "./webPages/SearchHelp/HelpPages/WomenSupport";
+import YoungPeople from "./webPages/SearchHelp/HelpPages/YoungPeopleSupport";
+
 
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
@@ -71,6 +81,16 @@ export default function App() {
           <Route path="/familyChildcareSupport"><FamilyChildcare/></Route>
           <Route path="/heartCirculatory"><HeartCirculatory/></Route>
           <Route path="/helplines"><Helplines2/></Route>
+          <Route path="/homelessnessSupport"><Homelessness/></Route>
+          <Route path="/hospitals"><Hospitals/></Route>
+          <Route path="/mentalHealthSupport"><MentalHealth/></Route>
+          <Route path="/elderlySupport"><Elderly/></Route>   
+          <Route path="/relationshipSupport"><Relationships/></Route> 
+          <Route path="/sexualOrientationSupport"><SexOrientation/></Route>
+          <Route path="/violenceTraumaSupport"><ViolenceTrauma/></Route>
+          <Route path="/womenSupport"><WomenSupport/></Route>
+          <Route path="/youngPeopleSupport"><YoungPeople/></Route>
+
 
           <Route path="/updateAddiction"><AddictionUpdate /></Route>
           <Route path="/updateBenefits"><BenefitsUpdate /></Route>

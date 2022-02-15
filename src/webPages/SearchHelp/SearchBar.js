@@ -56,6 +56,33 @@ const Search = () => {
     else if (title == "Helplines") {
       history.push("/helplines");
     }
+    else if (title == "Homelessness Support") {
+      history.push("/homelessnessSupport");
+    }
+    else if (title == "Hospitals") {
+      history.push("/hospitals");
+    }
+    else if (title == "Mental Health Support") {
+      history.push("/mentalHealthSupport");
+    }
+    else if (title == "Elderly Support") {
+      history.push("/elderlySupport");
+    }
+    else if (title == "Relationships/Sexuality Support") {
+      history.push("/relationshipSupport");
+    }
+    else if (title == "LGBT Support") {
+      history.push("/sexualOrientationSupport");
+    }
+    else if (title == "Violence/Trauma Support") {
+      history.push("/violenceTraumaSupport");
+    }
+    else if (title == "Women Support") {
+      history.push("/womenSupport");
+    }
+    else if (title == "Young People Support") {
+      history.push("/youngPeopleSupport");
+    }
   }
   
   return (
