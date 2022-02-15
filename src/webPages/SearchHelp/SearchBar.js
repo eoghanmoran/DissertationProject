@@ -41,6 +41,21 @@ const Search = () => {
     else if (title == "Disability Support") {
       history.push("/disabilitySupport");
     }
+    else if (title == "Eating Disorder Support") {
+      history.push("/eatingDisorderSupport");
+    }
+    else if (title == "Ethnic Minority Support") {
+      history.push("/ethnicMinoritySupport");
+    }
+    else if (title == "Family & Childcare Support") {
+      history.push("/familyChildcareSupport");
+    }
+    else if (title == "Heart & Circulatory Disease Support") {
+      history.push("/heartCirculatory");
+    }
+    else if (title == "Helplines") {
+      history.push("/helplines");
+    }
   }
   
   return (

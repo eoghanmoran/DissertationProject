@@ -22,9 +22,11 @@ import CarerSupportView from "./webPages/SearchHelp/HelpPages/Carers";
 import CommunityOrganisationView from "./webPages/SearchHelp/HelpPages/CommunityOrganisations";
 import CounsellingView from "./webPages/SearchHelp/HelpPages/CounsellingSupport";
 import DisabilitySupportView from "./webPages/SearchHelp/HelpPages/DisabilitySupport";
-
-
-
+import EatingDisorder from "./webPages/SearchHelp/HelpPages/EatingDisorder";
+import EthnicMinority from "./webPages/SearchHelp/HelpPages/EthnicMinoritySupport";
+import FamilyChildcare from "./webPages/SearchHelp/HelpPages/FamilyChildCareSupport";
+import HeartCirculatory from "./webPages/SearchHelp/HelpPages/HeartCirculatoryDisease";
+import Helplines2 from "./webPages/SearchHelp/HelpPages/Helplines";
 
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
@@ -64,8 +66,11 @@ export default function App() {
           <Route path="/communityOrganisation"><CommunityOrganisationView /></Route>
           <Route path="/counsellingSupport"><CounsellingView /></Route>
           <Route path="/disabilitySupport"><DisabilitySupportView /></Route>
-
-
+          <Route path="/eatingDisorderSupport"><EatingDisorder/></Route>
+          <Route path="/ethnicMinoritySupport"><EthnicMinority/></Route>
+          <Route path="/familyChildcareSupport"><FamilyChildcare/></Route>
+          <Route path="/heartCirculatory"><HeartCirculatory/></Route>
+          <Route path="/helplines"><Helplines2/></Route>
 
           <Route path="/updateAddiction"><AddictionUpdate /></Route>
           <Route path="/updateBenefits"><BenefitsUpdate /></Route>
