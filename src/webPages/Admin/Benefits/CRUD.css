@@ -50,3 +50,9 @@ form * {
     transform: rotate(360deg);
   }
 }
+button.edit {
+  width: 130px;
+}
+button.delete {
+  width: 130px;
+}
