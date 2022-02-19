@@ -1,7 +1,7 @@
 .App {
-  background-color: azure;
+  background-color: white;
 
-  border: 6px solid #00bcd4;
+  border: 6px solid #ffffff;
   border-radius: 10px;
   margin-bottom: 15px;
   font-size: calc(10px + 2vmin);
@@ -37,7 +37,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80vmin;
   pointer-events: none;
 }
 
@@ -62,12 +62,6 @@
   background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #5c7ec2;
   min-height: 100vh;
@@ -80,16 +74,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.dropdown {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .footer {
   display: flex;
+}
+
+.responsive-button {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive-button {
+    width: 100%;
+  }
 }

@@ -24,7 +24,7 @@ function CrisishelpDetails() {
           <thead>
             <tr>
               <th>Service</th>
-              <th>Contact Number</th>
+              <th >Contact Number</th>
             </tr>
           </thead>
           <tbody>

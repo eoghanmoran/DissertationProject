@@ -31,7 +31,7 @@ const ServiceList = ({ getServiceId }) => {
         <thead>
           <tr>
             <th>Service</th>
-            <th>Contact Number</th>
+            <th colspan="2">Contact Number</th>
           </tr>
         </thead>
         <tbody>

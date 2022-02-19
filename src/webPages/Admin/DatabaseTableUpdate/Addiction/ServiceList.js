@@ -32,7 +32,7 @@ const ServiceList = ({ getServiceId }) => {
         <thead>
           <tr>
             <th>Service</th>
-            <th>Contact Number</th>
+            <th colspan ="2">Contact Number</th>
           </tr>
         </thead>
         <tbody>
@@ -42,7 +42,7 @@ const ServiceList = ({ getServiceId }) => {
                 <td>{doc.Service}</td>
                 <td>{doc.ContactNumber}</td>
                 <td>
-                  <Button
+                  <Button class="btn btn default btn-sm"
                     variant="secondary"
                     className="edit"
                     onClick={(e) => getServiceId(doc.id)}

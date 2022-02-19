@@ -87,7 +87,7 @@ const AddService = ({ id, setServiceID }) => {
               <InputGroup.Text id="formBookAuthor"></InputGroup.Text>
               <Form.Control
                 type="text"
-                placeholder="Contact Number"
+                placeholder  ="Contact Number"
                 value={ContactNumber}
                 onChange={(e) => setContactNumber(e.target.value)}
               />
