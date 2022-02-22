@@ -72,6 +72,161 @@ function App() {
               </Typography>
             </CardContent>
             <CardActions>
+              <Link to="/updateBereavement"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Carers
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Carer Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateCarers"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Community Organisations
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Community Organisations Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateCommunityOrganisations"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Counselling
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Counselling Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateCounselling"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Disability Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Disability Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateDisabilitySupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Cancer Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Cancer Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateCancerSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Eating Disorders
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Eating Disorder Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateEatingDisorders"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Old Person Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Old Person Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateOldPersonSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Ethnic Minority Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Ethnic Minority Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateEthnicMinoritySupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Family Childcare Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Family Childcare Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateFamilyChildcareSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Heart Circulatory Disease 
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Heart Circulatory Disease Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateHeartCirculatoryDisease"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Admin
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Admin Users Table
+              </Typography>
+            </CardContent>
+            <CardActions>
               <Link to="/UpdateAdminUsers"><Button size="small">Update</Button></Link>
             </CardActions>
           </Card>

@@ -23,20 +23,15 @@ const ServiceList = ({ getServiceId }) => {
   return (
     <div className="app-container">
       <div className="mb-2">
-        
-
-    
-        <Button 
-        variant="dark edit"  
-        className ="refresh" 
-        onClick={getServices}>
-          Refresh</Button>
+        <Button variant="dark edit" onClick={getServices}>
+          Refresh List
+        </Button>
       </div>
       <table>
         <thead>
           <tr>
             <th>Service</th>
-            <th colspan="2">Contact Number</th>
+            <th>Contact Number</th>
           </tr>
         </thead>
         <tbody>
@@ -69,7 +64,6 @@ const ServiceList = ({ getServiceId }) => {
         </tbody>
       </table>
     </div>
-  
   );
 };
 

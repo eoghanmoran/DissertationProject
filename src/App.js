@@ -45,6 +45,19 @@ import CommunitySupportMap from "./webPages/SupportMap/CommunitySupportMap";
 import HospitalSupportMap from "./webPages/SupportMap/HospitalSupportMap";
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
+import BereavementUpdate from "./webPages/Admin/Bereavement/Bereavement";
+import CancerSupportUpdate from "./webPages/Admin/CancerSupport/CancerSupport";
+import CarersUpdate from "./webPages/Admin/Carers/Carers";
+import CommunityOrganisationsUpdate from "./webPages/Admin/Carers/Carers";
+import CounsellingUpdate from "./webPages/Admin/Counselling/Counselling";
+import DisabilitySupportUpdate from "./webPages/Admin/DisabilitySupport/DisabilitySupport";
+import EatingDisordersUpdate from "./webPages/Admin/EatingDisorders/EatingDisorders";
+import OldPersonSupportUpdate from "./webPages/Admin/OlderPersonSupport/OldPersonSupport";
+import EthnicMinoritySupportUpdate from "./webPages/Admin/EthnicMinoritySupport/EthnicMinoritySupport";
+import FamilyChildcareSupportUpdate from "./webPages/Admin/FamilyChildcareSupport/FamilyChildcareSupport";
+import HeartCirculatoryDiseaseUpdate from "./webPages/Admin/HeartCirculatoryDisease/HeartCirculatoryDisease";
+
+
 
 
 
@@ -97,6 +110,21 @@ export default function App() {
 
           <Route path="/updateAddiction"><AddictionUpdate /></Route>
           <Route path="/updateBenefits"><BenefitsUpdate /></Route>
+          <Route path="/updateBereavement"><BereavementUpdate /></Route>
+          <Route path="/updateCancerSupport"><CancerSupportUpdate /></Route>
+          <Route path="/updateCarers"><CarersUpdate /></Route>
+          <Route path="/updateCommunityOrganisations"><CommunityOrganisationsUpdate /></Route>
+          <Route path="/updateCounselling"><CounsellingUpdate /></Route>
+          <Route path="/updateDisabilitySupport"><DisabilitySupportUpdate /></Route>
+          <Route path="/updateEatingDisorders"><EatingDisordersUpdate /></Route>
+          <Route path="/updateOldPersonSupport"><OldPersonSupportUpdate /></Route>
+          <Route path="/updateEthnicMinoritySupport"><EthnicMinoritySupportUpdate /></Route>
+          <Route path="/updateFamilyChildcareSupport"><FamilyChildcareSupportUpdate /></Route>
+          <Route path="/updateHeartCirculatoryDisease"><HeartCirculatoryDiseaseUpdate /></Route>
+          
+          
+
+
         </Switch>
       </AuthProvider>
       </div>
