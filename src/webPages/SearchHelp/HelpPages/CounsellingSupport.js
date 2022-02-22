@@ -24,7 +24,7 @@ function CrisishelpDetails() {
           <thead>
             <tr>
               <th>Service</th>
-              <th>Contact Number</th>
+              <th cosplan = "2">Contact Number</th>
             </tr>
           </thead>
           <tbody>
