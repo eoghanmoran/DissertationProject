@@ -216,6 +216,118 @@ function App() {
             </CardActions>
           </Card>
 
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Helplines 
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Helplines Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateHelplines"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Homelessness
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Homelessness Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateHomelessness"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Mental Health
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Mental Health Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateMentalHealth"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Relationship and Sexuality Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Relationship and Sexuality Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateRelationshipSexualitySupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Sexual Orientation and Trans Groups
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Sexual Orientation and Trans Group Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateSexOrientationTransGroups"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Violence Trauma Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Violence Trauma Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateViolenceTraumaSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Women Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Women Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateWomenSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345 }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Young People Support
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Update Young People Support Services Table
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Link to="/updateYoungPeopleSupport"><Button size="small">Update</Button></Link>
+            </CardActions>
+          </Card>
+
 
           <Card sx={{ maxWidth: 345 }}>
             <CardContent>

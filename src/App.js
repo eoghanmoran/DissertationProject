@@ -56,6 +56,17 @@ import OldPersonSupportUpdate from "./webPages/Admin/OlderPersonSupport/OldPerso
 import EthnicMinoritySupportUpdate from "./webPages/Admin/EthnicMinoritySupport/EthnicMinoritySupport";
 import FamilyChildcareSupportUpdate from "./webPages/Admin/FamilyChildcareSupport/FamilyChildcareSupport";
 import HeartCirculatoryDiseaseUpdate from "./webPages/Admin/HeartCirculatoryDisease/HeartCirculatoryDisease";
+import HelplinesUpdate from "./webPages/Admin/Helplines/Helplines";
+import HomelessnessUpdate from "./webPages/Admin/Homelessness/Homelessness";
+import MentalHealthUpdate from "./webPages/Admin/MentalHealth/MentalHealth";
+import RelationshipSexualitySupportUpdate from "./webPages/Admin/RelationshipSexualitySupport/RelationshipSexualitySupport";
+import SexOrientationTransGroupsSupportUpdate from "./webPages/Admin/SexOrientationTransGroups/SexOrientationTransGroups";
+import ViolenceTraumaSupportUpdate from "./webPages/Admin/ViolenceTraumaSupport/ViolenceTraumaSupport";
+import WomenSupportUpdate from "./webPages/Admin/WomenSupport/WomenSupport";
+import YoungPeopleSupportUpdate from "./webPages/Admin/YoungPeopleSupport/YoungPeopleSupport";
+
+
+
 
 
 
@@ -121,6 +132,14 @@ export default function App() {
           <Route path="/updateEthnicMinoritySupport"><EthnicMinoritySupportUpdate /></Route>
           <Route path="/updateFamilyChildcareSupport"><FamilyChildcareSupportUpdate /></Route>
           <Route path="/updateHeartCirculatoryDisease"><HeartCirculatoryDiseaseUpdate /></Route>
+          <Route path="/updateHelplines"><HelplinesUpdate /></Route>
+          <Route path="/updateHomelessness"><HomelessnessUpdate /></Route>
+          <Route path="/updateMentalHealth"><MentalHealthUpdate /></Route>
+          <Route path="/updateRelationshipSexualitySupport"><RelationshipSexualitySupportUpdate /></Route>
+          <Route path="/updateSexOrientationTransGroups"><SexOrientationTransGroupsSupportUpdate /></Route>
+          <Route path="/updateViolenceTraumaSupport"><ViolenceTraumaSupportUpdate /></Route>
+          <Route path="/updateWomenSupport"><WomenSupportUpdate /></Route>
+          <Route path="/updateYoungPeopleSupport"><YoungPeopleSupportUpdate /></Route>
           
           
 
