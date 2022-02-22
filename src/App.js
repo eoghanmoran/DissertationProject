@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Charities from "./webPages/BrowseAllHelp/BrowseAllHelpPage";
 import Help from "./webPages/Crisis/CrisisHelpPage";
-import Home from "./Home";
+import Home from "./webPages/Home/Home";
 import Map from "./webPages/SupportMap/SupportMapPage";
 import SearchHelp from "./webPages/SearchHelp/SearchForHelpPage";
 import ContactUs from "./webPages/ContactForm/ContactFormPage";
