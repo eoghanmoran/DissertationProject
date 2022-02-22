@@ -6,6 +6,7 @@ import AddService from "./AddService"
 import ServiceList from "./ServiceList"
 
 
+
 function App() {
 
     const [serviceID, setServiceID] = useState("");
@@ -30,6 +31,7 @@ function App() {
                 </table>
        
             </div>
+            
         </div>
     );
 

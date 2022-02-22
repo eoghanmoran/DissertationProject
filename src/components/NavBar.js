@@ -1,40 +1,41 @@
 import React, { useState } from "react";
 import Logo from "../../src/images/logosmall.png"
-import { Link } from "react-router-dom";
-import ReorderIcon from "@material-ui/icons/Reorder";
+
 import "./Navbar.css";
 
 function Navbar() {
-    const [openLinks, setOpenLinks] = useState(false);
-
-    const toggleNavbar = () => {
-        setOpenLinks(!openLinks);
-    };
+    
     return (
-        <div className="navbar">
-            <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <img src={Logo} />
-                <div className="hiddenLinks">
-                    <Link to="/"> Home </Link>
-                    <Link to="/searchHelp"> Search Help </Link>
-                    <Link to="/supportMap"> Support Map </Link>
-                    <Link to="/crisisHelp"> Crisis Help </Link>
-                    <Link to="/contactUs"> Contact </Link>
-                    <Link to="/admin"> Admin </Link>
-                </div>
-            </div>
-            <div className="rightSide">
-                <Link to="/"> Home </Link>
-                <Link to="/searchHelp"> Search Help </Link>
-                <Link to="/supportMap"> Support Map </Link>
-                <Link to="/crisisHelp"> Crisis Help </Link>
-                <Link to="/contactUs"> Contact </Link>
-                <Link to="/admin"> Admin </Link>
-                <button onClick={toggleNavbar}>
-                    <ReorderIcon />
+        
+        <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" >                                  <img src={Logo} alt="Fsplogo" height="80" width= "85"  /></a>
+            <button class = "navbar-toggler" type ="button" data-togler="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class ="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                   <li class= "nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                     </li>  
+                     <li class= "nav-item">
+                        <a class="nav-link" href="/searchHelp">Search Help</a>
+                     </li> 
+                     <li class= "nav-item">
+                        <a class="nav-link" href="/supportMap">Crisis Help</a>
+                     </li> 
+                     <li class= "nav-item">
+                        <a class="nav-link" href="/contactUs">Contact</a>
+                     </li> 
+                     <li class= "nav-item">
+                        <a class="nav-link" href="/admin">Admin</a>
+                     </li> 
+                   </ul>
             </div>
-        </div>
+         </div>
+     </nav>
+
+    
     );
 }
 
