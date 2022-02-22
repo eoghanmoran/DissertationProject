@@ -17,12 +17,15 @@ function Navbar() {
                 <ul class="navbar-nav ml-auto">
                    <li class= "nav-item">
                         <a class="nav-link" href="/">Home</a>
+                     </li> 
+                     <li class= "nav-item">
+                        <a class="nav-link" href="/crisisHelp">Urgent Support</a>
                      </li>  
                      <li class= "nav-item">
                         <a class="nav-link" href="/searchHelp">Search Help</a>
                      </li> 
                      <li class= "nav-item">
-                        <a class="nav-link" href="/supportMap">Crisis Help</a>
+                        <a class="nav-link" href="/supportMap">Support Map</a>
                      </li> 
                      <li class= "nav-item">
                         <a class="nav-link" href="/contactUs">Contact</a>
