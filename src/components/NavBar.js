@@ -25,7 +25,7 @@ function Navbar() {
                         <a class="nav-link" href="/searchHelp">Search Help</a>
                      </li> 
                      <li class= "nav-item">
-                        <a class="nav-link" href="/supportMap">Support Map</a>
+                        <a class="nav-link" href="/allServicesMap">Support Map</a>
                      </li> 
                      <li class= "nav-item">
                         <a class="nav-link" href="/contactUs">Contact</a>

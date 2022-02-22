@@ -7,7 +7,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Charities from "./webPages/BrowseAllHelp/BrowseAllHelpPage";
 import Help from "./webPages/Crisis/CrisisHelpPage";
 import Home from "./webPages/Home/Home";
-import Map from "./webPages/SupportMap/SupportMapPage";
+
+import AllServicesMap from "./webPages/SupportMap/AllServicesMap";
+
 import SearchHelp from "./webPages/SearchHelp/SearchForHelpPage";
 import ContactUs from "./webPages/ContactForm/ContactFormPage";
 import Login from "./webPages/LoginIn/Login";
@@ -37,11 +39,10 @@ import ViolenceTrauma from "./webPages/SearchHelp/HelpPages/ViolenceTrauma";
 import WomenSupport from "./webPages/SearchHelp/HelpPages/WomenSupport";
 import YoungPeople from "./webPages/SearchHelp/HelpPages/YoungPeopleSupport";
 
-
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
-import SupportMap2 from "./webPages/SupportMap/SupportMap2/SupportMapPage";
-import SupportMap3 from "./webPages/SupportMap/SupportMap3/SupportMapPage";
+import CommunitySupportMap from "./webPages/SupportMap/CommunitySupportMap";
+import HospitalSupportMap from "./webPages/SupportMap/HospitalSupportMap";
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
 
@@ -58,7 +59,7 @@ export default function App() {
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/browseAllHelp"><Charities /></Route>
-          <Route path="/supportMap"><Map /></Route>
+          <Route path="/allServicesMap"><AllServicesMap /></Route>
           <Route path="/crisisHelp"><Help /></Route>
           <Route path="/contactUs"><ContactUs /></Route>
           <Route path="/searchHelp"><SearchHelp/></Route>
@@ -66,8 +67,10 @@ export default function App() {
           <PrivateRoute exact path="/admin" component={Admin} />
           <Route path="/UpdateAdminUsers"><UpdateAdminUsers /></Route>
           <Route path="/UpdateDatabaseTable"><UpdateDatabaseTable /></Route>
-          <Route path="/supportMap2"><SupportMap2 /></Route>
-          <Route path="/supportMap3"><SupportMap3 /></Route>
+
+          <Route path="/communitySupportMap"><CommunitySupportMap /></Route>
+          <Route path="/hospitalSupportMap"><HospitalSupportMap /></Route>
+
           <Route path="/addictionSupport"><AddictionView /></Route>
           <Route path="/benefitSupport"><BenefitView /></Route>
           <Route path="/bereavementSupport"><BereavementView /></Route>
@@ -90,7 +93,7 @@ export default function App() {
           <Route path="/violenceTraumaSupport"><ViolenceTrauma/></Route>
           <Route path="/womenSupport"><WomenSupport/></Route>
           <Route path="/youngPeopleSupport"><YoungPeople/></Route>
-
+          
 
           <Route path="/updateAddiction"><AddictionUpdate /></Route>
           <Route path="/updateBenefits"><BenefitsUpdate /></Route>

@@ -40,11 +40,17 @@ export default function Home() {
       <div className="container">
 
         <div className="whiteBackground">
-        <section className="py-4 container">
+          
+            <h2>Forward South Partnership</h2>
+            
+            <p>Forward South Partnership is an independent charity that works with community, schools, business, public and private sector partners to help regenerate and sustain ahealthy and prosperous South Belfast. We are part of a citywide structure known as the Belfast Area Partnerships who have led community regeneration initiatives over the past 21 years.</p>
+       
+
+          <section className="py-4 container">
             <div className="row justify-content-center">
               <div className="col-12 mb-5">
                 <div className="mb-3 col-4 mx-auto text-center">
-                  <label className="form-label h2">Forward South Partnership</label>
+
                 </div>
               </div>
 
@@ -65,7 +71,10 @@ export default function Home() {
             </div>
 
           </section>
+    
+            
         </div>
+
         <Footer />
       </div>
 
