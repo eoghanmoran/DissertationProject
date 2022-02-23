@@ -94,15 +94,21 @@ export default function App() {
                         />
 
                     </div>
-                    <div className="rightSideText">
-                        <h1 className="h1"> Local Hospitals</h1>
-                        
-                        <Link to="/allServicesMap"><Button varient="primary" size="sm">All Services</Button></Link>
-                        <h2></h2>
-                        <Link to="/hospitalSupportMap"><Button varient="light" size="sm">Hospitals</Button></Link>
-                        <Link to="/communitySupportMap"><Button varient="primary" size="sm">Community Ornagisations</Button></Link>
-                        
-                    </div>
+                    <div className="rightSideText container-fluid">
+                                <div class = "Services">  
+                                <h1 className="h1"> Local Hospitals</h1>
+                                <a href ="/allServicesMap"> 
+                                <button 
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">All Services</button></a> 
+                                <a href ="/hospitalSupportMap">
+                                <button type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Hospitals</button></a>
+                                <a href ="/communitySupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Community Organisations</button></a>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>

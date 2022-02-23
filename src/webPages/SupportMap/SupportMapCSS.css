@@ -20,7 +20,7 @@
 
 .contact .rightSideText {
   height: 100%;
-  flex: 5%;
+  flex: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,11 +76,4 @@ form label {
   margin-top: 15px;
   color: grey;
   font-size: 30px;
-}
-
-button.primary {
-  width: 130px;
-}
-button.light {
-  width: 130px;
 }
