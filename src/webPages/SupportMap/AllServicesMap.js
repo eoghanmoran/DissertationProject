@@ -97,7 +97,7 @@ export default function App() {
                    
                     <div className="rightSideText container-fluid">
                                 <div class = "">  
-                                <h1 className="h1"> Local Hospitals</h1>
+                                <h1 className="h1"> All Support Services</h1>
                                 <a href ="/allServicesMap"> 
                                     <button 
                                     type = "button" 

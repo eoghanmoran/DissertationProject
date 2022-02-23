@@ -21,7 +21,7 @@ function Navbar() {
           <li class= "nav-item">
                <a class="nav-link" href="/">Home</a></li> 
           <li class= "nav-item">
-               <a class="nav-link" href="/crisisHelp">Crisis Help</a></li> 
+               <a class="nav-link" href="/crisisHelp">Urgent Support</a></li> 
           <li class= "nav-item">
                <a class="nav-link" href="/searchHelp">Search</a></li> 
           <li class= "nav-item">
