@@ -6,23 +6,22 @@ import "./Navbar.css";
 function Navbar() {
     
     return (
-
-        <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 
        <div class="container-fluid">
        <a class="navbar-brand" href="#"><img src={Logo} alt="Fsplogo" height="80" width= "85"  /></a>
 
-      <button class = "navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarResponsive">
-      <span class="navbar-toggler-icon"><i class ="fa fa-bars fa-1x"></i></span>
+      <button class = "navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls ="navBarResponsive" aria-expanded ="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon = show"></span>
       </button>
 
-      <div class = {"collapse navbar-collapse = show"} id={"navbarResponsive =show"}>
+      <div class = {"collapse navbar-collapse = show"} id="navbarResponsive">
          
       <ul class="navbar-nav ml-auto">
           <li class= "nav-item">
                <a class="nav-link" href="/">Home</a></li> 
           <li class= "nav-item">
-               <a class="nav-link" href="/crisisHelp">Urgent Support</a></li> 
+               <a class="nav-link" href="/crisisHelp">Crisis</a></li> 
           <li class= "nav-item">
                <a class="nav-link" href="/searchHelp">Search</a></li> 
           <li class= "nav-item">
@@ -34,8 +33,9 @@ function Navbar() {
          </ul>
             </div>
          </div>
+        
      </nav>
-
+    
     
     );
 }
