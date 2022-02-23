@@ -16,8 +16,6 @@ function Footer() {
           <a href="https://twitter.com/SouthBelfastPB?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><BottomNavigationAction label="Twitter" value="favorites" icon={<TwitterIcon  style={{fill: "#1DA1F2"}}/>}/> </a> 
          <a href = "https://www.facebook.com/SouthBelfastPartnership/"><BottomNavigationAction label="Facebook" value="nearby" icon={<FacebookIcon  style={{fill: " #1DA1F2"}}/>} /> </a>
          <a href="https://www.youtube.com/channel/UCU7YmFwD-0HO4KKa4GWvHPA"><BottomNavigationAction label="YouTube" value="folder" icon={<YouTubeIcon  style={{fill: "#c4302b"}}/>}/> </a> 
-
-
         </BottomNavigation>
       
   

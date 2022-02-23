@@ -78,13 +78,9 @@ form label {
   font-size: 30px;
 }
 
-form button {
-  margin-top: 40px;
-  width: 140px;
-  height: 40px;
-  border: none;
-  background-color: #121619;
-  color: whitesmoke;
-  font-size: 15px;
-  cursor: pointer;
+button.primary {
+  width: 130px;
+}
+button.light {
+  width: 130px;
 }
