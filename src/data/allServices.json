@@ -209,6 +209,321 @@
       {
         "type": "Feature",
         "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Jobs & Benefits Office - Shaftesbury Square",
+          "NAME_FR": "Jobs & Benefits Office - Shaftesbury Square",
+          "ADDRESS": "Conor Building, 107 Great Victoria St, Belfast BT2 7AG",
+          "CONTACT_NUMBER": "08702183788",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Citizens Advice Bureau Belfast",
+          "NAME_FR": "Citizens Advice Bureau Belfast",
+          "ADDRESS": "Belfast BT12 7AD, United Kingdom",
+          "CONTACT_NUMBER": "90329133",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.975930, 54.597790]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "GEMS (Employment)",
+          "NAME_FR": "GEMS (Employment)",
+          "ADDRESS": "24-31 Shaftesbury Square, Belfast BT2 7DB",
+          "ADDRESS_FR": "24-31 Shaftesbury Square, Belfast BT2 7DB",
+          "CONTACT_NUMBER": "02890392547",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951790, 54.588880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Knockbreda Jobs & Benefits Office ",
+          "NAME_FR": "Knockbreda Jobs & Benefits Office ",
+          "ADDRESS": "Crown Buildings, Upper Knockbreda Rd, Belfast, BT8 6SX",
+          "ADDRESS_FR": "Crown Buildings, Upper Knockbreda Rd, Belfast, BT8 6SX",
+          "CONTACT_NUMBER": "90545600",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.906640, 54.563980]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Cruse Bereavement Care Belfast",
+          "NAME_FR": "Cruse Bereavement Care Belfast",
+          "ADDRESS": "10 College Grn, Belfast BT7 1LN",
+          "CONTACT_NUMBER": "02890434600",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.931190, 54.585380]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Lighthouse",
+          "NAME_FR": "Lighthouse",
+          "ADDRESS": "187 Duncairn Gardens, Belfast BT15 2GF",
+          "CONTACT_NUMBER": "02890755070",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932420, 54.613300]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Samaritans of Belfast",
+          "NAME_FR": "Samaritans of Belfast",
+          "ADDRESS": "5 Wellesley Ave, Belfast BT9 6DG",
+          "ADDRESS_FR": "5 Wellesley Ave, Belfast BT9 6DG",
+          "CONTACT_NUMBER": "08457909090",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.938520, 54.582110]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "New Life Counselling",
+          "NAME_FR": "New Life Counselling",
+          "ADDRESS": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "ADDRESS_FR": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "CONTACT_NUMBER": "02890391630",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.965550, 54.614480]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "PIPS Charity",
+          "NAME_FR": "PIPS Charity",
+          "ADDRESS": "281 Antrim Rd, Belfast BT15 2HE",
+          "ADDRESS_FR": "281 Antrim Rd, Belfast BT15 2HE",
+          "CONTACT_NUMBER": "02890805850",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.938110, 54.626880]
+        }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 960,
+            "FACILITYID": 28014,
+            "NAME": "Action Cancer",
+            "NAME_FR": "Action Cancer",
+            "ADDRESS": "20 Windsor Ave, Belfast BT9 6EE",
+            "CONTACT_NUMBER": "02890803344",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.944490, 54.579540]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Cancer Fund for Children",
+            "NAME_FR": "Cancer Fund for Children",
+            "ADDRESS": "Portside Business Park, Airport Rd W, Belfast BT3 9ED",
+            "CONTACT_NUMBER": "02890805599",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.871300, 54.629311]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Cancer Lifeline",
+            "NAME_FR": "Cancer Lifeline",
+            "ADDRESS": "44 Alliance Ave, Belfast BT14 7PJ",
+            "ADDRESS_FR": "44 Alliance Ave, Belfast BT14 7PJ",
+            "CONTACT_NUMBER": "02890351999",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.960310, 54.618560]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Northern Ireland Hospice",
+            "NAME_FR": "Northern Ireland Hospice",
+            "ADDRESS": "74 Somerton Rd, Belfast BT15 3LH",
+            "ADDRESS_FR": "74 Somerton Rd, Belfast BT15 3LH",
+            "CONTACT_NUMBER": "02890781836",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.934250, 54.630050]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Macmillan Cancer Support",
+            "NAME_FR": "Macmillan Cancer Support",
+            "ADDRESS": "Belfast BT5 6BQ",
+            "ADDRESS_FR": "Belfast BT5 6BQ",
+            "CONTACT_NUMBER": "08088080000",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.875570, 54.579770]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2113,
+            "FACILITYID": 35299,
+            "NAME": "Young Lives vs Cancer office",
+            "NAME_FR": "Young Lives vs Cancer office",
+            "ADDRESS": "25 Elmwood Mews, Belfast BT9 6FA",
+            "ADDRESS_FR": "25 Elmwood Mews, Belfast BT9 6FA",
+            "CONTACT_NUMBER": "03003300803",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.906640, 54.563980]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 960,
+            "FACILITYID": 28014,
+            "NAME": "CAUSE",
+            "NAME_FR": "CAUSE",
+            "ADDRESS": "393 Holywood Rd, Belfast BT4 2LS",
+            "CONTACT_NUMBER": "02890650650",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.870800, 54.606580]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Crossroads Care NI",
+            "NAME_FR": "Crossroads Care NI",
+            "ADDRESS": "432 Upper Newtownards Rd, Belfast BT4 3GY",
+            "CONTACT_NUMBER": "02890653080",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.829930, 54.594900]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2488,
+            "FACILITYID": 35815,
+            "NAME": "Belfast Carers' Centre",
+            "NAME_FR": "Belfast Carers' Centre",
+            "ADDRESS": "2 Woodstock Link, Belfast BT6 8DD",
+            "ADDRESS_FR": "2 Woodstock Link, Belfast BT6 8DD",
+            "CONTACT_NUMBER": "02890730173",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.907290, 54.594410]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "PARK_ID": 2113,
+            "FACILITYID": 35299,
+            "NAME": "Carers NI",
+            "NAME_FR": "Carers NI",
+            "ADDRESS": "58 Howard St, Belfast BT1 6PJ",
+            "ADDRESS_FR": "58 Howard St, Belfast BT1 6PJ",
+            "CONTACT_NUMBER": "02890439843",
+            "PICTURE__1": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-5.933180, 54.595860]
+          }
+      },
+      {
+        "type": "Feature",
+        "properties": {
           "PARK_ID": 2113,
           "FACILITYID": 35299,
           "NAME": "Musgrave Park Hospital",

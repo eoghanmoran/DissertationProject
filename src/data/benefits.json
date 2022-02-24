@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Jobs & Benefits Office - Shaftesbury Square",
+          "NAME_FR": "Jobs & Benefits Office - Shaftesbury Square",
+          "ADDRESS": "Conor Building, 107 Great Victoria St, Belfast BT2 7AG",
+          "CONTACT_NUMBER": "08702183788",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Citizens Advice Bureau Belfast",
+          "NAME_FR": "Citizens Advice Bureau Belfast",
+          "ADDRESS": "Belfast BT12 7AD, United Kingdom",
+          "CONTACT_NUMBER": "90329133",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.975930, 54.597790]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "GEMS (Employment)",
+          "NAME_FR": "GEMS (Employment)",
+          "ADDRESS": "24-31 Shaftesbury Square, Belfast BT2 7DB",
+          "ADDRESS_FR": "24-31 Shaftesbury Square, Belfast BT2 7DB",
+          "CONTACT_NUMBER": "02890392547",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951790, 54.588880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Knockbreda Jobs & Benefits Office ",
+          "NAME_FR": "Knockbreda Jobs & Benefits Office ",
+          "ADDRESS": "Crown Buildings, Upper Knockbreda Rd, Belfast, BT8 6SX",
+          "ADDRESS_FR": "Crown Buildings, Upper Knockbreda Rd, Belfast, BT8 6SX",
+          "CONTACT_NUMBER": "90545600",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.906640, 54.563980]
+        }
+    }  
+    ]
+  }
+  
+  

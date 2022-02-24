@@ -110,6 +110,15 @@ export default function App() {
                                 <a href ="/addictionSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Addiction Support</button></a>
+                                <a href ="/benefitsSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Benefits Support</button></a>
+                                <a href ="/bereavementSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Bereavement Support</button></a>
+                                <a href ="/cancerSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Cancer Support</button></a>
                         </div>
                         </div>
                 </div>

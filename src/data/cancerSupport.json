@@ -1,0 +1,111 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Action Cancer",
+          "NAME_FR": "Action Cancer",
+          "ADDRESS": "20 Windsor Ave, Belfast BT9 6EE",
+          "CONTACT_NUMBER": "02890803344",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.944490, 54.579540]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cancer Fund for Children",
+          "NAME_FR": "Cancer Fund for Children",
+          "ADDRESS": "Portside Business Park, Airport Rd W, Belfast BT3 9ED",
+          "CONTACT_NUMBER": "02890805599",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.871300, 54.629311]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cancer Lifeline",
+          "NAME_FR": "Cancer Lifeline",
+          "ADDRESS": "44 Alliance Ave, Belfast BT14 7PJ",
+          "ADDRESS_FR": "44 Alliance Ave, Belfast BT14 7PJ",
+          "CONTACT_NUMBER": "02890351999",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.960310, 54.618560]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Hospice",
+          "NAME_FR": "Northern Ireland Hospice",
+          "ADDRESS": "74 Somerton Rd, Belfast BT15 3LH",
+          "ADDRESS_FR": "74 Somerton Rd, Belfast BT15 3LH",
+          "CONTACT_NUMBER": "02890781836",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934250, 54.630050]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Macmillan Cancer Support",
+          "NAME_FR": "Macmillan Cancer Support",
+          "ADDRESS": "Belfast BT5 6BQ",
+          "ADDRESS_FR": "Belfast BT5 6BQ",
+          "CONTACT_NUMBER": "08088080000",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.875570, 54.579770]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Young Lives vs Cancer office",
+          "NAME_FR": "Young Lives vs Cancer office",
+          "ADDRESS": "25 Elmwood Mews, Belfast BT9 6FA",
+          "ADDRESS_FR": "25 Elmwood Mews, Belfast BT9 6FA",
+          "CONTACT_NUMBER": "03003300803",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.906640, 54.563980]
+        }
+    }  
+    ]
+  }
+  
+  
