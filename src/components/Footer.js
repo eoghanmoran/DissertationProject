@@ -39,7 +39,6 @@ function Footer() {
             <Link to='/contactUs'>Contact</Link>
             <Link to='/crisisHelp'>Crisis Support</Link>
             <Link to='/'>Register your Organisation</Link>
-            {/* <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -84,14 +83,6 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              {/* <i class='fab fa-linkedin' /> */}
             </Link>
           </div>
         </div>
