@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import './App.css';
 import { AuthProvider } from "./webPages/LoginIn/AuthContext";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 import Charities from "./webPages/BrowseAllHelp/BrowseAllHelpPage";
 import Help from "./webPages/Crisis/CrisisHelpPage";

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Search from "./SearchBar"
-import Footer from '../../../components/Footer'
+//import Footer from '../../../components/Footer'
 function App() {
   return (
     
@@ -10,7 +10,7 @@ function App() {
           <div className="whiteBackground">
           <Search />
           </div>
-          <Footer/>
+          {/* <Footer/> */}
         </div>
 
       </div>
