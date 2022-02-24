@@ -107,6 +107,9 @@ export default function App() {
                                 <a href ="/communitySupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Community Organisations</button></a>
+                                <a href ="/addictionSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Addiction Support</button></a>
                         </div>
                         </div>
                 </div>

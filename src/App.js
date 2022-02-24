@@ -45,6 +45,7 @@ import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard/Update
 
 import CommunitySupportMap from "./webPages/SupportMap/CommunitySupportMap";
 import HospitalSupportMap from "./webPages/SupportMap/HospitalSupportMap";
+import AddictionSupportMap from "./webPages/SupportMap/AddictionSupportMap";
 
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
@@ -97,6 +98,8 @@ export default function App() {
 
           <Route path="/communitySupportMap"><CommunitySupportMap /></Route>
           <Route path="/hospitalSupportMap"><HospitalSupportMap /></Route>
+          <Route path="/addictionSupportMap"><AddictionSupportMap /></Route>
+
 
           <Route path="/addictionSupport"><AddictionView /></Route>
           <Route path="/benefitSupport"><BenefitView /></Route>
