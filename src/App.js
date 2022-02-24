@@ -40,9 +40,11 @@ import WomenSupport from "./webPages/SearchHelp/HelpPages/WomenSupport";
 import YoungPeople from "./webPages/SearchHelp/HelpPages/YoungPeopleSupport";
 
 import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
-import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard";
+import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard/UpdateDatabaseDashboard";
+
 import CommunitySupportMap from "./webPages/SupportMap/CommunitySupportMap";
 import HospitalSupportMap from "./webPages/SupportMap/HospitalSupportMap";
+
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
 import BereavementUpdate from "./webPages/Admin/Bereavement/Bereavement";
