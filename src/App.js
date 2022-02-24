@@ -122,27 +122,28 @@ export default function App() {
           <Route path="/youngPeopleSupport"><YoungPeople/></Route>
           
 
-          <Route path="/updateAddiction"><AddictionUpdate /></Route>
-          <Route path="/updateBenefits"><BenefitsUpdate /></Route>
-          <Route path="/updateBereavement"><BereavementUpdate /></Route>
-          <Route path="/updateCancerSupport"><CancerSupportUpdate /></Route>
-          <Route path="/updateCarers"><CarersUpdate /></Route>
-          <Route path="/updateCommunityOrganisations"><CommunityOrganisationsUpdate /></Route>
-          <Route path="/updateCounselling"><CounsellingUpdate /></Route>
-          <Route path="/updateDisabilitySupport"><DisabilitySupportUpdate /></Route>
-          <Route path="/updateEatingDisorders"><EatingDisordersUpdate /></Route>
-          <Route path="/updateOldPersonSupport"><OldPersonSupportUpdate /></Route>
-          <Route path="/updateEthnicMinoritySupport"><EthnicMinoritySupportUpdate /></Route>
-          <Route path="/updateFamilyChildcareSupport"><FamilyChildcareSupportUpdate /></Route>
-          <Route path="/updateHeartCirculatoryDisease"><HeartCirculatoryDiseaseUpdate /></Route>
-          <Route path="/updateHelplines"><HelplinesUpdate /></Route>
-          <Route path="/updateHomelessness"><HomelessnessUpdate /></Route>
-          <Route path="/updateMentalHealth"><MentalHealthUpdate /></Route>
-          <Route path="/updateRelationshipSexualitySupport"><RelationshipSexualitySupportUpdate /></Route>
-          <Route path="/updateSexOrientationTransGroups"><SexOrientationTransGroupsSupportUpdate /></Route>
-          <Route path="/updateViolenceTraumaSupport"><ViolenceTraumaSupportUpdate /></Route>
-          <Route path="/updateWomenSupport"><WomenSupportUpdate /></Route>
-          <Route path="/updateYoungPeopleSupport"><YoungPeopleSupportUpdate /></Route>
+          <PrivateRoute exact path="/updateAddiction" component={AddictionUpdate} />
+          <PrivateRoute exact path="/updateBenefits" component={BenefitsUpdate} />
+          <PrivateRoute exact path="/updateBereavement" component={BereavementUpdate} />
+          <PrivateRoute exact path="/updateCancerSupport" component={CancerSupportUpdate} />
+          <PrivateRoute exact path="/updateCarers" component={CarersUpdate} />
+          <PrivateRoute exact path="/updateCommunityOrganisations" component={CommunityOrganisationsUpdate} />
+          <PrivateRoute exact path="/updateCounselling" component={CounsellingUpdate} />
+          <PrivateRoute exact path="/updateDisabilitySupport" component={DisabilitySupportUpdate} />
+          <PrivateRoute exact path="/updateEatingDisorders" component={EatingDisordersUpdate} />
+          <PrivateRoute exact path="/updateOldPersonSupport" component={OldPersonSupportUpdate} />
+          <PrivateRoute exact path="/updateEthnicMinoritySupport" component={EthnicMinoritySupportUpdate} />
+          <PrivateRoute exact path="/updateFamilyChildcareSupport" component={FamilyChildcareSupportUpdate} />
+          <PrivateRoute exact path="/updateHeartCirculatoryDisease" component={HeartCirculatoryDiseaseUpdate} />
+          <PrivateRoute exact path="/updateHelplines" component={HelplinesUpdate} />
+          <PrivateRoute exact path="/updateHomelessness" component={HomelessnessUpdate} />
+          <PrivateRoute exact path="/updateMentalHealth" component={MentalHealthUpdate} />
+          <PrivateRoute exact path="/updateRelationshipSexualitySupport" component={RelationshipSexualitySupportUpdate} />
+          <PrivateRoute exact path="/updateSexOrientationTransGroups" component={SexOrientationTransGroupsSupportUpdate} />
+          <PrivateRoute exact path="/updateViolenceTraumaSupport" component={ViolenceTraumaSupportUpdate} />
+          <PrivateRoute exact path="/updateWomenSupport" component={WomenSupportUpdate} />
+          <PrivateRoute exact path="/updateYoungPeopleSupport" component={YoungPeopleSupportUpdate} />
+          
           
           
 
