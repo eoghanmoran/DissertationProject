@@ -1,0 +1,94 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Cruse Bereavement Care Belfast",
+          "NAME_FR": "Cruse Bereavement Care Belfast",
+          "ADDRESS": "10 College Grn, Belfast BT7 1LN",
+          "CONTACT_NUMBER": "02890434600",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.931190, 54.585380]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Lighthouse",
+          "NAME_FR": "Lighthouse",
+          "ADDRESS": "187 Duncairn Gardens, Belfast BT15 2GF",
+          "CONTACT_NUMBER": "02890755070",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932420, 54.613300]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Samaritans of Belfast",
+          "NAME_FR": "Samaritans of Belfast",
+          "ADDRESS": "5 Wellesley Ave, Belfast BT9 6DG",
+          "ADDRESS_FR": "5 Wellesley Ave, Belfast BT9 6DG",
+          "CONTACT_NUMBER": "08457909090",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.938520, 54.582110]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "New Life Counselling",
+          "NAME_FR": "New Life Counselling",
+          "ADDRESS": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "ADDRESS_FR": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "CONTACT_NUMBER": "02890391630",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.965550, 54.614480]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "PIPS Charity",
+          "NAME_FR": "PIPS Charity",
+          "ADDRESS": "281 Antrim Rd, Belfast BT15 2HE",
+          "ADDRESS_FR": "281 Antrim Rd, Belfast BT15 2HE",
+          "CONTACT_NUMBER": "02890805850",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.938110, 54.626880]
+        }
+    }  
+    ]
+  }
+  
+  

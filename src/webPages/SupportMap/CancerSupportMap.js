@@ -9,7 +9,7 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
-import * as parkData from "../../data/allServices.json"
+import * as parkData from "../../data/cancerSupport.json"
 import { Link } from "react-router-dom";
 
 
@@ -94,17 +94,17 @@ export default function App() {
                         />
 
                     </div>
-                   
                     <div className="rightSideText container-fluid">
-                                <div class = "">  
-                                <h1 className="h1"> All Support Services</h1>
+                                <div class = "Services">  
+                                <h1 className="h1"> Local Hospitals</h1>
                                 <a href ="/allServicesMap"> 
-                                    <button 
-                                    type = "button" 
-                                    class= "btn btn-outline-secondary btn-sm btn-block">All Services</button></a> 
+                                <button 
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">All Services</button></a> 
                                 <a href ="/hospitalSupportMap">
-                                    <button type = "button" class= "btn btn-outline-secondary btn-sm btn-block">Hospitals</button></a>
-                                <a href ="/communitySupportMap">                <button    
+                                <button type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Hospitals</button></a>
+                                <a href ="/communitySupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Community Organisations</button></a>
                                 <a href ="/addictionSupportMap"><button    
@@ -123,7 +123,7 @@ export default function App() {
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
                         </div>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>

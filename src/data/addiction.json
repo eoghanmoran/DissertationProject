@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Al-Anon Family Groups",
+          "NAME_FR": "Al-Anon Family Groups",
+          "ADDRESS": "The Peace House, 224 Lisburn Rd, Belfast BT9 6GE",
+          "CONTACT_NUMBER": "02890682368",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.953190, 54.577140]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Narcotics Anonymous",
+          "NAME_FR": "Narcotics Anonymous",
+          "ADDRESS": "432 Crumlin Rd, Belfast BT14 7GG",
+          "CONTACT_NUMBER": "03003651010",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.967250, 54.617600]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Dunlewey Substance Centre",
+          "NAME_FR": "Dunlewey Substance Centre",
+          "ADDRESS": "247 Cavehill Rd, Belfast BT15 5BS",
+          "ADDRESS_FR": "247 Cavehill Rd, Belfast BT15 5BS",
+          "CONTACT_NUMBER": "02890392547",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.943520, 54.626100]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Gamblers Anonymous",
+          "NAME_FR": "Gamblers Anonymous",
+          "ADDRESS": "23-29 Little Patrick St, Belfast BT15 1BA",
+          "ADDRESS_FR": " 23-29 Little Patrick St, Belfast BT15 1BA",
+          "CONTACT_NUMBER": "02890249185",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.925830, 54.604950]
+        }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 2113,
+        "FACILITYID": 35299,
+        "NAME": "Alcoholics Anonymous",
+        "NAME_FR": "Alcoholics Anonymous",
+        "ADDRESS": "North City Business Centre, 2 Duncairn Gardens, Belfast BT15 2GG",
+        "ADDRESS_FR": "North City Business Centre, 2 Duncairn Gardens, Belfast BT15 2GG",
+        "CONTACT_NUMBER": "02890351222",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.9273927, 54.611274]
+        
+      }
+      }
+    ]
+  }
+  
+  

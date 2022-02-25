@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "CAUSE",
+          "NAME_FR": "CAUSE",
+          "ADDRESS": "393 Holywood Rd, Belfast BT4 2LS",
+          "CONTACT_NUMBER": "02890650650",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.870800, 54.606580]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Crossroads Care NI",
+          "NAME_FR": "Crossroads Care NI",
+          "ADDRESS": "432 Upper Newtownards Rd, Belfast BT4 3GY",
+          "CONTACT_NUMBER": "02890653080",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.829930, 54.594900]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Belfast Carers' Centre",
+          "NAME_FR": "Belfast Carers' Centre",
+          "ADDRESS": "2 Woodstock Link, Belfast BT6 8DD",
+          "ADDRESS_FR": "2 Woodstock Link, Belfast BT6 8DD",
+          "CONTACT_NUMBER": "02890730173",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.907290, 54.594410]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Carers NI",
+          "NAME_FR": "Carers NI",
+          "ADDRESS": "58 Howard St, Belfast BT1 6PJ",
+          "ADDRESS_FR": "58 Howard St, Belfast BT1 6PJ",
+          "CONTACT_NUMBER": "02890439843",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933180, 54.595860]
+        }
+    }
+    ]
+  }
+  
+  
