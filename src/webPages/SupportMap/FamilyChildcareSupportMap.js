@@ -1,6 +1,7 @@
 import "./SupportMapCSS.css"
 import "../../App.css"
 import React, { useState, useEffect } from "react";
+import Footer from '../../components/Footer'
 import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
@@ -142,6 +143,7 @@ export default function App() {
                         </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
