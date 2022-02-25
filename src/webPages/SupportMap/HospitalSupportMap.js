@@ -1,6 +1,5 @@
 import "./SupportMapCSS.css"
 import "../../App.css"
-import Footer from '../../components/Footer'
 import React, { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button'
 import {
@@ -120,7 +119,6 @@ export default function App() {
                                 <a href ="/cancerSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Cancer Support</button></a>
-<<<<<<< HEAD
                                 <a href ="/carersSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
@@ -139,17 +137,11 @@ export default function App() {
                                 <a href ="/familyChildcareSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Family Childcare Support</button></a>
-
-=======
-                                 <a href ="/carersSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
->>>>>>> b9b1393c8f133cb20317391a68a293a93aa52d76
+                                
                         </div>
                         </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 }
