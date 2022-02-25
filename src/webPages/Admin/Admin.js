@@ -11,6 +11,7 @@ import {
   signOut,
 } from "firebase/auth";
 import "../../App.css"
+import Footer from '../../components/Footer'
 
 
 export default function ImgMediaCard() {
@@ -62,7 +63,7 @@ export default function ImgMediaCard() {
 
 
       </div>
-
+      <Footer/>
     </div>
 
 

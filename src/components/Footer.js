@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container font-small'>
+      
       <section className='footer-subscription'>
         {/* <p className='footer-subscription-heading'>
           Subscribe to our newsletter to get detailed information on local events
@@ -44,9 +45,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='https://www.youtube.com/channel/UCU7YmFwD-0HO4KKa4GWvHPA'>Youtube</Link>
-            <Link to='https://www.facebook.com/SouthBelfastPartnership/'>Facebook</Link>
-            <Link to='https://twitter.com/forward_south'>Twitter</Link>
+            <a href="https://twitter.com/SouthBelfastPB?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+            <a href = "https://www.facebook.com/SouthBelfastPartnership/">Facebook</a>
+            <a href="https://www.youtube.com/channel/UCU7YmFwD-0HO4KKa4GWvHPA">Youtube</a>
           </div>
         </div>
       </div>
@@ -60,30 +61,21 @@ function Footer() {
           </div>
           <small class='website-rights'>Forward South Partnership © 2022</small>
           <div class='social-icons'>
-            <Link
+          <a 
               class='social-icon-link facebook'
-              to='https://www.facebook.com/SouthBelfastPartnership/'
-              target=''
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+               href = "https://www.facebook.com/SouthBelfastPartnership/">
+              <i class='fab fa-facebook-f'/>
+              </a>
+             <a
               class='social-icon-link youtube'
-              to='https://www.youtube.com/channel/UCU7YmFwD-0HO4KKa4GWvHPA'
-              target='_blank'
-              aria-label='Youtube'
-            >
+              href="https://www.youtube.com/channel/UCU7YmFwD-0HO4KKa4GWvHPA">
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
+              </a>
+            <a
               class='social-icon-link twitter'
-              to='/https://twitter.com/forward_south'
-              target='_blank'
-              aria-label='Twitter'
-            >
+               href="https://twitter.com/SouthBelfastPB?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
               <i class='fab fa-twitter' />
-            </Link>
+              </a>
           </div>
         </div>
       </section>

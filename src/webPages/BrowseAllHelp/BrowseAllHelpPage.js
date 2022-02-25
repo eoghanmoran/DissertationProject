@@ -69,8 +69,10 @@ export default function helpAvailable() {
             </div>
           </ThemeProvider>
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </div>
+     
   );//return
 } 

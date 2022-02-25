@@ -1,6 +1,7 @@
 import "./SupportMapCSS.css"
 import "../../App.css"
 import React, { useState, useEffect } from "react";
+import Footer from '../../components/Footer'
 import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
@@ -96,7 +97,7 @@ export default function App() {
                     </div>
                     <div className="rightSideText container-fluid">
                                 <div class = "Services">  
-                                <h1 className="h1"> Local Hospitals</h1>
+                                <h1 className="h1"> Addiction Support</h1>
                                 <a href ="/allServicesMap"> 
                                 <button 
                                 type = "button" 
@@ -141,6 +142,7 @@ export default function App() {
                         </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
