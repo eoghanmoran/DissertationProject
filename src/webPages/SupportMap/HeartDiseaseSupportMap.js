@@ -1,7 +1,7 @@
 import "./SupportMapCSS.css"
 import "../../App.css"
-import Footer from '../../components/Footer'
 import React, { useState, useEffect } from "react";
+import Footer from '../../components/Footer'
 import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
@@ -10,7 +10,7 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
-import * as parkData from "../../data/cancerSupport.json"
+import * as parkData from "../../data/heartDisease.json"
 import { Link } from "react-router-dom";
 
 
@@ -97,7 +97,7 @@ export default function App() {
                     </div>
                     <div className="rightSideText container-fluid">
                                 <div class = "Services">  
-                                <h1 className="h1"> Cancer Support</h1>
+                                <h1 className="h1"> Heart Disease Support</h1>
                                 <a href ="/allServicesMap"> 
                                 <button 
                                 type = "button" 

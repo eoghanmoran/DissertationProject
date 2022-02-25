@@ -55,6 +55,7 @@ import DisabilitySupportMap from "./webPages/SupportMap/DisabilitySupportMap";
 import EatingDisordersSupportMap from "./webPages/SupportMap/EatingDisordersSupportMap";
 import EthnicMinoritySupportMap from "./webPages/SupportMap/EthnicMinoritySupportMap";
 import FamilyChildcareSupportMap from "./webPages/SupportMap/FamilyChildcareSupportMap";
+import HeartDiseaseSupportMap from "./webPages/SupportMap/HeartDiseaseSupportMap";
 
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
@@ -117,6 +118,7 @@ export default function App() {
           <Route path="/eatingDisordersSupportMap"><EatingDisordersSupportMap /></Route>
           <Route path="/ethnicMinoritySupportMap"><EthnicMinoritySupportMap /></Route>
           <Route path="/familyChildcareSupportMap"><FamilyChildcareSupportMap /></Route>
+          <Route path="/heartDiseaseSupportMap"><HeartDiseaseSupportMap /></Route>
 
 
 

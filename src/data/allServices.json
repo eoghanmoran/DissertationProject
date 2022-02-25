@@ -937,7 +937,23 @@
           "type": "Point",
           "coordinates": [-5.922970, 54.616450]
         }
-      },     
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "NICHS - Northern Ireland Chest Heart and Stroke",
+          "NAME_FR": "NICHS - Northern Ireland Chest Heart and Stroke",
+          "ADDRESS": "21 Dublin Rd, Belfast BT2 7HB",
+          "CONTACT_NUMBER": "02890320184",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932760, 54.591520]
+        }
+      },           
       {
         "type": "Feature",
         "properties": {
