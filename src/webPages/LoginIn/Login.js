@@ -84,8 +84,9 @@ function App() {
                         </Grid>
                     </Paper>
                 </Grid>
-                <Footer />
+                
             </div>
+            <Footer />
         </div>
     )
 

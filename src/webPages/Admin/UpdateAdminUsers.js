@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../../App.css"
+import Footer from '../../components/Footer'
 import "./Menu.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
           <h1>Update Admin Users</h1>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

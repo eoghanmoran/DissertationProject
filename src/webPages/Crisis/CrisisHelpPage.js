@@ -69,8 +69,10 @@ export default function crisisHelp() {
             </div>
           </ThemeProvider>
         
-        <Footer />
+        
       </div>
+
+      <Footer />
     </div>
   );
 } 

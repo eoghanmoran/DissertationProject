@@ -1,4 +1,5 @@
 import "./SupportMapCSS.css"
+import Footer from '../../components/Footer'
 import "../../App.css"
 import React, { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button'
@@ -126,6 +127,7 @@ export default function App() {
                         </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

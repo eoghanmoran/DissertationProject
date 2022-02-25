@@ -10,9 +10,9 @@ function App() {
           <div className="whiteBackground">
           <Search />
           </div>
-          <Footer/>
+          
         </div>
-
+        <Footer/>
       </div>
       
     
