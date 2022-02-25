@@ -524,6 +524,423 @@
       {
         "type": "Feature",
         "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "New Life Counselling",
+          "NAME_FR": "New Life Counselling",
+          "ADDRESS": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "CONTACT_NUMBER": "02890391630",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.965550, 54.614480]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Corpus Christi Services",
+          "NAME_FR": "Corpus Christi Services",
+          "ADDRESS": "2 Springhill Dr, Belfast BT12 7SH",
+          "CONTACT_NUMBER": "02890240653",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.978120, 54.594250]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Lenadoon Community Counselling Service",
+          "NAME_FR": "Lenadoon Community Counselling Service",
+          "ADDRESS": "124 Stewartstown Rd, Belfast BT11 9JQ",
+          "ADDRESS_FR": "124 Stewartstown Rd, Belfast BT11 9JQ",
+          "CONTACT_NUMBER": "02890600641",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.004280, 54.570782]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Holy Trinity Community Counselling Centre",
+          "NAME_FR": "Holy Trinity Community Counselling Centre",
+          "ADDRESS": "26 Norglen Gardens, Belfast BT11 8EL",
+          "ADDRESS_FR": "26 Norglen Gardens, Belfast BT11 8EL",
+          "CONTACT_NUMBER": "02890200557",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.989640, 54.586450]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Trauma Centre",
+          "NAME_FR": "Family Trauma Centre",
+          "ADDRESS": "1 Wellington Park, Belfast BT9 6DJ",
+          "ADDRESS_FR": "1 Wellington Park, Belfast BT9 6DJ",
+          "CONTACT_NUMBER": "02890204700",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941160, 54.582380]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "RNID - Royal National Institute for Deaf People ",
+          "NAME_FR": "RNID - Royal National Institute for Deaf People ",
+          "ADDRESS": "Harvester House, 4-8 Adelaide St, Belfast BT2 8GA",
+          "CONTACT_NUMBER": "02890239619",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928270, 54.595360]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Autism NI",
+          "NAME_FR": "Autism NI",
+          "ADDRESS": "Knockbracken Healthcare Park, Saintfield Rd, Belfast BT8 8BH",
+          "CONTACT_NUMBER": "02890401729",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.908540, 54.553970]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Disability Action",
+          "NAME_FR": "Disability Action",
+          "ADDRESS": "Portside Business Park, 189 Airport Road West, Belfast BT3 9ED",
+          "ADDRESS_FR": "Portside Business Park, 189 Airport Road West, Belfast BT3 9ED",
+          "CONTACT_NUMBER": "02890297880",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.871300, 54.629311]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Down's Syndrome Association",
+          "NAME_FR": "Down's Syndrome Association",
+          "ADDRESS": "348 Lisburn Rd, Belfast BT9 6GH",
+          "ADDRESS_FR": "348 Lisburn Rd, Belfast BT9 6GH",
+          "CONTACT_NUMBER": "02890776176",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951360, 54.578709]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "British Deaf Association, N. Ireland",
+          "NAME_FR": "British Deaf Association, N. Ireland",
+          "ADDRESS": "385-387 Holywood Rd, Belfast BT4 2LS",
+          "ADDRESS_FR": "385-387 Holywood Rd, Belfast BT4 2LS",
+          "CONTACT_NUMBER": "90437480",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.870800, 54.606580]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Mencap Centre",
+          "NAME_FR": "Mencap Centre",
+          "ADDRESS": "5 School Rd, Newtownbreda, Belfast BT8 6BT",
+          "ADDRESS_FR": "5 School Rd, Newtownbreda, Belfast BT8 6BT",
+          "CONTACT_NUMBER": "02890691351",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.912850, 54.558080]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Eating Disorders Association (N.I.)",
+          "NAME_FR": "Eating Disorders Association (N.I.)",
+          "ADDRESS": "Merion Business Centre, 58 Howard St, Belfast BT1 6PJ",
+          "ADDRESS_FR": "Merion Business Centre, 58 Howard St, Belfast BT1 6PJ",
+          "CONTACT_NUMBER": "02890235959",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933180, 54.595860]
+        }
+      },  
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Northern Ireland Deaf Youth Association",
+          "NAME_FR": "Northern Ireland Deaf Youth Association",
+          "ADDRESS": "5-6 College Square N, Belfast BT1 6AR",
+          "ADDRESS_FR": "5-6 College Square N, Belfast BT1 6AR",
+          "CONTACT_NUMBER": "02890438566",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.935520, 54.598000]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Northern Ireland Council For Ethnic Minorities",
+          "NAME_FR": "1, 129 Ormeau Rd, Belfast BT7 1SH",
+          "ADDRESS": "1, 129 Ormeau Rd, Belfast BT7 1SH",
+          "CONTACT_NUMBER": "02890238645",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.926090, 54.591700]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "An Munia Tober",
+          "NAME_FR": "An Munia Tober",
+          "ADDRESS": "5, Social Economy Village, 1B Hannahstown Hill, Hannahstown, Belfast BT17 0XS",
+          "CONTACT_NUMBER": "02890438265",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.028410, 54.573050]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Chinese Welfare Association",
+          "NAME_FR": "Chinese Welfare Association",
+          "ADDRESS": "Chinese Resource Centre, 1 Stranmillis Embankment, Belfast, BT7 1GB",
+          "ADDRESS_FR": "Chinese Resource Centre, 1 Stranmillis Embankment, Belfast, BT7 1GB",
+          "CONTACT_NUMBER": "02890288277",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.922860, 54.583370]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Multi-Cultural Resource Centre",
+          "NAME_FR": "Multi-Cultural Resource Centre",
+          "ADDRESS": "9 Lower Crescent, Belfast, BT7 1NR",
+          "ADDRESS_FR": "9 Lower Crescent, Belfast, BT7 1NR",
+          "CONTACT_NUMBER": "02890244639",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934680, 54.587870]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "NI Community of Refugees & Asylum Seekers",
+          "NAME_FR": "NI Community of Refugees & Asylum Seekers",
+          "ADDRESS": "University St, Belfast BT7 1HP",
+          "ADDRESS_FR": "University St, Belfast BT7 1HP",
+          "CONTACT_NUMBER": "02890246699",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930030, 54.586159]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Barnardo's",
+          "NAME_FR": "Barnardo's",
+          "ADDRESS": "23 Windsor Ave, Belfast BT9 6EE",
+          "CONTACT_NUMBER": "02890667586",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.947490, 54.580470]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Mediation",
+          "NAME_FR": "Family Mediation",
+          "ADDRESS": "127-131 Ormeau Rd, Belfast BT7 1SH",
+          "CONTACT_NUMBER": "02890243265",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.926090, 54.591700]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Parents Advice Centre",
+          "NAME_FR": "Parents Advice Centre",
+          "ADDRESS": "2nd Floor, Andras House, Great Victoria Street, Belfast, BT2 7BB",
+          "ADDRESS_FR": "2nd Floor, Andras House, Great Victoria Street, Belfast, BT2 7BB",
+          "CONTACT_NUMBER": "08088010722",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "NI Attention Deficit and Hyperactivity Support Centre",
+          "NAME_FR": "NI Attention Deficit and Hyperactivity Support Centre",
+          "ADDRESS": "86 Eglantine Avenue,Belfast,BT9 6EU",
+          "ADDRESS_FR": "86 Eglantine Avenue,Belfast,BT9 6EU",
+          "CONTACT_NUMBER": "02890200110",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.942020, 54.581310]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Windsor Women's Centre",
+          "NAME_FR": "Windsor Women's Centre",
+          "ADDRESS": "136-144 Broadway, Belfast BT12 6HY",
+          "ADDRESS_FR": "136-144 Broadway, Belfast BT12 6HY",
+          "CONTACT_NUMBER": "02890235451",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.953970, 54.586980]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Inner City South Belfast Sure Start",
+          "NAME_FR": "Inner City South Belfast Sure Start",
+          "ADDRESS": "9 Lower Cres, Belfast BT7 1NR",
+          "ADDRESS_FR": "9 Lower Cres, Belfast BT7 1NR",
+          "CONTACT_NUMBER": "02890942525",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934680, 54.587870]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "NSPCC - National Society for Prevention of Cruelty to Children  ",
+          "NAME_FR": "NSPCC - National Society for Prevention of Cruelty to Children  ",
+          "ADDRESS": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
+          "ADDRESS_FR": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
+          "CONTACT_NUMBER": "02890351135",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.922970, 54.616450]
+        }
+      },     
+      {
+        "type": "Feature",
+        "properties": {
           "PARK_ID": 2113,
           "FACILITYID": 35299,
           "NAME": "Musgrave Park Hospital",

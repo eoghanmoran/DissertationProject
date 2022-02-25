@@ -1,0 +1,28 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Eating Disorders Association (N.I.)",
+          "NAME_FR": "Eating Disorders Association (N.I.)",
+          "ADDRESS": "Merion Business Centre, 58 Howard St, Belfast BT1 6PJ",
+          "ADDRESS_FR": "Merion Business Centre, 58 Howard St, Belfast BT1 6PJ",
+          "CONTACT_NUMBER": "02890235959",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933180, 54.595860]
+        }
+    }  
+    ]
+  }
+  
+  

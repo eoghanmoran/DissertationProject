@@ -1,0 +1,94 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Northern Ireland Council For Ethnic Minorities",
+          "NAME_FR": "1, 129 Ormeau Rd, Belfast BT7 1SH",
+          "ADDRESS": "1, 129 Ormeau Rd, Belfast BT7 1SH",
+          "CONTACT_NUMBER": "02890238645",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.926090, 54.591700]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "An Munia Tober",
+          "NAME_FR": "An Munia Tober",
+          "ADDRESS": "5, Social Economy Village, 1B Hannahstown Hill, Hannahstown, Belfast BT17 0XS",
+          "CONTACT_NUMBER": "02890438265",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.028410, 54.573050]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Chinese Welfare Association",
+          "NAME_FR": "Chinese Welfare Association",
+          "ADDRESS": "Chinese Resource Centre, 1 Stranmillis Embankment, Belfast, BT7 1GB",
+          "ADDRESS_FR": "Chinese Resource Centre, 1 Stranmillis Embankment, Belfast, BT7 1GB",
+          "CONTACT_NUMBER": "02890288277",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.922860, 54.583370]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Multi-Cultural Resource Centre",
+          "NAME_FR": "Multi-Cultural Resource Centre",
+          "ADDRESS": "9 Lower Crescent, Belfast, BT7 1NR",
+          "ADDRESS_FR": "9 Lower Crescent, Belfast, BT7 1NR",
+          "CONTACT_NUMBER": "02890244639",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934680, 54.587870]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "NI Community of Refugees & Asylum Seekers",
+          "NAME_FR": "NI Community of Refugees & Asylum Seekers",
+          "ADDRESS": "University St, Belfast BT7 1HP",
+          "ADDRESS_FR": "University St, Belfast BT7 1HP",
+          "CONTACT_NUMBER": "02890246699",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930030, 54.586159]
+        }
+      }    
+    ]
+  }
+  
+  

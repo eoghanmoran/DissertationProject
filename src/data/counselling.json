@@ -1,0 +1,111 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "New Life Counselling",
+          "NAME_FR": "New Life Counselling",
+          "ADDRESS": "25 Ardoyne Rd, Belfast BT14 7HX",
+          "CONTACT_NUMBER": "02890391630",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.965550, 54.614480]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Corpus Christi Services",
+          "NAME_FR": "Corpus Christi Services",
+          "ADDRESS": "2 Springhill Dr, Belfast BT12 7SH",
+          "CONTACT_NUMBER": "02890240653",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.978120, 54.594250]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Lenadoon Community Counselling Service",
+          "NAME_FR": "Lenadoon Community Counselling Service",
+          "ADDRESS": "124 Stewartstown Rd, Belfast BT11 9JQ",
+          "ADDRESS_FR": "124 Stewartstown Rd, Belfast BT11 9JQ",
+          "CONTACT_NUMBER": "02890600641",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-6.004280, 54.570782]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Holy Trinity Community Counselling Centre",
+          "NAME_FR": "Holy Trinity Community Counselling Centre",
+          "ADDRESS": "26 Norglen Gardens, Belfast BT11 8EL",
+          "ADDRESS_FR": "26 Norglen Gardens, Belfast BT11 8EL",
+          "CONTACT_NUMBER": "02890200557",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.989640, 54.586450]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Trauma Centre",
+          "NAME_FR": "Family Trauma Centre",
+          "ADDRESS": "1 Wellington Park, Belfast BT9 6DJ",
+          "ADDRESS_FR": "1 Wellington Park, Belfast BT9 6DJ",
+          "CONTACT_NUMBER": "02890204700",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941160, 54.582380]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Cruse Bereavement Care Belfast",
+          "NAME_FR": "Cruse Bereavement Care Belfast",
+          "ADDRESS": "10 College Grn, Belfast BT7 1LN",
+          "ADDRESS_FR": "10 College Grn, Belfast BT7 1LN",
+          "CONTACT_NUMBER": "02890434600",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.931190, 54.585380]
+        }
+    }  
+    ]
+  }
+  
+  

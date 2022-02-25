@@ -1,0 +1,128 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "RNID - Royal National Institute for Deaf People ",
+          "NAME_FR": "RNID - Royal National Institute for Deaf People ",
+          "ADDRESS": "Harvester House, 4-8 Adelaide St, Belfast BT2 8GA",
+          "CONTACT_NUMBER": "02890239619",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928270, 54.595360]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Autism NI",
+          "NAME_FR": "Autism NI",
+          "ADDRESS": "Knockbracken Healthcare Park, Saintfield Rd, Belfast BT8 8BH",
+          "CONTACT_NUMBER": "02890401729",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.908540, 54.553970]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Disability Action",
+          "NAME_FR": "Disability Action",
+          "ADDRESS": "Portside Business Park, 189 Airport Road West, Belfast BT3 9ED",
+          "ADDRESS_FR": "Portside Business Park, 189 Airport Road West, Belfast BT3 9ED",
+          "CONTACT_NUMBER": "02890297880",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.871300, 54.629311]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Down's Syndrome Association",
+          "NAME_FR": "Down's Syndrome Association",
+          "ADDRESS": "348 Lisburn Rd, Belfast BT9 6GH",
+          "ADDRESS_FR": "348 Lisburn Rd, Belfast BT9 6GH",
+          "CONTACT_NUMBER": "02890776176",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951360, 54.578709]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "British Deaf Association, N. Ireland",
+          "NAME_FR": "British Deaf Association, N. Ireland",
+          "ADDRESS": "385-387 Holywood Rd, Belfast BT4 2LS",
+          "ADDRESS_FR": "385-387 Holywood Rd, Belfast BT4 2LS",
+          "CONTACT_NUMBER": "90437480",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.870800, 54.606580]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Mencap Centre",
+          "NAME_FR": "Mencap Centre",
+          "ADDRESS": "5 School Rd, Newtownbreda, Belfast BT8 6BT",
+          "ADDRESS_FR": "5 School Rd, Newtownbreda, Belfast BT8 6BT",
+          "CONTACT_NUMBER": "02890691351",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.912850, 54.558080]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2113,
+          "FACILITYID": 35299,
+          "NAME": "Northern Ireland Deaf Youth Association",
+          "NAME_FR": "Northern Ireland Deaf Youth Association",
+          "ADDRESS": "5-6 College Square N, Belfast BT1 6AR",
+          "ADDRESS_FR": "5-6 College Square N, Belfast BT1 6AR",
+          "CONTACT_NUMBER": "02890438566",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.935520, 54.598000]
+        }
+    }  
+    ]
+  }
+  
+  

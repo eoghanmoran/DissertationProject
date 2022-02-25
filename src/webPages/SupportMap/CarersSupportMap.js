@@ -122,6 +122,22 @@ export default function App() {
                                 <a href ="/carersSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
+                                <a href ="/counsellingSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Counselling</button></a>
+                                <a href ="/disabilitySupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Disability Support</button></a>
+                                <a href ="/eatingDisordersSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Eating Disorders</button></a>
+                                <a href ="/ethnicMinoritySupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Ethnic Minority Support</button></a>
+                                <a href ="/familyChildcareSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Family Childcare Support</button></a>
+                                
                         </div>
                         </div>
                 </div>

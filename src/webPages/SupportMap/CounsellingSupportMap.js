@@ -9,7 +9,7 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
-import * as parkData from "../../data/bereavement.json"
+import * as parkData from "../../data/counselling.json"
 import { Link } from "react-router-dom";
 
 
@@ -96,7 +96,7 @@ export default function App() {
                     </div>
                     <div className="rightSideText container-fluid">
                                 <div class = "Services">  
-                                <h1 className="h1"> Local Hospitals</h1>
+                                <h1 className="h1"> Counselling Support</h1>
                                 <a href ="/allServicesMap"> 
                                 <button 
                                 type = "button" 
