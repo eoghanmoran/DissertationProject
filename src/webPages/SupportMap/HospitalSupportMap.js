@@ -120,6 +120,9 @@ export default function App() {
                                 <a href ="/cancerSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Cancer Support</button></a>
+                                 <a href ="/carersSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
                         </div>
                         </div>
                 </div>
