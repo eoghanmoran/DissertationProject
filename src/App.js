@@ -40,8 +40,10 @@ import ViolenceTrauma from "./webPages/SearchHelp/HelpPages/ViolenceTrauma";
 import WomenSupport from "./webPages/SearchHelp/HelpPages/WomenSupport";
 import YoungPeople from "./webPages/SearchHelp/HelpPages/YoungPeopleSupport";
 
-import UpdateAdminUsers from "./webPages/Admin/UpdateAdminUsers";
+import UpdateAdminUsers from "./webPages/Admin/UpdateProfile";
+import UpdateProfileDash from "./webPages/Admin/UpdateProfileDashboard";
 import UpdateDatabaseTable from "./webPages/Admin/UpdateDatabaseDashboard/UpdateDatabaseDashboard";
+import Signup from "./webPages/Admin/Signup";
 
 import CommunitySupportMap from "./webPages/SupportMap/CommunitySupportMap";
 import HospitalSupportMap from "./webPages/SupportMap/HospitalSupportMap";
@@ -111,8 +113,11 @@ export default function App() {
           <Route path="/searchHelp"><SearchHelp/></Route>
           <Route path="/login"><Login /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
-          <Route path="/UpdateAdminUsers"><UpdateAdminUsers /></Route>
-          <Route path="/UpdateDatabaseTable"><UpdateDatabaseTable /></Route>
+          <PrivateRoute exact path="/UpdateAdminUsers" component={UpdateAdminUsers} />
+          <PrivateRoute exact path="/UpdateDatabaseTable" component={UpdateDatabaseTable} />
+          <PrivateRoute exact path="/UpdateProfileDash" component={UpdateProfileDash} />
+          <PrivateRoute exact path="/Signup" component={Signup} />
+
 
           <Route path="/communitySupportMap"><CommunitySupportMap /></Route>
           <Route path="/hospitalSupportMap"><HospitalSupportMap /></Route>

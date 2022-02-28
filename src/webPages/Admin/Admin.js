@@ -53,7 +53,7 @@ export default function ImgMediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Link to="/UpdateAdminUsers"><Button size="small">Update</Button></Link>
+                <Link to="/UpdateProfileDash"><Button size="small">Update</Button></Link>
               </CardActions>
             </Card>
           </div>
