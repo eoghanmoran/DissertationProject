@@ -141,6 +141,9 @@ export default function App() {
                                 <a href ="/heartDiseaseSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Heart Disease Support</button></a>
+                                <a href ="/homelessnessSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Homelessness Support</button></a>                              
                         </div>
                         </div>
                 </div>

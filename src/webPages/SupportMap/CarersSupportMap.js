@@ -141,6 +141,15 @@ export default function App() {
                                 <a href ="/heartDiseaseSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Heart Disease Support</button></a>
+                                <a href ="/homelessnessSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Homelessness Support</button></a>
+                                <a href ="/mentalHealthSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Mental Health Support</button></a>
+                                <a href ="/oldPersonSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Elderly Support</button></a>
                                 
                         </div>
                         </div>

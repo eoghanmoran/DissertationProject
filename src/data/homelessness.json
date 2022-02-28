@@ -1,0 +1,179 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Queens Quarter Housing",
+          "NAME_FR": "Queens Quarter Housing",
+          "ADDRESS": "153 University St, Belfast BT7 1HR",
+          "CONTACT_NUMBER": "02890313183",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930030, 54.586160]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Extern Ormeau Centre",
+          "NAME_FR": "Extern Ormeau Centre",
+          "ADDRESS": "58-62 Fountain St, Belfast BT1 3GF",
+          "CONTACT_NUMBER": "02890238091",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.922020, 54.599190]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Simon Community NI",
+          "NAME_FR": "Simon Community NI",
+          "ADDRESS": "4th Floor, 24-26 Arthur Pl, Arthur St, Belfast BT1 4GF",
+          "ADDRESS_FR": "4th Floor, 24-26 Arthur Pl, Arthur St, Belfast BT1 4GF",
+          "CONTACT_NUMBER": "08088010722",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.927760, 54.597900]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Ark Housing Association",
+          "NAME_FR": "Ark Housing Association",
+          "ADDRESS": "Hawthorn Office Park, 37A Stockmans Way, Belfast BT9 7ET",
+          "ADDRESS_FR": "Hawthorn Office Park, 37A Stockmans Way, Belfast BT9 7ET",
+          "CONTACT_NUMBER": "02890752310",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.981810, 54.571240]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Extern Homeless Support Team",
+          "NAME_FR": "Extern Homeless Support Team",
+          "ADDRESS": "118-122 Royal Ave, Belfast BT1 1DL",
+          "ADDRESS_FR": "118-122 Royal Ave, Belfast BT1 1DL",
+          "CONTACT_NUMBER": "02890330433",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.931170, 54.601170]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Simon Community Saintfield Road",
+          "NAME_FR": "Simon Community Saintfield Road",
+          "ADDRESS": "Simon Community Hostel, 11 Saintfield Rd, Belfast BT8 7AE",
+          "ADDRESS_FR": "Simon Community Hostel, 11 Saintfield Rd, Belfast BT8 7AE",
+          "CONTACT_NUMBER": "02890493488",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.913350, 54.566500]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Belfast Foyer (Young People Simon)",
+          "NAME_FR": "Belfast Foyer (Young People Simon)",
+          "ADDRESS": "3 -5 Malone Rd, Belfast BT9 6RT",
+          "ADDRESS_FR": "3 -5 Malone Rd, Belfast BT9 6RT",
+          "CONTACT_NUMBER": "02890686200",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.938110, 54.581951]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Depaul Ireland Stella Maris",
+          "NAME_FR": "Depaul Ireland Stella Maris",
+          "ADDRESS": "28 Garmoyle St, Belfast BT15 1DY",
+          "ADDRESS_FR": "28 Garmoyle St, Belfast BT15 1DY",
+          "CONTACT_NUMBER": "02890751968",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.920750, 54.608420]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Housing Rights",
+          "NAME_FR": "Housing Rights",
+          "ADDRESS": "The Skainos Centre, 239 Newtownards Rd, Belfast BT4 1AF",
+          "ADDRESS_FR": "The Skainos Centre, 239 Newtownards Rd, Belfast BT4 1AF",
+          "CONTACT_NUMBER": "02890245640",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.920750, 54.608420]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "CHNI (Council For The Homeless NI)",
+          "NAME_FR": "CHNI (Council For The Homeless NI)",
+          "ADDRESS": "60 Great Victoria St, Belfast BT2 7BB",
+          "ADDRESS_FR": "60 Great Victoria St, Belfast BT2 7BB",
+          "CONTACT_NUMBER": "02890246440",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      }    
+    ]
+  }
+  
+  

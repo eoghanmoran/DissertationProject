@@ -1,0 +1,145 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "AWARE NI",
+          "NAME_FR": "AWARE NI",
+          "ADDRESS": "40-44 Duncairn Gardens, Belfast BT15 2GG",
+          "CONTACT_NUMBER": "028 9035 7820",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932420, 54.613300]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Action Mental Health",
+          "NAME_FR": "Action Mental Health",
+          "ADDRESS": "27 Jubilee Rd, Newtownards BT23 4YH",
+          "CONTACT_NUMBER": "028 9182 8494",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.753820, 54.602200]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Threshold",
+          "NAME_FR": "Threshold",
+          "ADDRESS": "9 Belgravia Ave, Belfast BT9 7BJ",
+          "ADDRESS_FR": "9 Belgravia Ave, Belfast BT9 7BJ",
+          "CONTACT_NUMBER": "028 9066 8308",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.943640, 54.584090]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Men's Advisory Project (MAP)",
+          "NAME_FR": "Men's Advisory Project (MAP)",
+          "ADDRESS": "5th Floor, Glendinning House, 6 Murray St, Belfast BT1 6DN",
+          "ADDRESS_FR": "5th Floor, Glendinning House, 6 Murray St, Belfast BT1 6DN",
+          "CONTACT_NUMBER": "028 9024 1929",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.936080, 54.596310]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Life After Mental Health Problems (LAMP)",
+          "NAME_FR": "Life After Mental Health Problems (LAMP)",
+          "ADDRESS": "3 Rosemary Street, Belfast, BT1 1QA",
+          "ADDRESS_FR": "3 Rosemary Street, Belfast, BT1 1QA",
+          "CONTACT_NUMBER": "028 9024 2982",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928610, 54.600550]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Association For Mental Health (Niamh)",
+          "NAME_FR": "Northern Ireland Association For Mental Health (Niamh)",
+          "ADDRESS": "80 Univeristy Street, Belfast BT7 1HE",
+          "ADDRESS_FR": "80 Univeristy Street, Belfast BT7 1HE",
+          "CONTACT_NUMBER": "028 9032 8474",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930030, 54.586160]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "MindWise",
+          "NAME_FR": "MindWise",
+          "ADDRESS": "46 Newforge Ln, Belfast BT9 5NW",
+          "ADDRESS_FR": "46 Newforge Ln, Belfast BT9 5NW",
+          "CONTACT_NUMBER": "028 9040 2323",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.946280, 54.559290]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Praxis Care Central Office",
+          "NAME_FR": "Praxis Care Central Office",
+          "ADDRESS": "29-31 Lisburn Rd, Belfast BT9 7AA",
+          "ADDRESS_FR": "29-31 Lisburn Rd, Belfast BT9 7AA",
+          "CONTACT_NUMBER": "028 9023 4555",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.953190, 54.577140]
+        }
+      }
+    ]
+  }
+  
+  

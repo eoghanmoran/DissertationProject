@@ -56,6 +56,9 @@ import EatingDisordersSupportMap from "./webPages/SupportMap/EatingDisordersSupp
 import EthnicMinoritySupportMap from "./webPages/SupportMap/EthnicMinoritySupportMap";
 import FamilyChildcareSupportMap from "./webPages/SupportMap/FamilyChildcareSupportMap";
 import HeartDiseaseSupportMap from "./webPages/SupportMap/HeartDiseaseSupportMap";
+import HomelessnessSupportMap from "./webPages/SupportMap/HomelessnessSupportMap";
+import MentalHealthSupportMap from "./webPages/SupportMap/MentalHealthSupportMap";
+import OldPersonSupportMap from "./webPages/SupportMap/OldPersonSupportMap";
 
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
@@ -119,6 +122,10 @@ export default function App() {
           <Route path="/ethnicMinoritySupportMap"><EthnicMinoritySupportMap /></Route>
           <Route path="/familyChildcareSupportMap"><FamilyChildcareSupportMap /></Route>
           <Route path="/heartDiseaseSupportMap"><HeartDiseaseSupportMap /></Route>
+          <Route path="/homelessnessSupportMap"><HomelessnessSupportMap /></Route>
+          <Route path="/mentalHealthSupportMap"><MentalHealthSupportMap /></Route>
+          <Route path="/oldPersonSupportMap"><OldPersonSupportMap /></Route>
+          
 
 
 

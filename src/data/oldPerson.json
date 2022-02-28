@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Alzheimers Society",
+          "NAME_FR": "Alzheimers Society",
+          "ADDRESS": "30 Skegoneill St, Belfast BT15 3JL",
+          "CONTACT_NUMBER": "028 9066 4100",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.917220, 54.566650]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Engage With Age",
+          "NAME_FR": "Engage With Age",
+          "ADDRESS": "East Belfast Network Centre, 55 Templemore Ave, Belfast BT5 4FP",
+          "CONTACT_NUMBER": "028 9073 5696",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.901740, 54.596100]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "South Belfast Lifestyle Forum",
+          "NAME_FR": "South Belfast Lifestyle Forum",
+          "ADDRESS": "25 Apsley St, Belfast BT7 1BL",
+          "ADDRESS_FR": "25 Apsley St, Belfast BT7 1BL",
+          "CONTACT_NUMBER": "028 9064 9649",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.929250, 54.591830]
+        }
+      }
+    ]
+  }
+  
+  
