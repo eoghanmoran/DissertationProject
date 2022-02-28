@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
-import { getAuth, updateEmail } from "firebase/auth";
+import { getAuth, updateEmail, updatePassword } from "firebase/auth";
 import { Link, useHistory } from "react-router-dom"
 
 export default function UpdateProfile() {
@@ -31,6 +31,13 @@ export default function UpdateProfile() {
       });
     }
 
+    if(passwordRef.current.value){
+      updatePassword(auth.currentUser, passwordRef.current.value).then(() => {
+        console.log("Password Updated");
+      }).catch((error) => {
+        console.log("Password Not Updated");
+      });
+    }
 
 
     Promise.all(promises)
