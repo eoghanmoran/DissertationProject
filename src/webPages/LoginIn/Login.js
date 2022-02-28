@@ -11,6 +11,7 @@ import {
     signInWithEmailAndPassword,
     onAuthStateChanged,
     signOut,
+    updateEmail
 } from "firebase/auth";
 import { auth } from "./firebase-config";
 import { useHistory } from "react-router-dom";
@@ -20,7 +21,7 @@ function App() {
     const [loginPassword, setLoginPassword] = useState("");
     const [user, setUser] = useState({});
     const history = useHistory()
-    
+
     onAuthStateChanged(auth, (currentUser) => {
         setUser(currentUser);
     });
@@ -31,6 +32,19 @@ function App() {
                 auth,
                 loginEmail,
                 loginPassword
+            );
+            history.push("/admin");
+            console.log(user);
+        } catch (error) {
+            console.log(error.message);
+        }
+    };
+
+    const update = async () => {
+        try {
+            const user = await updateEmail(
+                user,
+                loginEmail
             );
             history.push("/admin");
             console.log(user);
@@ -80,14 +94,14 @@ function App() {
                         <Button onClick={logout} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign out</Button>
 
                         <Grid align="center">
-    
-                        </Grid>
-                    </Paper>
+     
                 </Grid>
+            </Paper>
+        </Grid>
                 
-            </div>
-            <Footer />
-        </div>
+            </div >
+        <Footer />
+        </div >
     )
 
 }
