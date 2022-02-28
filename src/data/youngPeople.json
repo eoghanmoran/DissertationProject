@@ -1,0 +1,161 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Voice Of Young People In Care Ltd",
+          "NAME_FR": "Voice Of Young People In Care Ltd",
+          "ADDRESS": "9 Botanic Ave, Belfast BT7 1JG",
+          "CONTACT_NUMBER": "028 9024 4888",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933840, 54.589272]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Commissioner for Children & Young People",
+          "NAME_FR": "Northern Ireland Commissioner for Children & Young People",
+          "ADDRESS": "7-9 Shaftesbury Square, Belfast BT2 7DP",
+          "CONTACT_NUMBER": "028 9031 1616",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933440, 54.589810]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Drug and Alcohol Intervention Service for Youth (DAISY)",
+          "NAME_FR": "Drug and Alcohol Intervention Service for Youth (DAISY)",
+          "ADDRESS": "City Life Centre, 143 Northumberland Street, Belfast BT13 2JF",
+          "ADDRESS_FR": "City Life Centre, 143 Northumberland Street, Belfast BT13 2JF",
+          "CONTACT_NUMBER": "028 9043 5815",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.947820, 54.601130]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Include Youth",
+          "NAME_FR": "Include Youth",
+          "ADDRESS": "5th Floor, 14 College Square N, Belfast BT1 6AS",
+          "ADDRESS_FR": "5th Floor, 14 College Square N, Belfast BT1 6AS",
+          "CONTACT_NUMBER": "028 9031 1007",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.936550, 54.597780]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Childrens Law Centre",
+          "NAME_FR": "Childrens Law Centre",
+          "ADDRESS": "2nd Floor, 127-131 Ormeau Rd, Belfast BT7 1SHF",
+          "ADDRESS_FR": "2nd Floor, 127-131 Ormeau Rd, Belfast BT7 1SH",
+          "CONTACT_NUMBER": "028 9024 5704",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.926090, 54.591700]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Start360",
+          "NAME_FR": "Start360",
+          "ADDRESS": "6-10 William St, Belfast BT1 1PR",
+          "ADDRESS_FR": "6-10 William St, Belfast BT1 1PR",
+          "CONTACT_NUMBER": "028 9043 5810",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930360, 54.602150]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Youth Forum",
+          "NAME_FR": "Northern Ireland Youth Forum",
+          "ADDRESS": "68 Berry St, Belfast BT1 1FJ",
+          "ADDRESS_FR": "68 Berry St, Belfast BT1 1FJ",
+          "CONTACT_NUMBER": "028 9033 1990",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932630, 54.600100]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cara-Friend (Gay & Lesbian Youth NI)",
+          "NAME_FR": "Cara-Friend (Gay & Lesbian Youth NI)",
+          "ADDRESS": "2, 23-31 Waring St, Belfast BT1 2DX",
+          "ADDRESS_FR": "2, 23-31 Waring St, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9089 0202",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "NAME_FR": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "ADDRESS": "Lanyon Building, Block 1, Unit 7, Jennymount Business Park, North Derby Street, York Road, Belfast BT15 3HN",
+          "CONTACT_NUMBER": "028 9035 1135",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.922970, 54.616450]
+        }
+      }
+    ]
+  }
+  
+  

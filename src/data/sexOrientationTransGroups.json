@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+    {
+        "type": "Feature",
+        "properties": {
+        "PARK_ID": 2488,
+        "FACILITYID": 35815,
+        "NAME": "The Rainbow Project",
+        "NAME_FR": "The Rainbow Project",
+        "ADDRESS": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+        "ADDRESS_FR": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+        "CONTACT_NUMBER": "028 9031 9030",
+        "PICTURE__1": null
+        },
+        "geometry": {
+        "type": "Point",
+        "coordinates": [-5.928050, 54.600861]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Here NI (Lesbian Advocacy Services Initiative)",
+          "NAME_FR": "Here NI (Lesbian Advocacy Services Initiative)",
+          "ADDRESS": "2nd Floor, LGBT Centre 9-13 Waring Street, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9024 9452",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600861]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cara-Friend",
+          "NAME_FR": "Cara-Friend",
+          "ADDRESS": "Belfast LGBTQI+ Centre, 23-31 Waring St, Belfast, BT1 2DX",
+          "ADDRESS_FR": "Belfast LGBTQI+ Centre, 23-31 Waring St, Belfast, BT1 2DX",
+          "CONTACT_NUMBER": "028 9089 0202",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600861]
+        }
+      }
+    ]
+  }
+  
+  

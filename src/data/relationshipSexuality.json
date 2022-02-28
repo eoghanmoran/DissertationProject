@@ -1,0 +1,145 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Life NI",
+          "NAME_FR": "Life NI",
+          "ADDRESS": "183 Lisburn Road Belfast BT9 7EJ",
+          "CONTACT_NUMBER": "028 9043 8339",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.953190, 54.577140]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cara-friend",
+          "NAME_FR": "Cara-friend",
+          "ADDRESS": "Belfast LGBTQI+ Centre, 23-31 Waring St, Belfast, BT1 2DX",
+          "CONTACT_NUMBER": "028 9089 0202",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Accord Marriage & Relationship",
+          "NAME_FR": "Accord Marriage & Relationship",
+          "ADDRESS": "Chapel Ln, Belfast BT1 1HH",
+          "ADDRESS_FR": "Chapel Ln, Belfast BT1 1HH",
+          "CONTACT_NUMBER": "028 9023 3002",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932880, 54.599670]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Planning Association Belfast",
+          "NAME_FR": "Family Planning Association Belfast",
+          "ADDRESS": "Family Planning Association Belfast, 3rd Floor, Ascot House, Belfast BT2 7DB",
+          "ADDRESS_FR": "Family Planning Association Belfast, 3rd Floor, Ascot House, Belfast BT2 7DB",
+          "CONTACT_NUMBER": "0845 122 8687",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951790, 54.588880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Nexus Institute - for survivors of sexual abuse/assault",
+          "NAME_FR": "Nexus Institute - for survivors of sexual abuse/assault",
+          "ADDRESS": "59 Malone Rd, Belfast BT9 6SA",
+          "ADDRESS_FR": "59 Malone Rd, Belfast BT9 6SA",
+          "CONTACT_NUMBER": "028 9032 6803",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.949140, 54.567740]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Relate NI",
+          "NAME_FR": "Relate NI",
+          "ADDRESS": "3 Glengall St, Belfast BT12 5AB",
+          "ADDRESS_FR": "3 Glengall St, Belfast BT12 5AB",
+          "CONTACT_NUMBER": "028 9032 3454",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.935920, 54.595100]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Common Youth",
+          "NAME_FR": "Common Youth",
+          "ADDRESS": "CQHQ, 2nd Floor, Cathedral House, 23-31 Waring Street, Belfast BT1 2DX",
+          "ADDRESS_FR": "CQHQ, 2nd Floor, Cathedral House, 23-31 Waring Street, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9032 8866",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "The Rainbow Project",
+          "NAME_FR": "The Rainbow Project",
+          "ADDRESS": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+          "ADDRESS_FR": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9031 9030",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      }
+    ]
+  }
+  
+  

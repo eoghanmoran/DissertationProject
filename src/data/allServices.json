@@ -926,11 +926,10 @@
         "properties": {
           "PARK_ID": 2488,
           "FACILITYID": 35815,
-          "NAME": "NSPCC - National Society for Prevention of Cruelty to Children  ",
-          "NAME_FR": "NSPCC - National Society for Prevention of Cruelty to Children  ",
-          "ADDRESS": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
-          "ADDRESS_FR": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
-          "CONTACT_NUMBER": "02890351135",
+          "NAME": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "NAME_FR": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "ADDRESS": "Lanyon Building, Block 1, Unit 7, Jennymount Business Park, North Derby Street, York Road, Belfast BT15 3HN",
+          "CONTACT_NUMBER": "028 9035 1135",
           "PICTURE__1": null
         },
         "geometry": {
@@ -1304,7 +1303,322 @@
           "type": "Point",
           "coordinates": [-5.929250, 54.591830]
         }
-      },               
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Life NI",
+          "NAME_FR": "Life NI",
+          "ADDRESS": "183 Lisburn Road Belfast BT9 7EJ",
+          "CONTACT_NUMBER": "028 9043 8339",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.953190, 54.577140]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Cara-friend",
+          "NAME_FR": "Cara-friend",
+          "ADDRESS": "Belfast LGBTQI+ Centre, 23-31 Waring St, Belfast, BT1 2DX",
+          "CONTACT_NUMBER": "028 9089 0202",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Accord Marriage & Relationship",
+          "NAME_FR": "Accord Marriage & Relationship",
+          "ADDRESS": "Chapel Ln, Belfast BT1 1HH",
+          "ADDRESS_FR": "Chapel Ln, Belfast BT1 1HH",
+          "CONTACT_NUMBER": "028 9023 3002",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932880, 54.599670]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Planning Association Belfast",
+          "NAME_FR": "Family Planning Association Belfast",
+          "ADDRESS": "Family Planning Association Belfast, 3rd Floor, Ascot House, Belfast BT2 7DB",
+          "ADDRESS_FR": "Family Planning Association Belfast, 3rd Floor, Ascot House, Belfast BT2 7DB",
+          "CONTACT_NUMBER": "0845 122 8687",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.951790, 54.588880]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Nexus Institute - for survivors of sexual abuse/assault",
+          "NAME_FR": "Nexus Institute - for survivors of sexual abuse/assault",
+          "ADDRESS": "59 Malone Rd, Belfast BT9 6SA",
+          "ADDRESS_FR": "59 Malone Rd, Belfast BT9 6SA",
+          "CONTACT_NUMBER": "028 9032 6803",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.949140, 54.567740]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Relate NI",
+          "NAME_FR": "Relate NI",
+          "ADDRESS": "3 Glengall St, Belfast BT12 5AB",
+          "ADDRESS_FR": "3 Glengall St, Belfast BT12 5AB",
+          "CONTACT_NUMBER": "028 9032 3454",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.935920, 54.595100]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Common Youth",
+          "NAME_FR": "Common Youth",
+          "ADDRESS": "CQHQ, 2nd Floor, Cathedral House, 23-31 Waring Street, Belfast BT1 2DX",
+          "ADDRESS_FR": "CQHQ, 2nd Floor, Cathedral House, 23-31 Waring Street, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9032 8866",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "The Rainbow Project",
+          "NAME_FR": "The Rainbow Project",
+          "ADDRESS": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+          "ADDRESS_FR": "LGBT Centre, 23-31 Waring St, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9031 9030",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600860]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Here NI (Lesbian Advocacy Services Initiative)",
+          "NAME_FR": "Here NI (Lesbian Advocacy Services Initiative)",
+          "ADDRESS": "2nd Floor, LGBT Centre 9-13 Waring Street, Belfast BT1 2DX",
+          "CONTACT_NUMBER": "028 9024 9452",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.928050, 54.600861]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Wave Trauma Centre",
+          "NAME_FR": "Wave Trauma Centre",
+          "ADDRESS": "5 Chichester Park S, Belfast BT15 5DW",
+          "CONTACT_NUMBER": "028 9077 9922",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941060, 54.629130]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Victim Support NI",
+          "NAME_FR": "Victim Support NI",
+          "ADDRESS": "2, Albany House, 73-75 Great Victoria St, Belfast BT2 7AF",
+          "CONTACT_NUMBER": "028 9024 3133",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Belfast and Lisburn Women's Aid",
+          "NAME_FR": "Belfast and Lisburn Women's Aid",
+          "ADDRESS": "30 Adelaide Park, Belfast BT9 6FY",
+          "CONTACT_NUMBER": "028 9066 6049",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.929980, 54.603190]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Voice Of Young People In Care Ltd",
+          "NAME_FR": "Voice Of Young People In Care Ltd",
+          "ADDRESS": "9 Botanic Ave, Belfast BT7 1JG",
+          "CONTACT_NUMBER": "028 9024 4888",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933840, 54.589272]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Commissioner for Children & Young People",
+          "NAME_FR": "Northern Ireland Commissioner for Children & Young People",
+          "ADDRESS": "7-9 Shaftesbury Square, Belfast BT2 7DP",
+          "CONTACT_NUMBER": "028 9031 1616",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.933440, 54.589810]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Drug and Alcohol Intervention Service for Youth (DAISY)",
+          "NAME_FR": "Drug and Alcohol Intervention Service for Youth (DAISY)",
+          "ADDRESS": "City Life Centre, 143 Northumberland Street, Belfast BT13 2JF",
+          "ADDRESS_FR": "City Life Centre, 143 Northumberland Street, Belfast BT13 2JF",
+          "CONTACT_NUMBER": "028 9043 5815",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.947820, 54.601130]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Include Youth",
+          "NAME_FR": "Include Youth",
+          "ADDRESS": "5th Floor, 14 College Square N, Belfast BT1 6AS",
+          "ADDRESS_FR": "5th Floor, 14 College Square N, Belfast BT1 6AS",
+          "CONTACT_NUMBER": "028 9031 1007",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.936550, 54.597780]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Childrens Law Centre",
+          "NAME_FR": "Childrens Law Centre",
+          "ADDRESS": "2nd Floor, 127-131 Ormeau Rd, Belfast BT7 1SHF",
+          "ADDRESS_FR": "2nd Floor, 127-131 Ormeau Rd, Belfast BT7 1SH",
+          "CONTACT_NUMBER": "028 9024 5704",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.926090, 54.591700]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Start360",
+          "NAME_FR": "Start360",
+          "ADDRESS": "6-10 William St, Belfast BT1 1PR",
+          "ADDRESS_FR": "6-10 William St, Belfast BT1 1PR",
+          "CONTACT_NUMBER": "028 9043 5810",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.930360, 54.602150]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Northern Ireland Youth Forum",
+          "NAME_FR": "Northern Ireland Youth Forum",
+          "ADDRESS": "68 Berry St, Belfast BT1 1FJ",
+          "ADDRESS_FR": "68 Berry St, Belfast BT1 1FJ",
+          "CONTACT_NUMBER": "028 9033 1990",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.932630, 54.600100]
+        }
+      },              
       {
         "type": "Feature",
         "properties": {

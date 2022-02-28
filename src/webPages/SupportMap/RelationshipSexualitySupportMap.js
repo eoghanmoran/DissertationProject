@@ -10,7 +10,7 @@ import {
     Marker,
     InfoWindow
 } from "react-google-maps";
-import * as parkData from "../../data/heartDisease.json"
+import * as parkData from "../../data/relationshipSexuality.json"
 import { Link } from "react-router-dom";
 
 
@@ -97,7 +97,7 @@ export default function App() {
                     </div>
                     <div className="rightSideText container-fluid">
                                 <div class = "Services">  
-                                <h1 className="h1"> Heart Disease Support</h1>
+                                <h1 className="h1"> Relationship and Sexuality Support</h1>
                                 <a href ="/allServicesMap"> 
                                 <button 
                                 type = "button" 
@@ -144,7 +144,7 @@ export default function App() {
                                 <a href ="/homelessnessSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Homelessness Support</button></a>
-                                <a href ="/mentalHealthSupportMap"><button    
+                               <a href ="/mentalHealthSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Mental Health Support</button></a>
                                 <a href ="/oldPersonSupportMap"><button    

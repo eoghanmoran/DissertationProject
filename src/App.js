@@ -59,6 +59,11 @@ import HeartDiseaseSupportMap from "./webPages/SupportMap/HeartDiseaseSupportMap
 import HomelessnessSupportMap from "./webPages/SupportMap/HomelessnessSupportMap";
 import MentalHealthSupportMap from "./webPages/SupportMap/MentalHealthSupportMap";
 import OldPersonSupportMap from "./webPages/SupportMap/OldPersonSupportMap";
+import RelationshipSexualitySupportMap from "./webPages/SupportMap/RelationshipSexualitySupportMap";
+import SexOrientationTransGroupsSupportMap from "./webPages/SupportMap/SexOrientationTransGroupsSupportMap";
+import ViolenceTraumaSupportMap from "./webPages/SupportMap/ViolenceTraumaSupportMap";
+import WomenSupportMap from "./webPages/SupportMap/WomenSupport";
+import YoungPeopleSupportMap from "./webPages/SupportMap/YoungPeopleSupportMap";
 
 import AddictionUpdate from "./webPages/Admin/DatabaseTableUpdate/Addiction/Addiction";
 import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
@@ -125,6 +130,11 @@ export default function App() {
           <Route path="/homelessnessSupportMap"><HomelessnessSupportMap /></Route>
           <Route path="/mentalHealthSupportMap"><MentalHealthSupportMap /></Route>
           <Route path="/oldPersonSupportMap"><OldPersonSupportMap /></Route>
+          <Route path="/relationshipSexualitySupportMap"><RelationshipSexualitySupportMap /></Route>
+          <Route path="/sexOrientationTransGroupsSupportMap"><SexOrientationTransGroupsSupportMap /></Route>
+          <Route path="/violenceTraumaSupportMap"><ViolenceTraumaSupportMap /></Route>
+          <Route path="/womenSupportMap"><WomenSupportMap /></Route>
+          <Route path="/youngPeopleSupportMap"><YoungPeopleSupportMap /></Route>
           
 
 

@@ -110,18 +110,17 @@
         "properties": {
           "PARK_ID": 2488,
           "FACILITYID": 35815,
-          "NAME": "NSPCC - National Society for Prevention of Cruelty to Children  ",
-          "NAME_FR": "NSPCC - National Society for Prevention of Cruelty to Children  ",
-          "ADDRESS": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
-          "ADDRESS_FR": "First Floor, Unit 7, Jennymount Business Park, North Derby Street, Belfast, BT15 3HN",
-          "CONTACT_NUMBER": "02890351135",
+          "NAME": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "NAME_FR": "NSPCC (National Society for the Prevention of Cruelty to Children)",
+          "ADDRESS": "Lanyon Building, Block 1, Unit 7, Jennymount Business Park, North Derby Street, York Road, Belfast BT15 3HN",
+          "CONTACT_NUMBER": "028 9035 1135",
           "PICTURE__1": null
         },
         "geometry": {
           "type": "Point",
           "coordinates": [-5.922970, 54.616450]
         }
-      }    
+      }
     ]
   }
   

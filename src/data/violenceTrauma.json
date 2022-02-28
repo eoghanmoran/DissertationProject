@@ -1,0 +1,77 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 960,
+          "FACILITYID": 28014,
+          "NAME": "Wave Trauma Centre",
+          "NAME_FR": "Wave Trauma Centre",
+          "ADDRESS": "5 Chichester Park S, Belfast BT15 5DW",
+          "CONTACT_NUMBER": "028 9077 9922",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941060, 54.629130]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Victim Support NI",
+          "NAME_FR": "Victim Support NI",
+          "ADDRESS": "2, Albany House, 73-75 Great Victoria St, Belfast BT2 7AF",
+          "CONTACT_NUMBER": "028 9024 3133",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.934270, 54.593060]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Family Trauma Centre",
+          "NAME_FR": "Family Trauma Centre",
+          "ADDRESS": "1 Wellington Park, Belfast BT9 6DJ",
+          "ADDRESS_FR": "1 Wellington Park, Belfast BT9 6DJ",
+          "CONTACT_NUMBER": "028 9020 4700",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.941160, 54.582380]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "PARK_ID": 2488,
+          "FACILITYID": 35815,
+          "NAME": "Nexus Institute - for survivors of sexual abuse/assault",
+          "NAME_FR": "Nexus Institute - for survivors of sexual abuse/assault",
+          "ADDRESS": "59 Malone Rd, Belfast BT9 6SA",
+          "ADDRESS_FR": "59 Malone Rd, Belfast BT9 6SA",
+          "CONTACT_NUMBER": "028 9032 6803",
+          "PICTURE__1": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.949140, 54.567740]
+        }
+      }
+    ]
+  }
+  
+  

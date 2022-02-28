@@ -144,12 +144,27 @@ export default function App() {
                                 <a href ="/homelessnessSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Homelessness Support</button></a>
-                                <a href ="/mentalHealthSupportMap"><button    
+                               <a href ="/mentalHealthSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Mental Health Support</button></a>
                                 <a href ="/oldPersonSupportMap"><button    
                                 type = "button" 
                                 class= "btn btn-outline-secondary btn-sm btn-block">Elderly Support</button></a>
+                                <a href ="/relationshipSexualitySupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Relationship and Sexuality Support</button></a>
+                                <a href ="/sexOrientationTransGroupsSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">LGBTQIA+ Support</button></a>
+                                <a href ="/violenceTraumaSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Violence/Trauma Support</button></a>
+                                <a href ="/womenSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Women Support</button></a>
+                                <a href ="/youngPeopleSupportMap"><button    
+                                type = "button" 
+                                class= "btn btn-outline-secondary btn-sm btn-block">Young People Support</button></a>
                         </div>
                         </div>
                 </div>
