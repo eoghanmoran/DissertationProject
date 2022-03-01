@@ -23,11 +23,11 @@ function Navbar() {
           <li class= "nav-item">
                <a class="nav-link" href="/crisisHelp">Urgent Support</a></li> 
           <li class= "nav-item">
-               <a class="nav-link" href="/searchHelp">Search</a></li> 
+               <a class="nav-link" href="/searchHelp">Search Help</a></li> 
           <li class= "nav-item">
-               <a class="nav-link" href="/allServicesMap">Map</a></li> 
+               <a class="nav-link" href="/allServicesMap">Support Map</a></li> 
           <li class= "nav-item">
-               <a class="nav-link" href="/contactUs">Contact</a></li> 
+               <a class="nav-link" href="/contactUs">Contact Us</a></li> 
           <li class= "nav-item">
                <a class="nav-link" href="/admin">Admin</a>  </li>           
          </ul>
