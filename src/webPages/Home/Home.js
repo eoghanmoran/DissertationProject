@@ -26,7 +26,7 @@ export default function Home() {
     } else if (title == "Search For Support") {
       history.push("/searchHelp");
     } else if (title == "Support Map") {
-      history.push("/supportMap");
+      history.push("/allServicesMap");
     }
     else if (title == "Contact Us") {
       history.push("/contactUs");
