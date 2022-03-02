@@ -4,8 +4,7 @@ import './App.css';
 import { AuthProvider } from "./webPages/LoginIn/AuthContext";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer";
-import { createTheme, ThemeProvider } from "@material-ui/core/styles";
-import LightDarkToggle from "./components/LightDarkToggle";
+
 
 
 import Charities from "./webPages/BrowseAllHelp/BrowseAllHelpPage";
@@ -102,25 +101,13 @@ import YoungPeopleSupportUpdate from "./webPages/Admin/YoungPeopleSupport/YoungP
 export default function App() {
   <Home />
 
-  const [toggleDark, settoggleDark] = useState(false);
-  const myTheme = createTheme({
-    
-  
-    palette: {
-      type: toggleDark ? "dark" : "light",
-    },
-  });
-
   return (
     <div>
       
-      {/* <ThemeProvider theme={myTheme}>
-      <LightDarkToggle toggleDark={toggleDark}
-      settoggleDark={settoggleDark} />
-      </ThemeProvider> */}
-
-      <NavBar />
+  
+  
       <AuthProvider>
+      <NavBar />
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route path="/browseAllHelp"><Charities /></Route>

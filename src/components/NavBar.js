@@ -1,43 +1,98 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import Logo from "../../src/images/logosmall.png"
-
-import "./Navbar.css";
+import './Navbar.css';
 
 function Navbar() {
-    
-    return (
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
 
-       <div class="container-fluid">
-       <a class="navbar-brand" href="#"><img src={Logo} alt="Fsplogo" height="80" width= "85"  /></a>
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-      <button class = "navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls ="navBarResponsive" aria-expanded ="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon = show"></span>
-      </button>
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-      <div class = {"collapse navbar-collapse = show"} id="navbarResponsive">
-         
-      <ul class="navbar-nav ml-auto">
-          <li class= "nav-item">
-               <a class="nav-link" href="/">Home</a></li> 
-          <li class= "nav-item">
-               <a class="nav-link" href="/crisisHelp">Urgent Support</a></li> 
-          <li class= "nav-item">
-               <a class="nav-link" href="/searchHelp">Search Help</a></li> 
-          <li class= "nav-item">
-               <a class="nav-link" href="/allServicesMap">Support Map</a></li> 
-          <li class= "nav-item">
-               <a class="nav-link" href="/contactUs">Contact Us</a></li> 
-          <li class= "nav-item">
-               <a class="nav-link" href="/admin">Admin</a>  </li>           
-         </ul>
-            </div>
-         </div>
-        
-     </nav>
-    
-    
-    );
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+        <a class="navbar-brand" href="/"><img src={Logo} alt="Fsplogo" height="80" width= "85"  /></a>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/crisisHelp'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Urgent Support
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/searchHelp'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Search for Help
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/allServicesMap'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Support Map
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/contactUs'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li>
+            
+            <li>
+              <Link
+                to='/admin'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Admin
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--primary'>ADMIN</Button>}
+        </div>
+      </nav>
+    </>
+  );
 }
 
 export default Navbar;
