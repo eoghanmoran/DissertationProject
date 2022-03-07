@@ -2,8 +2,22 @@ import React from "react";
 import "./Contact.css";
 import "../../App.css"
 import Footer from '../../components/Footer'
+import emailjs from "emailjs-com";
 
 function Contact() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ejha0cj', 'template_gzj6lpz', e.target, 'CrLFUT1-Vl2em7PbV')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset()
+  }
+
   return (
     <div className="background">
       <div className="container">
@@ -25,7 +39,7 @@ function Contact() {
           <div className="rightSide">
             <h1> Send us a message</h1>
 
-            <form id="contact-form" method="POST">
+            <form id="contact-form" onSubmit={sendEmail}>
               <label htmlFor="name">Full Name</label>
               <input name="name" type="text" />
               <label htmlFor="email">Email</label>
@@ -39,9 +53,10 @@ function Contact() {
               <button type="submit"> Send Message</button>
             </form>
           </div>
+
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
