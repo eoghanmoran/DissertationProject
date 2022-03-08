@@ -3,6 +3,7 @@ import { db } from "../../../firebase-config"
 import { collection, getDocs } from "firebase/firestore";
 import "../Help.css";
 import Footer from "../../../components/Footer";
+import Table from 'react-bootstrap/Table'
 function CrisishelpDetails() {
 
   const [Helplines, setHelplines] = useState([]);
@@ -16,15 +17,15 @@ function CrisishelpDetails() {
     getHelplines();
 
   }, []);
-
   return (
     <div className="background">
       <div className="container">
-        <table align="center"> 
+        <Table striped bordered responsive="sm">
           <thead>
             <tr>
               <th>Service</th>
-              <th colspan = "2">Contact Number</th>
+              <th>Contact Number</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
@@ -33,11 +34,12 @@ function CrisishelpDetails() {
                 <tr>
                   <td>{helpline.Service}</td>
                   <td>{helpline.ContactNumber}</td>
+                  <td>{helpline.Desc}</td>
                 </tr>
               )
             })}
           </tbody>
-        </table>
+        </Table>
       </div>
       <Footer/>
     </div>

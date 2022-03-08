@@ -21,6 +21,7 @@
     "emailjs-com": "^3.2.0",
     "express": "^4.17.1",
     "firebase": "^9.6.2",
+    "firebase-functions": "^3.18.1",
     "formik": "^2.2.9",
     "google-maps-react": "^2.0.6",
     "install": "^0.13.0",

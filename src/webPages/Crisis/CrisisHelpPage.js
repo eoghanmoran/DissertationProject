@@ -1,78 +1,51 @@
-import React from "react";
-import { ThemeProvider, makeStyles } from '@material-ui/styles';
-import { createTheme } from "@mui/material/styles";
-import { Typography } from '@material-ui/core';
-import Footer from '../../components/Footer'
-import CrisisHelpDetails from './CrisisHelpDetails';
-import '../../App.css';
-import logo from '../../../src/images/logosmall.png';
+import { useState, useEffect } from "react";
+import { db } from "../../firebase-config";
+import { collection, getDocs } from "firebase/firestore";
+import './Crisis.css';
+import Table from 'react-bootstrap/Table'
 
 
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#2e1667",
-    },
-    secondary: {
-      main: "#c7d8ed",
-    },
-  },
-  typography: {
-    fontFamily: [
-      'Roboto'
-    ],
-    h4: {
-      fontSize: '30px',
-      fontWeight: 600,
-      lineHeight: '2rem',
-    },
-    h5: {
-      fontWeight: 300,
-      lineHeight: '2rem',
-    },
-  },
-});
-const styles = makeStyles({
-  wrapper: {
-    width: "100%",
-    margin: "auto",
-    textAlign: "center"
-  },
-  bigSpace: {
-  },
-  littleSpace: {
-    marginTop: "1.0rem",
-  },
-  grid: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexWrap: "wrap",
-  },
-})
-export default function crisisHelp() {
+function CrisishelpDetails() {
 
-  const classes = styles();
+  const [Helplines, setHelplines] = useState([]);
+  const helplineCollectionRef = collection(db, "Helplines");
 
+  useEffect(() => {
+    const getHelplines = async () => {
+      const data = await getDocs(helplineCollectionRef);
+      setHelplines(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+    getHelplines();
+
+  }, []);
 
   return (
     <div className="background">
       <div className="container">
-        
-          <ThemeProvider theme={theme}>
-            <div className={classes.wrapper}>
-              <Typography variant="h4" className={classes.bigSpace} color="Black">
-              
-              </Typography>
-              <CrisisHelpDetails />
-            </div>
-          </ThemeProvider>
-        
-        
+        <Table striped bordered responsive="sm">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Contact Number</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Helplines.map((helpline) => {
+              return (
+                <tr>
+                  <td>{helpline.Service}</td>
+                  <td>{helpline.ContactNumber}</td>
+                  <td>{helpline.Desc}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </Table>
       </div>
-
-      <Footer />
     </div>
   );
-} 
+}
+
+export default CrisishelpDetails;

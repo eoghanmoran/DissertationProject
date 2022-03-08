@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { db } from "../../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import './Crisis.css';
+import Table from 'react-bootstrap/Table'
 
 function CrisishelpDetails() {
 
@@ -18,13 +19,14 @@ function CrisishelpDetails() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="background">
       <div className="app-container">
-        <table align="center"> 
+        <Table striped bordered>
           <thead>
             <tr>
               <th>Service</th>
-              <th colspan = "2">Contact Number</th>
+              <th>Contact Number</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
@@ -33,11 +35,12 @@ function CrisishelpDetails() {
                 <tr>
                   <td>{helpline.Service}</td>
                   <td>{helpline.ContactNumber}</td>
+                  <td>{helpline.Desc}</td>
                 </tr>
               )
             })}
           </tbody>
-        </table>
+        </Table>
       </div>
     </div>
   );
