@@ -15,6 +15,7 @@ import {
 } from "firebase/auth";
 import { auth } from "./firebase-config";
 import { useHistory } from "react-router-dom";
+import { HistoryOutlined } from '@material-ui/icons';
 
 function App() {
     const [loginEmail, setLoginEmail] = useState("");
@@ -54,7 +55,7 @@ function App() {
     };
 
     const logout = async () => {
-        await signOut(auth);
+        history.push("/forgotPassword");
     };
 
     const paperStyle = { padding: 20, height: '60vh', width: 280, margin: "20px auto" }
@@ -91,7 +92,7 @@ function App() {
                             label="Remember me"
                         />
                         <Button onClick={login} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign in</Button>
-                        <Button onClick={logout} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Sign out</Button>
+                        <Button onClick={logout} type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Forgot Password?</Button>
 
                         <Grid align="center">
      
