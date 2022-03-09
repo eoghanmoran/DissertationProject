@@ -27,7 +27,7 @@ const ServiceList = ({ getServiceId }) => {
           Refresh List
         </Button>
       </div>
-      <table>
+      <Table striped bordered responsive="sm">
         <thead>
           <tr>
             <th>Service</th>
@@ -66,7 +66,7 @@ const ServiceList = ({ getServiceId }) => {
             )
           })}
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 };
