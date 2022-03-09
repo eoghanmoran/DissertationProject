@@ -3,6 +3,7 @@ import { db } from "../../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import './Crisis.css';
 import Table from 'react-bootstrap/Table'
+import Footer from "../../components./Footer";
 
 function CrisishelpDetails() {
 
@@ -41,6 +42,7 @@ function CrisishelpDetails() {
             })}
           </tbody>
         </Table>
+        <Footer />
       </div>
     </div>
   );
