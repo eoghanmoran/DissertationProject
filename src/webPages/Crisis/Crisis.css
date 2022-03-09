@@ -12,6 +12,10 @@ table {
   width: 100%;
 }
 
+.noWrap {
+  white-space: nowrap;
+}
+
 th,
 td {
   border: 1px solid transparent;
@@ -65,6 +69,7 @@ th {
 td {
   background-color: rgb(245, 245, 245);
 }
+
 table {
   border: 5px solid;
   border-collapse: collapse;

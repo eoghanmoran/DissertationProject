@@ -2,11 +2,9 @@ import { useState, useEffect } from "react";
 import { db } from "../../firebase-config";
 import { collection, getDocs } from "firebase/firestore";
 import './Crisis.css';
-import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
-import Container from 'react-bootstrap/Container'
 import Footer from "../../components/Footer";
-
+import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
 
 function CrisishelpDetails() {
 
@@ -25,27 +23,39 @@ function CrisishelpDetails() {
   return (
 
     <div className="background">
-      <div className="container">
-        <Table>
-          <Thead>
-            <Tr>
-              <Th>Service</Th>
-              <Th>Contact Number</Th>
-              <Th>Description</Th>
-            </Tr>
-          </Thead>
-          <Tbody>
-            {Helplines.map((helpline) => {
-              return (
-                <Tr>
-                  <Td>{helpline.Service}</Td>
-                  <Td>{helpline.ContactNumber}</Td>
-                  <Td>{helpline.Desc}</Td>
-                </Tr>
-              )
-            })}
-          </Tbody>
-        </Table>
+      <div className="">
+        <div className="">
+          <Container fluid background-color="white">
+            <div className="">
+              <h1 className="text-center mb-1" >Urgent Support</h1>
+              <h1 class="display-4, text-center"color="white">Forward South Partnership</h1>
+              <Table responsive bordered className="noWrap">
+                
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>Contact Number</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Helplines.map((helpline) => {
+                    return (
+                      <tr>
+                        <td>{helpline.Service}</td>
+                        <td>{helpline.ContactNumber}</td>
+                        <td>{helpline.Desc}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+
+              </Table>
+            </div>
+
+          </Container>
+        </div>
+
       </div>
       <Footer />
     </div>
