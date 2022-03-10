@@ -104,7 +104,7 @@ export default function App() {
                             All Services
                          </button>
                          <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
-                         <a class="dropdown-item" href="/allServicesMap">Benefits Support</a>
+                         <a class="dropdown-item" href="/allServicesMap">All Services</a>
                          <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
                          <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
                          <a class="dropdown-item" href="/addictionSupportMap">Addiction Support</a>
