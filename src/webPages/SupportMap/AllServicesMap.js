@@ -14,7 +14,6 @@ import { Link } from "react-router-dom";
 import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
 
 
-
 function Map() {
     const [selectedPark, setSelectedPark] = useState(null);
     useEffect(() => {
@@ -77,7 +76,8 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
     return (
         <div className="background">
-            <div className="container">
+            <div className="">
+            <Container width= "80%"fluid background-color="white">
                 <div className="contact">
                     <div
                         className="leftSide"
@@ -128,7 +128,9 @@ export default function App() {
                         </div>
                     </div>
                 </div>
+                </Container>
             </div>
+            
             <Footer/>
         </div>
     );

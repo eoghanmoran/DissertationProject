@@ -21,8 +21,8 @@ function Contact() {
 
   return (
     <div className="background">
-      <div className="whiteBackground">
-      <Container>
+      <div className="">
+      <Container width= "80%"fluid background-color="white">
         
           <div className="contact">
             
