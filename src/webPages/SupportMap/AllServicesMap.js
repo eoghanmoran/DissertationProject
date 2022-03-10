@@ -119,7 +119,7 @@ export default function App() {
                          <a class="dropdown-item" href="/mentalHealthSupportMap"> Mental Health Support</a>
                          <a class="dropdown-item" href="/oldPersonSupportMap">Elderly Support</a>
                          <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationship and Sexuality Support</a>
-                         <a class="dropdown-item" href="/sexOrentationTransGroupSupportMap">LGBTQIA+ Support</a>
+                         <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">LGBTQIA+ Support</a>
                          <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
                          <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
                          <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
