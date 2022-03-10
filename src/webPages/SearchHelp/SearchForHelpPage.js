@@ -7,8 +7,8 @@ function App() {
   return (
 
     <div className="background">
-      <div className="">
-        <div className="">
+      <div className="container-fluid">
+        <div className="d-flex justify-content-center">
           <Container fluid background-color="white">
             <div className="whiteBackground">
             <Search />
@@ -19,7 +19,7 @@ function App() {
         </div>
 
       </div>
-      <Footer />
+      <Footer/>
     </div>
 
 
