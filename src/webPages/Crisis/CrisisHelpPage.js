@@ -21,14 +21,19 @@ function CrisishelpDetails() {
   }, []);
 
   return (
-
     <div className="background">
-      <div className="">
-        <div className="">
-          <Container fluid background-color="white">
-            <div className="">
-              <h1 className="text-center mb-1" >Urgent Support</h1>
-              <h1 class="display-4, text-center"color="white">Forward South Partnership</h1>
+            <div class="container-fluid">
+             <div class="row jumbotron">
+             <div class= "col-12">
+             <h1 class=" text-center display-4">Urgent Support</h1>
+             <hr class="my-4" />
+             <h1 class=" text-center lead">Forward South Partnership</h1>
+             
+            </div>
+            </div>
+            </div>
+           
+            
               <Table responsive bordered className="noWrap">
                 
                 <thead>
@@ -49,14 +54,7 @@ function CrisishelpDetails() {
                     )
                   })}
                 </tbody>
-
               </Table>
-            </div>
-
-          </Container>
-        </div>
-
-      </div>
       <Footer />
     </div>
   );

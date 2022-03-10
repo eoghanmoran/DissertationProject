@@ -56,23 +56,23 @@ form * {
 
 @media only screen and (max-width: 600px) {
   th,
-td {
-  border: 100px solid transparent;
-  text-align: left;
-  padding: 40px;
-  font-size: 22px;
-}
-th {
-  background-color: rgb(9, 14, 11);
-}
+  td {
+    border: 100px solid transparent;
+    text-align: left;
+    padding: 40px;
+    font-size: 22px;
+  }
+  th {
+    background-color: rgb(9, 14, 11);
+  }
 
-td {
-  background-color: rgb(245, 245, 245);
-}
+  td {
+    background-color: rgb(245, 245, 245);
+  }
 
-table {
-  border: 5px solid;
-  border-collapse: collapse;
-  width: 100%;
-}
+  table {
+    border: 5px solid;
+    border-collapse: collapse;
+    width: 100%;
+  }
 }
