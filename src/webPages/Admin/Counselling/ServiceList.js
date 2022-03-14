@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table, Button } from "react-bootstrap";
 import ServiceDataService from "./crud.services";
-
 import "./CRUD.css";
 
 const ServiceList = ({ getServiceId }) => {
@@ -28,11 +27,12 @@ const ServiceList = ({ getServiceId }) => {
           Refresh List
         </Button>
       </div>
-      <table>
+      <Table striped bordered responsive="sm">
         <thead>
           <tr>
             <th>Service</th>
             <th colspan = "2">Contact Number</th>
+            <th colspan = "3">Description</th>
           </tr>
         </thead>
         <tbody>
@@ -40,8 +40,11 @@ const ServiceList = ({ getServiceId }) => {
             return (
               <tr key={doc.id}>
                 <td>{doc.Service}</td>
-                <td>{doc.ContactNumber}</td>
-                <td>
+                <td colSpan="2">{doc.ContactNumber}</td>
+                <td colSpan="3">{doc.Desc}</td>
+           
+ 
+                <td colSpan="6">
                   <Button
                     variant="secondary"
                     className="edit"
@@ -63,7 +66,7 @@ const ServiceList = ({ getServiceId }) => {
             )
           })}
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 };

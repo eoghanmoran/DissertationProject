@@ -7,9 +7,13 @@
 }
 
 table {
-  border: 0px solid transparent;
+  border: 10px solid transparent;
   border-collapse: collapse;
   width: 100%;
+}
+
+.noWrap {
+  white-space: nowrap;
 }
 
 th,
@@ -24,7 +28,7 @@ th {
 }
 
 td {
-  background-color: white;
+  background-color: rgb(241, 241, 241);
 }
 
 form {
@@ -47,5 +51,28 @@ form * {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  th,
+  td {
+    border: 100px solid transparent;
+    text-align: left;
+    padding: 40px;
+    font-size: 22px;
+  }
+  th {
+    background-color: rgb(9, 14, 11);
+  }
+
+  td {
+    background-color: rgb(245, 245, 245);
+  }
+
+  table {
+    border: 5px solid;
+    border-collapse: collapse;
+    width: 100%;
   }
 }

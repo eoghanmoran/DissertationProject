@@ -16,6 +16,7 @@ import AllServicesMap from "./webPages/SupportMap/AllServicesMap";
 import SearchHelp from "./webPages/SearchHelp/SearchForHelpPage";
 import ContactUs from "./webPages/ContactForm/ContactFormPage";
 import Login from "./webPages/LoginIn/Login";
+import ForgotPassword from "./webPages/LoginIn/ForgotPassword";
 import Admin from "./webPages/Admin/Admin";
 import PrivateRoute from "./webPages/LoginIn/PrivateRoute";
 
@@ -116,6 +117,7 @@ export default function App() {
           <Route path="/contactUs"><ContactUs /></Route>
           <Route path="/searchHelp"><SearchHelp/></Route>
           <Route path="/login"><Login /></Route>
+          <Route path="/forgotPassword"><ForgotPassword /></Route>
           <PrivateRoute exact path="/admin" component={Admin} />
           <PrivateRoute exact path="/UpdateAdminUsers" component={UpdateAdminUsers} />
           <PrivateRoute exact path="/UpdateDatabaseTable" component={UpdateDatabaseTable} />

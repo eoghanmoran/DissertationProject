@@ -1,6 +1,5 @@
 .App {
   background-color: white;
-
   border: 6px solid #ffffff;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -28,12 +27,11 @@
 }
 .background {
   position: absolute;
-
   width: 100%;
   margin: auto;
-
   background-size: cover;
   background-image: url(images/background.png);
+  
 }
 
 .App-logo {
@@ -43,6 +41,8 @@
 
 .container {
   height: 100%;
+  width: auto;
+ 
   font-size: calc(10px + 2vmin);
   padding-right: 80px;
   padding-bottom: 100px;
@@ -87,3 +87,7 @@
     width: 100%;
   }
 }
+
+
+
+

@@ -1,13 +1,13 @@
+import { setNestedObjectValues } from "formik";
 import React, { useState, useEffect } from "react";
 import { Form, Alert, InputGroup, Button, ButtonGroup } from "react-bootstrap";
-import crudServices from "./crud.services";
-import "./CRUD.css"
 import ServiceDataService from "./crud.services";
 
 
 const AddService = ({ id, setServiceID }) => {
   const [Service, setService] = useState("");
   const [ContactNumber, setContactNumber] = useState("");
+  const [Desc, setDesc] = useState("");
   const [message, setMessage] = useState({ error: false, msg: "" });
 
   const handleSubmit = async (e) => {
@@ -19,7 +19,8 @@ const AddService = ({ id, setServiceID }) => {
     }
     const newService = {
       Service,
-      ContactNumber
+      ContactNumber,
+      Desc,
     };
     console.log(newService);
 
@@ -38,6 +39,7 @@ const AddService = ({ id, setServiceID }) => {
 
     setService("");
     setContactNumber("");
+    setDesc("");
   };
 
   const editHandler = async () => {
@@ -47,6 +49,7 @@ const AddService = ({ id, setServiceID }) => {
       console.log("the record is :", docSnap.data());
       setService(docSnap.data().Service);
       setContactNumber(docSnap.data().ContactNumber);
+      setDesc(docSnap.data().Desc);
     } catch (err) {
       setMessage({ error: true, msg: err.message });
     }
@@ -92,6 +95,18 @@ const AddService = ({ id, setServiceID }) => {
                 placeholder="Contact Number"
                 value={ContactNumber}
                 onChange={(e) => setContactNumber(e.target.value)}
+              />
+            </InputGroup>
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="formBookAuthor">
+            <InputGroup>
+              <InputGroup.Text id="formBookAuthor"></InputGroup.Text>
+              <Form.Control
+                type="text"
+                placeholder="Description"
+                value={Desc}
+                onChange={(e) => setDesc(e.target.value)}
               />
             </InputGroup>
           </Form.Group>

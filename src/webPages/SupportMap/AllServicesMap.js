@@ -2,7 +2,6 @@ import "./SupportMapCSS.css"
 import "../../App.css"
 import Footer from '../../components/Footer'
 import React, { useState, useEffect } from "react";
-import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
     withScriptjs,
@@ -12,8 +11,7 @@ import {
 } from "react-google-maps";
 import * as parkData from "../../data/allServices.json"
 import { Link } from "react-router-dom";
-
-
+import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
 
 
 function Map() {
@@ -32,9 +30,6 @@ function Map() {
     }, []);
 
     return (
-
-
-
         <GoogleMap
             defaultZoom={14}
             defaultCenter={{ lat: 54.585030, lng: -5.935540 }}
@@ -81,7 +76,8 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
     return (
         <div className="background">
-            <div className="container">
+            <div className="">
+            <Container width= "80%"fluid background-color="white">
                 <div className="contact">
                     <div
                         className="leftSide"
@@ -97,82 +93,46 @@ export default function App() {
                     </div>
                    
                     <div className="rightSideText container-fluid">
-                                <div class = "">  
-                                <h1 className="h1"> All Support Services</h1>
-                                <a href ="/allServicesMap"> 
-                                    <button 
-                                    type = "button" 
-                                    class= "btn btn-outline-secondary btn-sm btn-block">All Services</button></a> 
-                                <a href ="/hospitalSupportMap">
-                                    <button type = "button" class= "btn btn-outline-secondary btn-sm btn-block">Hospitals</button></a>
-                                <a href ="/communitySupportMap">                <button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Community Organisations</button></a>
-                                <a href ="/addictionSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Addiction Support</button></a>
-                                <a href ="/benefitsSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Benefits Support</button></a>
-                                <a href ="/bereavementSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Bereavement Support</button></a>
-                                <a href ="/cancerSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Cancer Support</button></a>
-                                <a href ="/carersSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Carers</button></a>
-                                <a href ="/counsellingSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Counselling</button></a>
-                                <a href ="/disabilitySupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Disability Support</button></a>
-                                <a href ="/eatingDisordersSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Eating Disorders</button></a>
-                                <a href ="/ethnicMinoritySupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Ethnic Minority Support</button></a>
-                                <a href ="/familyChildcareSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Family Childcare Support</button></a>
-                                <a href ="/heartDiseaseSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Heart Disease Support</button></a>
-                                <a href ="/homelessnessSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Homelessness Support</button></a>
-                                <a href ="/mentalHealthSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Mental Health Support</button></a>
-                                <a href ="/oldPersonSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Elderly Support</button></a>
-                                <a href ="/relationshipSexualitySupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Relationship and Sexuality Support</button></a>
-                                <a href ="/sexOrientationTransGroupsSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">LGBTQIA+ Support</button></a>
-                                <a href ="/violenceTraumaSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Violence/Trauma Support</button></a>
-                                <a href ="/womenSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Women Support</button></a>
-                                <a href ="/youngPeopleSupportMap"><button    
-                                type = "button" 
-                                class= "btn btn-outline-secondary btn-sm btn-block">Young People Support</button></a>
+                                <div class= "container">
+                                <h1 className="text-center"> All Support Services</h1> 
+                                <div class ="btn-group dropleft  d-flex justify-content-center">
+                                <button class =" text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">Toggle Dropleft</span>
+                            All Services
+                         </button>
+                         <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
+                         <a class="dropdown-item" href="/allServicesMap">All Services</a>
+                         <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
+                         <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
+                         <a class="dropdown-item" href="/addictionSupportMap">Addiction Support</a>
+                         <a class="dropdown-item" href="/benefitsSupportMap">Benefits Support</a>
+                         <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
+                         <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
+                         <a class="dropdown-item" href="/carersSupportMap">Carers</a>
+                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling</a>
+                         <a class="dropdown-item" href="/disabilitySupportMap">Disability</a>
+                         <a class="dropdown-item" href="/eatingDisordersSupportMap">EatingDisorders</a>
+                         <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
+                         <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
+                         <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
+                         <a class="dropdown-item" href="/homelessnessSupportMap">Homelessness Support</a>
+                         <a class="dropdown-item" href="/mentalHealthSupportMap"> Mental Health Support</a>
+                         <a class="dropdown-item" href="/oldPersonSupportMap">Elderly Support</a>
+                         <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationship and Sexuality Support</a>
+                         <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">LGBTQIA+ Support</a>
+                         <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
+                         <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
+                         <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
+                        </div>
+                       </div>
                         </div>
                     </div>
                 </div>
+                </Container>
             </div>
+            
             <Footer/>
         </div>
     );
 }
-
-
 

@@ -86,19 +86,18 @@ const Search = () => {
   }
   
   return (
-          <section className="py-4 container">
+          <section className="py-4 container-fluid">
             <div className="row justify-content-center">
               <div className="col-12 mb-5">
-                <div className="mb-3 col-4 mx-auto text-center">
-                  <label className="form-label h4">Search</label>
-                  <input
-                    type="text"
-                    className="from-control"
+                <div className="justify-content-center">
+                <h1 className="text-center"> Search</h1> 
+                <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search" 
                     value={filter}
                     onChange={searchText.bind(this)}
                   />
                 </div>
               </div>
+
 
               {dataSearch.map((item, index) => {
                 return (
