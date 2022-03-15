@@ -78,28 +78,16 @@ export default function App() {
         <div className="background">
             <div className="">
             <Container width= "80%"fluid background-color="white">
-                <div className="contact">
-                    <div
-                        className="leftSide"
-                    >
-                        <MapWrapped
-                            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
-                                }`}
-                            loadingElement={<div style={{ height: `100%` }} />}
-                            containerElement={<div style={{ height: `100%` }} />}
-                            mapElement={<div style={{ height: `100%` }} />}
-                        />
-
-                    </div>
-                   
-                    <div className="rightSideText container-fluid">
-                                <div class= "container">
+                                <div className="container">
+                                <div class="card w-90">
+                                <div class="card-body">
                                 <h1 className="text-center"> All Support Services</h1> 
-                                <div class ="btn-group dropleft  d-flex justify-content-center">
-                                <button class =" text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class ="btn-group d-flex justify-content-center ">
+                                <button class ="text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="sr-only">Toggle Dropleft</span>
                             All Services
                          </button>
+                        
                          <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
                          <a class="dropdown-item" href="/allServicesMap">All Services</a>
                          <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
@@ -123,16 +111,31 @@ export default function App() {
                          <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
                          <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
                          <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
-                        </div>
-                       </div>
-                        </div>
-                    </div>
-                </div>
+                         </div>
+                         </div>
+           
+                 <div className="container">
+                  <div className="contact">
+                    <div
+                        className="leftSide"
+                    >
+                        <MapWrapped
+                            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
+                                }`}
+                            loadingElement={<div style={{ height: `100%` }} />}
+                            containerElement={<div style={{ height: `100%` }} />}
+                            mapElement={<div style={{ height: `100%` }} />}
+                        />
+                                       </div>
+                                   </div>
+                               </div>      
+                           </div>
+                        </div> 
+                     </div>
                 </Container>
             </div>
-            
-            <Footer/>
-        </div>
+        <Footer/>
+    </div>
     );
 }
 

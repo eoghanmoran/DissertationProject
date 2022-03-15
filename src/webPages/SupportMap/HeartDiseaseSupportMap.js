@@ -2,6 +2,7 @@ import "./SupportMapCSS.css"
 import "../../App.css"
 import React, { useState, useEffect } from "react";
 import Footer from '../../components/Footer'
+import {Container} from "react-bootstrap"
 import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
@@ -81,28 +82,18 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
     return (
         <div className="background">
-            <div className="container">
-                <div className="contact">
-                    <div
-                        className="leftSide"
-                    >
-                        <MapWrapped
-                            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
-                                }`}
-                            loadingElement={<div style={{ height: `100%` }} />}
-                            containerElement={<div style={{ height: `100%` }} />}
-                            mapElement={<div style={{ height: `100%` }} />}
-                        />
-
-                    </div>
-                    <div className="rightSideText container-fluid">
-                                <div class= "container">
+            <div className="">
+            <Container width= "80%"fluid background-color="white">
+                                <div className="container">
+                                <div class="card w-90">
+                                <div class="card-body">
                                 <h1 className="text-center">Heart Disease Support</h1> 
-                                <div class ="btn-group dropleft  d-flex justify-content-center">
-                                <button class =" text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class ="btn-group d-flex justify-content-center ">
+                                <button class ="text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="sr-only">Toggle Dropleft</span>
                             All Services
                          </button>
+                        
                          <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
                          <a class="dropdown-item" href="/allServicesMap">All Services</a>
                          <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
@@ -112,9 +103,9 @@ export default function App() {
                          <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
                          <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
                          <a class="dropdown-item" href="/carersSupportMap">Carers</a>
-                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
-                         <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
-                         <a class="dropdown-item" href="/eatingDisordersSupportMap">Eating Disorders</a>
+                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling</a>
+                         <a class="dropdown-item" href="/disabilitySupportMap">Disability</a>
+                         <a class="dropdown-item" href="/eatingDisordersSupportMap">EatingDisorders</a>
                          <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
                          <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
                          <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
@@ -126,14 +117,31 @@ export default function App() {
                          <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
                          <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
                          <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
-                        </div>
-                       </div>
-                        </div>
-                    </div>
-                </div>
+                         </div>
+                         </div>
+           
+                 <div className="container">
+                  <div className="contact">
+                    <div
+                        className="leftSide"
+                    >
+                        <MapWrapped
+                            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
+                                }`}
+                            loadingElement={<div style={{ height: `100%` }} />}
+                            containerElement={<div style={{ height: `100%` }} />}
+                            mapElement={<div style={{ height: `100%` }} />}
+                        />
+                                       </div>
+                                   </div>
+                               </div>      
+                           </div>
+                        </div> 
+                     </div>
+                </Container>
             </div>
-            <Footer/>
-        </div>
+        <Footer/>
+    </div>
     );
 }
 
