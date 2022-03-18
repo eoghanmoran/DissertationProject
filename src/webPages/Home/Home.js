@@ -85,7 +85,7 @@ export default function Home() {
               </div>
             </Card.Body>
           </Card>
-        </Container>
+          </Container>
 
 
       </div>

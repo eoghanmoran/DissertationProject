@@ -22,39 +22,42 @@ function CrisishelpDetails() {
 
   return (
     <div className="background">
-            <div class="container-fluid">
-             <div class="row jumbotron">
-             <div class= "col-12">
-             <h1 class=" text-center display-4">Urgent Support</h1>
-             <hr class="my-4" />
-             <h1 class=" text-center lead">Forward South Partnership</h1>
-             
-            </div>
-            </div>
-            </div>
-           
+            <div class="container-sm">
+            <div class= "col-sm">
+            <div class = "card-header">
             
-              <Table responsive bordered className="noWrap">
-                
+            </div>
+            
+            
+                     
+              <Table responsive bordered className="noWrap  table table-sm  table-striped table-responsive-stack">
+              
+              
                 <thead>
-                  <tr>
-                    <th>Service</th>
-                    <th>Contact Number</th>
-                    <th>Description</th>
+                  <tr class = "table-borderless">
+                    <th class ="font-weight-bold h4">Urgent Services</th>
+                    <th class =" font-weight-bold h4">Contact Number</th>
+                    <th class =" font-weight-bold h4 text-center">Description</th>
+                    
+                    
                   </tr>
                 </thead>
                 <tbody>
                   {Helplines.map((helpline) => {
                     return (
-                      <tr>
-                        <td>{helpline.Service}</td>
-                        <td>{helpline.ContactNumber}</td>
-                        <td>{helpline.Desc}</td>
+                      <tr >
+                        <td class = "font-weight-bold h5">{helpline.Service}</td>
+                        <td class = "h5">{helpline.ContactNumber}</td>
+                        <td class = "lead">{helpline.Desc}</td>
+                        
                       </tr>
+                    
                     )
                   })}
                 </tbody>
               </Table>
+              </div>
+             </div>      
       <Footer />
     </div>
   );

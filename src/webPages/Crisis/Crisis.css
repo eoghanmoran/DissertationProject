@@ -1,19 +1,17 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
   padding: 1rem;
-  font-family: Helvetica;
 }
 
 table {
   border: 10px solid transparent;
   border-collapse: collapse;
-  width: 100%;
-}
-
-.noWrap {
-  white-space: nowrap;
+  width: 100vw;
+  height: 100vh;
+  font-family: " Opera MS";
+  font-size: 35px;
 }
 
 th,
@@ -21,7 +19,8 @@ td {
   border: 1px solid transparent;
   text-align: left;
   padding: 12px;
-  font-size: 25px;
+  font-size: 50%;
+  width: flex;
 }
 th {
   background-color: rgb(112, 189, 112);
