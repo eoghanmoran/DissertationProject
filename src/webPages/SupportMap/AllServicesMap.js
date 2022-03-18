@@ -79,16 +79,15 @@ export default function App() {
             <div className="">
             <Container width= "80%"fluid background-color="white">
                                 <div className="container">
-                                <div class="card w-90">
+                                <div class="card">
                                 <div class="card-body">
                                 <h1 className="text-center"> All Support Services</h1> 
-                                <div class ="btn-group d-flex justify-content-center ">
-                                <button class ="text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropleft</span>
+                                <div class = "btn-group d-flex justify-content-center ">
+                                <button class =" btn btn-secondary dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             All Services
                          </button>
                         
-                         <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
+                         <div class = "dropdown-menu dropdown-left" aria-labelledby ="dropdownMenuBtn">
                          <a class="dropdown-item" href="/allServicesMap">All Services</a>
                          <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
                          <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>

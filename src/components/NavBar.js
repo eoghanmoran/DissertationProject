@@ -6,9 +6,9 @@ import "./Navbar.css";
 function Navbar() {
     
     return (
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class ="navbar navbar-expand-sm navbar-light bg-light">
 
-       <div class="container-fluid">
+       <div class="container-fluid ">
        <a class="navbar-brand" href="#"><img src={Logo} alt="Fsplogo" height="110" width= "115"  /></a>
 
       <button class = "navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls ="navBarResponsive" aria-expanded ="false" aria-label="Toggle navigation">
