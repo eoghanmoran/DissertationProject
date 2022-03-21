@@ -36,7 +36,8 @@ export default function Home() {
 
 
     <div className="background">
-      <div className="container">
+      <div className="">
+        <Container width="80%" fluid background-colour="white">
           <Card>
             <Card.Body>
               <div class="row welcome text-center">
@@ -45,8 +46,8 @@ export default function Home() {
 
                     <h1 class="display-3 text-info">Forward South Partnership</h1>
                     <blockquote class="blockquote">
-                     <p class="mb-0 font-weight-bold ">South Belfast Health and Wellbeing Directory</p>
-                      </blockquote>
+                      <p class="mb-0 font-weight-bold ">South Belfast Health and Wellbeing Directory</p>
+                    </blockquote>
                     <hr class="my-4" />
 
                     <div class="col-md-12">
@@ -84,6 +85,7 @@ export default function Home() {
               </div>
             </Card.Body>
           </Card>
+        </Container>
       </div>
       <Footer />
     </div>
