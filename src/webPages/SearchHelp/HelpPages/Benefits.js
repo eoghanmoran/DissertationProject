@@ -22,35 +22,39 @@ function CrisishelpDetails() {
 
   return (
     <div className="background">
-    <div class = "container">
-    <div class = " col-md-12">
+      <div class="container-fluid">
+        <div class="row jumbotron">
+          <div class="col-12">
+            <h1 class=" text-center display-4">Benefit Support</h1>
+            <hr class="my-4" />
+            <h1 class=" text-center lead">Forward South Partnership</h1>
 
-      <Table responsive bordered className="noWrap table-striped table-responsive-stack">
+          </div>
+        </div>
+      </div>
 
-      <thead>
-                  <tr class = "table-borderless">
-                    <th class ="font-weight-bold h3">Service</th>
-                    <th class =" font-weight-bold h4">Contact Number</th>
-                    <th class =" font-weight-bold h4 text-center">Description</th>
-                    
-                    
-                  </tr>
-                </thead>
-                <tbody>
-                  {Helplines.map((helpline) => {
-                    return (
-                      <tr >
-                        <td class = "font-weight-bold h4">{helpline.Service}</td>
-                        <td class = "h5">{helpline.ContactNumber}</td>
-                        <td class = "lead">{helpline.Desc}</td>
-                        
-                      </tr>
+
+      <Table responsive bordered className="noWrap">
+
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Contact Number</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Helplines.map((helpline) => {
+            return (
+              <tr>
+                <td>{helpline.Service}</td>
+                <td>{helpline.ContactNumber}</td>
+                <td>{helpline.Desc}</td>
+              </tr>
             )
           })}
         </tbody>
       </Table>
-      </div>
-      </div>
       <Footer />
     </div>
   );
