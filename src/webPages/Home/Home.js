@@ -52,8 +52,9 @@ export default function Home() {
 
                     <div class="col-md-12">
                     </div>
-                    <p class="lead">Forward South Partnership is an independent charity that works with community, schools, business, public and private sector partners to help regenerate and sustain ahealthy and prosperous South Belfast. We are part of a city wide structure known as the Belfast Area Partnerships who have led community regeneration initiatives over the past 21 years. </p>
+                    <p class="lead">Forward South Partnership (FSP) is a community led regeneration body bringing all sectors together to engage in the social and physical regeneration of South Belfast. FSP is an overarching backbone organization providing infrastructure for organisations to convene and collaborate. We grow capacity, support communities to get stronger- to do things for themselves, using an asset-based approach which builds - people, ideas, skills, and facilities.</p>
 
+                    <p class="lead">South Belfast Health and Wellbeing Directory is a database of services supporting the health and wellbeing of communities in South Belfast which can help you navigate and connect into the work of our many partner organisations.</p>
 
 
                     <section className="py-4 container">
