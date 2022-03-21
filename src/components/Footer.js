@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-//import Button from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -8,33 +7,11 @@ function Footer() {
     <div className='footer-container font-small'>
       
       <section className='footer-subscription'>
-        {/* <p className='footer-subscription-heading'>
-          Subscribe to our newsletter to get detailed information on local events
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p> */}
         <div className='input-areas'>
-          {/* <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form> */}
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          {/* <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/'>Who we are</Link> 
-            <Link to='/'>Our Work</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Donations</Link>
-          </div> */}
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contactUs'>Contact</Link>
@@ -55,7 +32,6 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Forward South Partnership
-              {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
           <small class='website-rights'>Forward South Partnership © 2022</small>
