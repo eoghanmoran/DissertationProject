@@ -22,33 +22,37 @@ function CrisishelpDetails() {
 
   return (
     <div className="background">
+    <div class = "container">
+    <div class = " col-md-12">
 
+      <Table responsive bordered className="noWrap table-striped table-responsive-stack">
 
-      <Table responsive bordered className="noWrap">
-
-        <thead>
-          <tr>
-            <th>Service</th>
-            <th>Contact Number</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          {Helplines.map((helpline) => {
-            return (
-              <tr>
-                <td>{helpline.Service}</td>
-                <td>{helpline.ContactNumber}</td>
-                <td>{helpline.Desc}</td>
-              </tr>
+      <thead>
+                  <tr class = "table-borderless">
+                    <th class ="font-weight-bold h3">Service</th>
+                    <th class =" font-weight-bold h4">Contact Number</th>
+                    <th class =" font-weight-bold h4 text-center">Description</th>
+                    
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  {Helplines.map((helpline) => {
+                    return (
+                      <tr >
+                        <td class = "font-weight-bold h4">{helpline.Service}</td>
+                        <td class = "h5">{helpline.ContactNumber}</td>
+                        <td class = "lead">{helpline.Desc}</td>
+                        
+                      </tr>
             )
           })}
         </tbody>
       </Table>
-
+      </div>
+      </div>
       <Footer />
     </div>
   );
 }
-
 export default CrisishelpDetails;
