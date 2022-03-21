@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import img1 from "./images/Crisis.png";
-import img2 from "./images/SearchHelp.png";
-import img3 from "./images/maps-icon.svg";
-import img4 from "./images/contact.png";
+import img1 from "./images/Urgent.png";
+import img2 from "./images/Search.png";
+import img3 from "./images/SupportMap.png";
+import img4 from "./images/ContactUs.png";
 
 const data = {
     
