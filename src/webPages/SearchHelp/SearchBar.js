@@ -90,7 +90,7 @@ const Search = () => {
             <div className="row justify-content-center">
               <div className="col-12 mb-5">
                 <div className="justify-content-center">
-                <h1 className="text-center"> Search</h1> 
+                <h1 className="text-center display-4"> Search</h1> 
                 <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search" 
                     value={filter}
                     onChange={searchText.bind(this)}

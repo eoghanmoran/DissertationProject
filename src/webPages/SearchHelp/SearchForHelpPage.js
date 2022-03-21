@@ -7,17 +7,14 @@ function App() {
   return (
 
     <div className="background">
-      <div className="container-fluid">
+    <div className="container">
+      <div className="col-md-12">
         <div className="d-flex justify-content-center">
-          <Container fluid background-color="white">
             <div className="whiteBackground">
             <Search />
             </div>
-            
-          </Container>
-
         </div>
-
+      </div>
       </div>
       <Footer/>
     </div>
