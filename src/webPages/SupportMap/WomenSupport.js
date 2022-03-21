@@ -2,8 +2,6 @@ import "./SupportMapCSS.css"
 import "../../App.css"
 import React, { useState, useEffect } from "react";
 import Footer from '../../components/Footer'
-import {Container} from "react-bootstrap"
-import Button from 'react-bootstrap/Button'
 import {
     withGoogleMap,
     withScriptjs,
@@ -83,18 +81,16 @@ export default function App() {
     return (
         <div className="background">
             <div className="">
-            <Container width= "80%"fluid background-color="white">
                                 <div className="container">
-                                <div class="card w-90">
+                                <div class="card">
                                 <div class="card-body">
-                                <h1 className="text-center">Violence Trauma Support</h1> 
-                                <div class ="btn-group d-flex justify-content-center ">
-                                <button class ="text center btn btn-outline-secondary btn-xl dropdown-toggle " type="button" id="dropDownMenuButton" data data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropdown</span>
+                                <h1 class=" text-center display-4">Women Support</h1>
+                                <div class = "btn-group  d-flex justify-content-center ">
+                                <button class =" btn btn-outline-secondary dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             All Services
                          </button>
                         
-                         <div class = "dropdown-menu" aria-labelledby ="dropdownMenuBtn">
+                         <div class = "dropdown-menu scrollable-menu text-center" aria-labelledby ="dropdownMenuBtn">
                          <a class="dropdown-item" href="/allServicesMap">All Services</a>
                          <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
                          <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
@@ -102,10 +98,10 @@ export default function App() {
                          <a class="dropdown-item" href="/benefitsSupportMap">Benefits Support</a>
                          <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
                          <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
-                         <a class="dropdown-item" href="/carersSupportMap">Carers</a>
-                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling</a>
-                         <a class="dropdown-item" href="/disabilitySupportMap">Disability</a>
-                         <a class="dropdown-item" href="/eatingDisordersSupportMap">EatingDisorders</a>
+                         <a class="dropdown-item" href="/carersSupportMap">Carers Support</a>
+                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
+                         <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
+                         <a class="dropdown-item" href="/eatingDisordersSupportMap">Eating Disorders Support</a>
                          <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
                          <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
                          <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
@@ -120,7 +116,7 @@ export default function App() {
                          </div>
                          </div>
            
-                 <div className="container">
+                 <div className="col-md-12">
                   <div className="contact">
                     <div
                         className="leftSide"
@@ -138,7 +134,6 @@ export default function App() {
                            </div>
                         </div> 
                      </div>
-                </Container>
             </div>
         <Footer/>
     </div>

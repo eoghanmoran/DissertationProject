@@ -1,61 +1,29 @@
 .contact {
-  width: 100%;
-  height: 90vh;
+  width: 100vh;
+  height: 100%;
   background-color: white;
+}
+
+.card {
+  height: 100%;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 250px;
+  overflow-x: hidden;
+  position: center;
 }
 
 .dropdown-menu {
   position: relative;
-  left: 0;
-  width: 1070px;
+  width: auto !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 10px;
-  font-size: 100px;
-  margin-left: 30px;
+  font-size: 200px;
 }
 
-.dropdown-menu > a {
-  position: relative;
+.dropdwon:hover .dropdown-menu {
   display: block;
-  list-style-type: none;
-}
-
-.dropdown-wrapper {
-  position: relative;
-}
-
-form input {
-  height: 40px;
-  font-size: 30px;
-  width: 80%;
-  border: none;
-  border-bottom: 1px solid #121619;
-  color: black;
-}
-
-form textarea {
-  margin-top: 15px;
-  height: 70px;
-  width: 80%;
-  font-size: 20px;
-  border: none;
-  border-bottom: 1px solid #121619;
-  color: black;
-}
-input::placeholder,
-textarea::placeholder {
-  font-weight: bold;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-form input:focus,
-textarea:focus {
-  outline: none;
-}
-
-form label {
-  margin-top: 15px;
-  color: grey;
-  font-size: 30px;
 }
