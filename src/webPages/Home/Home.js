@@ -36,8 +36,7 @@ export default function Home() {
 
 
     <div className="background">
-      <div className="">
-        <Container width= "80%"fluid background-color="white">
+      <div className="container">
           <Card>
             <Card.Body>
               <div class="row welcome text-center">
@@ -46,11 +45,11 @@ export default function Home() {
 
                     <h1 class="display-3 text-info">Forward South Partnership</h1>
                     <blockquote class="blockquote">
-                     <p class="mb-0">South Belfast Health and Wellbeing Directory</p>
+                     <p class="mb-0 font-weight-bold ">South Belfast Health and Wellbeing Directory</p>
                       </blockquote>
                     <hr class="my-4" />
 
-                    <div class="col-12">
+                    <div class="col-md-12">
                     </div>
                     <p class="lead">Forward South Partnership is an independent charity that works with community, schools, business, public and private sector partners to help regenerate and sustain ahealthy and prosperous South Belfast. We are part of a city wide structure known as the Belfast Area Partnerships who have led community regeneration initiatives over the past 21 years. </p>
 
@@ -85,13 +84,7 @@ export default function Home() {
               </div>
             </Card.Body>
           </Card>
-          </Container>
-
-
       </div>
-
-
-
       <Footer />
     </div>
 
