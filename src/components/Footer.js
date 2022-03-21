@@ -28,18 +28,17 @@ function Footer() {
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/'>Who we are</Link> 
             <Link to='/'>Our Work</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Donations</Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contactUs'>Contact</Link>
             <Link to='/crisisHelp'>Crisis Support</Link>
-            <Link to='/'>Register your Organisation</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
