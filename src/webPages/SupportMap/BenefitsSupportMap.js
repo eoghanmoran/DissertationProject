@@ -11,7 +11,7 @@ import {
 } from "react-google-maps";
 import * as parkData from "../../data/benefits.json"
 import { Link } from "react-router-dom";
-
+import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
 
 
 
@@ -80,63 +80,66 @@ const MapWrapped = withScriptjs(withGoogleMap(Map));
 export default function App() {
     return (
         <div className="background">
-            <div className="">
-                                <div className="container">
-                                <div class="card">
-                                <div class="card-body">
+            <Container width="100%" fluid background-colour="white">
+                <div className="">
+                    <div className="">
+                        <div class="card">
+                            <div class="card-body">
                                 <h1 class=" text-center display-4">Benefits Support</h1>
-                                <div class = "btn-group  d-flex justify-content-center ">
-                                <button class =" btn btn-outline-secondary dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            All Services
-                         </button>
-                        
-                         <div class = "dropdown-menu scrollable-menu text-center" aria-labelledby ="dropdownMenuBtn">
-                         <a class="dropdown-item" href="/allServicesMap">All Services</a>
-                         <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
-                         <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
-                         <a class="dropdown-item" href="/addictionSupportMap">Addiction Support</a>
-                         <a class="dropdown-item" href="/benefitsSupportMap">Benefits Support</a>
-                         <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
-                         <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
-                         <a class="dropdown-item" href="/carersSupportMap">Carers Support</a>
-                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
-                         <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
-                         <a class="dropdown-item" href="/eatingDisordersSupportMap">Eating Disorders Support</a>
-                         <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
-                         <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
-                         <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
-                         <a class="dropdown-item" href="/homelessnessSupportMap">Homelessness Support</a>
-                         <a class="dropdown-item" href="/mentalHealthSupportMap"> Mental Health Support</a>
-                         <a class="dropdown-item" href="/oldPersonSupportMap">Elderly Support</a>
-                         <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationship and Sexuality Support</a>
-                         <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">LGBTQIA+ Support</a>
-                         <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
-                         <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
-                         <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
-                         </div>
-                         </div>
-           
-                 <div className="col-md-12">
-                  <div className="contact">
-                    <div
-                        className="leftSide"
-                    >
-                        <MapWrapped
-                            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
-                                }`}
-                            loadingElement={<div style={{ height: `100%` }} />}
-                            containerElement={<div style={{ height: `100%` }} />}
-                            mapElement={<div style={{ height: `100%` }} />}
-                        />
-                                       </div>
-                                   </div>
-                               </div>      
-                           </div>
-                        </div> 
-                  </div>
-            </div>
-        <Footer/>
-    </div>
+                                <div class="btn-group  d-flex justify-content-center ">
+                                    <button class=" btn btn-outline-secondary dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        All Services
+                                    </button>
+
+                                    <div class="dropdown-menu scrollable-menu text-center" aria-labelledby="dropdownMenuBtn">
+                                        <a class="dropdown-item" href="/allServicesMap">All Services</a>
+                                        <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
+                                        <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
+                                        <a class="dropdown-item" href="/addictionSupportMap">Addiction Support</a>
+                                        <a class="dropdown-item" href="/benefitsSupportMap">Benefits Support</a>
+                                        <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
+                                        <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
+                                        <a class="dropdown-item" href="/carersSupportMap">Carers Support</a>
+                                        <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
+                                        <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
+                                        <a class="dropdown-item" href="/eatingDisordersSupportMap">Eating Disorders Support</a>
+                                        <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
+                                        <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
+                                        <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
+                                        <a class="dropdown-item" href="/homelessnessSupportMap">Homelessness Support</a>
+                                        <a class="dropdown-item" href="/mentalHealthSupportMap"> Mental Health Support</a>
+                                        <a class="dropdown-item" href="/oldPersonSupportMap">Elderly Support</a>
+                                        <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationship and Sexuality Support</a>
+                                        <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">LGBTQIA+ Support</a>
+                                        <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
+                                        <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
+                                        <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-12">
+                                    <div className="contact">
+                                        <div
+                                            className="leftSide"
+                                        >
+                                            <MapWrapped
+                                                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY
+                                                    }`}
+                                                loadingElement={<div style={{ height: `100%` }} />}
+                                                containerElement={<div style={{ height: `100%` }} />}
+                                                mapElement={<div style={{ height: `100%` }} />}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Container>
+
+            <Footer />
+        </div>
     );
 }
 
