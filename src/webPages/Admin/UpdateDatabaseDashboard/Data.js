@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
-import img1 from "./Images/Addiction.png";
-import img2 from "./Images/Benefits.png";
-import img3 from "./Images/Bereavement.png";
+import img1 from "./Images/AddictionSupport.png";
+import img2 from "./Images/BenefitsSupport.png";
+import img3 from "./Images/BereavementSupport.png";
 import img4 from "./Images/CancerSupport.png";
-import img5 from "./Images/Carers.png";
-import img6 from "./Images/Community.png";
-import img7 from "./Images/Counselling.png";
-import img8 from "./Images/Disability.png";
-import img9 from "./Images/Eating.jpeg";
-import img10 from "./Images/EthnicM.jpeg";
-import img11 from "./Images/Childcare.jpeg";
-import img12 from "./Images/Circulatory.webp";
-import img13 from "./Images/Helplines.png";
-import img14 from "./Images/Homelessness.jpeg";
-import img15 from "./Images/Hospitals.jpeg";
-import img16 from "./Images/MentalHealth.jpeg";
-import img17 from "./Images/Elderly.jpeg";
-import img18 from "./Images/relationshipsSupport.png";
-import img19 from "./Images/SexSupport.png";
-import img20 from "./Images/Violence.png";
-import img21 from "./Images/WomenSupport.png";
-import img22 from "./Images/YoungPeople.jpeg";
+import img5 from "./Images/CarersSupport.png";
+import img6 from "./Images/CommunityOrgs.png";
+import img7 from "./Images/CounsellingSupport.png";
+import img8 from "./Images/DisabilitySupport.png";
+import img9 from "./Images/ChronicConditions.png";
+import img10 from "./Images/EthnicMinoritySupport.png";
+import img11 from "./Images/FamilyChildcare.png";
+import img12 from "./Images/HeartAndCirculatory.png";
+import img13 from "./Images/HelplineSupport.png";
+import img14 from "./Images/HomelessnessSupport.png";
+import img15 from "./Images/LocalHealthcare.png";
+import img16 from "./Images/MentalHealthSupport.webp";
+import img17 from "./Images/OlderPersonSupport.webp";
+import img18 from "./Images/RelationshipsAndSexuality.webp";
+import img19 from "./Images/SexOrientationAndTrans.webp";
+import img20 from "./Images/ViolenceTraumaSupport.webp";
+import img21 from "./Images/WomenSupport.webp";
+import img22 from "./Images/YoungPeopleSupport.webp";
 
 const data = {
     
@@ -35,7 +35,7 @@ const data = {
         {
             id:2,
             img: img2,
-            title: 'Benefits Support',
+            title: 'Benefits, Debt & Employment Advice',
             desc: 'desc 2'
             
         },
@@ -109,7 +109,7 @@ const data = {
         {
             id:13,
             img: img13,
-            title: 'Helplines',
+            title: 'Helpline Support',
             desc: 'desc 2'
         },
         {
@@ -121,7 +121,7 @@ const data = {
         {
             id:15,
             img: img15,
-            title: 'Hospitals',
+            title: 'Local Healthcare',
             desc: 'desc 2'
         },
         {
@@ -133,19 +133,19 @@ const data = {
         {
             id:17,
             img: img17,
-            title: 'Elderly Support',
+            title: 'Older Person Support',
             desc: 'desc 2'
         },
         {
             id:18,
             img: img18,
-            title: 'Relationships/Sexuality Support',
+            title: 'Relationships, Sexuality & Sexual Health Support',
             desc: 'desc 2'
         },
         {
             id:19,
             img: img19,
-            title: 'LGBT Support',
+            title: 'Sexual Orientation & Transgender Groups',
             desc: 'desc 2'
         },
         {
