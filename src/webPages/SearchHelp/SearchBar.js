@@ -21,8 +21,10 @@ const Search = () => {
   function handleClick(title) {
     if (title == "Addiction Support") {
       history.push("/addictionSupport");
-    } else if (title == "Benefits Support") {
+
+    } else if (title == "Benefits, Debt & Employment Advice") {
       history.push("/benefitSupport");
+
     } else if (title == "Bereavement Support") {
       history.push("/bereavementSupport");
     }
@@ -53,22 +55,22 @@ const Search = () => {
     else if (title == "Heart & Circulatory Disease Support") {
       history.push("/heartCirculatory");
     }
-    else if (title == "Helplines") {
+    else if (title == "Helpline Support") {
       history.push("/helplines");
     }
     else if (title == "Homelessness Support") {
       history.push("/homelessnessSupport");
     }
-    else if (title == "Hospitals") {
+    else if (title == "Local Healthcare") {
       history.push("/hospitals");
     }
     else if (title == "Mental Health Support") {
       history.push("/mentalHealthSupport");
     }
-    else if (title == "Elderly Support") {
+    else if (title == "Older Person Support") {
       history.push("/elderlySupport");
     }
-    else if (title == "Relationships/Sexuality Support") {
+    else if (title == "Relationships, Sexuality & Sexual Health Support") {
       history.push("/relationshipSupport");
     }
     else if (title == "LGBT Support") {

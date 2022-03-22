@@ -92,24 +92,24 @@ export default function App() {
                                     </button>
 
                                     <div class="dropdown-menu scrollable-menu text-center" aria-labelledby="dropdownMenuBtn">
-                                        <a class="dropdown-item" href="/allServicesMap">All Services</a>
-                                        <a class="dropdown-item" href="/hospitalSupportMap">Hospitals</a>
+                                    <a class="dropdown-item" href="/allServicesMap">All Services</a>
+                                        <a class="dropdown-item" href="/hospitalSupportMap">Local Healthcare</a>
                                         <a class="dropdown-item" href="/communitySupportMap">Community Organisations</a>
                                         <a class="dropdown-item" href="/addictionSupportMap">Addiction Support</a>
-                                        <a class="dropdown-item" href="/benefitsSupportMap">Benefits Support</a>
+                                        <a class="dropdown-item" href="/benefitsSupportMap">Benefit, Debt & Employment Advice</a>
                                         <a class="dropdown-item" href="/bereavementSupportMap">Bereavement Support</a>
                                         <a class="dropdown-item" href="/cancerSupportMap">Cancer Support</a>
                                         <a class="dropdown-item" href="/carersSupportMap">Carers Support</a>
-                                        <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
+                                        <a class="dropdown-item" href="/counsellingSupportMap">Counselling</a>
                                         <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
                                         <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
-                                        <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
-                                        <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>
+                                        <a class="dropdown-item" href="/familyChildcareSupportMap">Family & Childcare Support</a>
+                                        <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart & Circulatory Disease Support</a>
                                         <a class="dropdown-item" href="/homelessnessSupportMap">Homelessness Support</a>
                                         <a class="dropdown-item" href="/mentalHealthSupportMap"> Mental Health Support</a>
-                                        <a class="dropdown-item" href="/oldPersonSupportMap">Elderly Support</a>
-                                        <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationship and Sexuality Support</a>
-                                        <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">LGBTQIA+ Support</a>
+                                        <a class="dropdown-item" href="/oldPersonSupportMap">Older Person Support</a>
+                                        <a class="dropdown-item" href="/relationshipSexualitySupportMap">Relationships, Sexuality & Sexual Health Support</a>
+                                        <a class="dropdown-item" href="/sexOrientationTransGroupsSupportMap">Sexual Orientation & Transgender Groups</a>
                                         <a class="dropdown-item" href="/violenceTraumaSupportMap">Violence Trauma Support</a>
                                         <a class="dropdown-item" href="/womenSupportMap">Women Support</a>
                                         <a class="dropdown-item" href="/youngPeopleSupportMap">Young People Support</a>

@@ -25,7 +25,7 @@ function CrisishelpDetails() {
       <div class="container-fluid">
         <div class="row jumbotron">
           <div class="col-12">
-            <h1 class=" text-center display-4">Hospitals</h1>
+            <h1 class=" text-center display-4">Local Healthcare</h1>
 
 
           </div>

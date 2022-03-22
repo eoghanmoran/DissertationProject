@@ -43,7 +43,7 @@ const data = {
         {
             id:2,
             img: img2,
-            title: 'Benefits Support',
+            title: 'Benefits, Debt & Employment Advice',
             desc: 'desc 2'
             
         },
@@ -117,7 +117,7 @@ const data = {
         {
             id:13,
             img: img13,
-            title: 'Helplines',
+            title: 'Helpline Support',
             desc: 'desc 2'
         },
         {
@@ -129,7 +129,7 @@ const data = {
         {
             id:15,
             img: img15,
-            title: 'Hospitals',
+            title: 'Local Healthcare',
             desc: 'desc 2'
         },
         {
@@ -141,13 +141,13 @@ const data = {
         {
             id:17,
             img: img28, img17,
-            title: 'Elderly Support',
+            title: 'Older Person Support',
             desc: 'desc 2'
         },
         {
             id:18,
             img: img29, img18,
-            title: 'Relationships/Sexuality Support',
+            title: 'Relationships, Sexuality & Sexual Health Support',
             desc: 'desc 2'
         },
         {
