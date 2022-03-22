@@ -153,7 +153,7 @@ const data = {
         {
             id:19,
             img: img24, img19,
-            title: 'LGBT Support',
+            title: 'Sexual Orientation & Transgender Groups',
             desc: 'desc 2'
         },
         {

@@ -73,7 +73,7 @@ const Search = () => {
     else if (title == "Relationships, Sexuality & Sexual Health Support") {
       history.push("/relationshipSupport");
     }
-    else if (title == "LGBT Support") {
+    else if (title == "Sexual Orientation & Transgender Groups") {
       history.push("/sexualOrientationSupport");
     }
     else if (title == "Violence/Trauma Support") {

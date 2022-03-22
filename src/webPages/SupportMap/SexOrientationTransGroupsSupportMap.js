@@ -86,7 +86,7 @@ export default function App() {
                             <div className="container">
                             <div class="card">
                             <div class="card-body">
-                            <h1 class=" text-center display-4">LGBTQIA+ Support</h1>
+                            <h1 class=" text-center display-4">Sexual Orientation & Transgender Groups</h1>
                             <div class = "btn-group  d-flex justify-content-center ">
                             <button class =" btn btn-outline-secondary dropdown-toggle " type="button" id="dropDownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         All Services

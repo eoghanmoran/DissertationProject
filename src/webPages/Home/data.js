@@ -1,9 +1,9 @@
 import img1 from "./images/Urgent.webp";
-import img2 from "./images/Urgent.png";
-import img3 from "./images/Search.webp";
-import img4 from "./images/Search.png";
-import img5 from "./images/SupportMap.webp";
-import img6 from "./images/SupportMap.png";
+// import img2 from "./images/Urgent.png";
+import img2 from "./images/Search.webp";
+// import img4 from "./images/Search.png";
+import img3 from "./images/SupportMap.webp";
+// import img6 from "./images/SupportMap.png";
 import img7 from "./images/ContactUs.png";
 
 const data = {
@@ -11,7 +11,7 @@ const data = {
     cardData:[
         {
             id:1,
-            img: img1, img2,
+            img: img1, 
             title: 'Urgent Support',
             desc: 'desc 1',
             alt: 'Urgent Support Card'
@@ -19,7 +19,7 @@ const data = {
         },
         {
             id:2,
-            img: img3, img4,
+            img: img2,
             title: 'Search For Support',
             desc: 'desc 2',
             alt: 'Search for Help Card'
@@ -27,7 +27,7 @@ const data = {
         },
         {
             id:3,
-            img: img5, img6,
+            img: img3,
             title: 'Support Map',
             desc: 'desc 2',
             alt: 'Support Map Card'
