@@ -37,18 +37,18 @@ function CrisishelpDetails() {
 
         <thead>
           <tr>
-            <th>Service</th>
-            <th>Contact Number</th>
-            <th>Description</th>
+            <th class="text-center h2">Service</th>
+            <th class="text-center h2">Contact Number</th>
+            <th class="text-center h2">Description</th>
           </tr>
         </thead>
         <tbody>
           {Helplines.map((helpline) => {
             return (
               <tr>
-                <td>{helpline.Service}</td>
-                <td>{helpline.ContactNumber}</td>
-                <td>{helpline.Desc}</td>
+                <td class="h4">{helpline.Service}</td>
+                <td class="h4">{helpline.ContactNumber}</td>
+                <td class="h4">{helpline.Desc}</td>
               </tr>
             )
           })}
