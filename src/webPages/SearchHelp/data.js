@@ -21,6 +21,14 @@ import img19 from "./Images/SexOrientationAndTrans.png";
 import img20 from "./Images/ViolenceTraumaSupport.png";
 import img21 from "./Images/WomenSupport.png";
 import img22 from "./Images/YoungPeopleSupport.png";
+import img23 from "./Images/MentalHealthSupport.webp";
+import img24 from "./Images/SexOrientationAndTrans.webp";
+import img25 from "./Images/ViolenceTraumaSupport.webp";
+import img26 from "./Images/WomenSupport.webp";
+import img27 from "./Images/YoungPeopleSupport.webp";
+import img28 from "./Images/OlderPersonSupport.webp";
+import img29 from "./Images/RelationshipsAndSexuality.webp";
+
 
 const data = {
     
@@ -84,7 +92,7 @@ const data = {
         {
             id:9,
             img: img9,
-            title: 'Eating Disorder Support',
+            title: 'Chronic Conditions',
             desc: 'desc 2'
             
         },
@@ -126,43 +134,43 @@ const data = {
         },
         {
             id:16,
-            img: img16,
+            img: img23, img16,
             title: 'Mental Health Support',
             desc: 'desc 2'
         },
         {
             id:17,
-            img: img17,
+            img: img28, img17,
             title: 'Elderly Support',
             desc: 'desc 2'
         },
         {
             id:18,
-            img: img18,
+            img: img29, img18,
             title: 'Relationships/Sexuality Support',
             desc: 'desc 2'
         },
         {
             id:19,
-            img: img19,
+            img: img24, img19,
             title: 'LGBT Support',
             desc: 'desc 2'
         },
         {
             id:20,
-            img: img20,
+            img: img25, img20,
             title: 'Violence/Trauma Support',
             desc: 'desc 2'
         },
         {
             id:21,
-            img: img21,
+            img: img26, img21,
             title: 'Women Support',
             desc: 'desc 2'
         },
         {
             id:22,
-            img: img22,
+            img: img27, img22,
             title: 'Young People Support',
             desc: 'desc 2'
         }

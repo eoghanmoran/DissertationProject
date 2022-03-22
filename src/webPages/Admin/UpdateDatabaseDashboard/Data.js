@@ -61,6 +61,13 @@ const data = {
             
         },
         {
+            id:9,
+            img: img9,
+            title: 'Chronic Conditions',
+            desc: 'desc 2'
+            
+        },
+        {
             id:6,
             img: img6,
             title: 'Community Organisations',
@@ -78,13 +85,6 @@ const data = {
             id:8,
             img: img8,
             title: 'Disability Support',
-            desc: 'desc 2'
-            
-        },
-        {
-            id:9,
-            img: img9,
-            title: 'Eating Disorder Support',
             desc: 'desc 2'
             
         },

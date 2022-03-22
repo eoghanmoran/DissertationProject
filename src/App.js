@@ -25,10 +25,10 @@ import BenefitView from "./webPages/SearchHelp/HelpPages/Benefits";
 import BereavementView from "./webPages/SearchHelp/HelpPages/Bereavement";
 import CancerSupportView from "./webPages/SearchHelp/HelpPages/CancerSupport";
 import CarerSupportView from "./webPages/SearchHelp/HelpPages/Carers";
+import ChronicConditions from "./webPages/SearchHelp/HelpPages/ChronicConditions";
 import CommunityOrganisationView from "./webPages/SearchHelp/HelpPages/CommunityOrganisations";
 import CounsellingView from "./webPages/SearchHelp/HelpPages/CounsellingSupport";
 import DisabilitySupportView from "./webPages/SearchHelp/HelpPages/DisabilitySupport";
-import EatingDisorder from "./webPages/SearchHelp/HelpPages/EatingDisorder";
 import EthnicMinority from "./webPages/SearchHelp/HelpPages/EthnicMinoritySupport";
 import FamilyChildcare from "./webPages/SearchHelp/HelpPages/FamilyChildCareSupport";
 import HeartCirculatory from "./webPages/SearchHelp/HelpPages/HeartCirculatoryDisease";
@@ -57,7 +57,6 @@ import CancerSupportMap from "./webPages/SupportMap/CancerSupportMap";
 import CarersSupportMap from "./webPages/SupportMap/CarersSupportMap";
 import CounsellingSupportMap from "./webPages/SupportMap/CounsellingSupportMap";
 import DisabilitySupportMap from "./webPages/SupportMap/DisabilitySupportMap";
-import EatingDisordersSupportMap from "./webPages/SupportMap/EatingDisordersSupportMap";
 import EthnicMinoritySupportMap from "./webPages/SupportMap/EthnicMinoritySupportMap";
 import FamilyChildcareSupportMap from "./webPages/SupportMap/FamilyChildcareSupportMap";
 import HeartDiseaseSupportMap from "./webPages/SupportMap/HeartDiseaseSupportMap";
@@ -75,10 +74,10 @@ import BenefitsUpdate from "./webPages/Admin/Benefits/Benefits";
 import BereavementUpdate from "./webPages/Admin/Bereavement/Bereavement";
 import CancerSupportUpdate from "./webPages/Admin/CancerSupport/CancerSupport";
 import CarersUpdate from "./webPages/Admin/Carers/Carers";
+import ChronicConditionsUpdate from "./webPages/Admin/ChronicConditions/ChronicConditions";
 import CommunityOrganisationsUpdate from "./webPages/Admin/Carers/Carers";
 import CounsellingUpdate from "./webPages/Admin/Counselling/Counselling";
 import DisabilitySupportUpdate from "./webPages/Admin/DisabilitySupport/DisabilitySupport";
-import EatingDisordersUpdate from "./webPages/Admin/EatingDisorders/EatingDisorders";
 import OldPersonSupportUpdate from "./webPages/Admin/OlderPersonSupport/OldPersonSupport";
 import EthnicMinoritySupportUpdate from "./webPages/Admin/EthnicMinoritySupport/EthnicMinoritySupport";
 import FamilyChildcareSupportUpdate from "./webPages/Admin/FamilyChildcareSupport/FamilyChildcareSupport";
@@ -134,7 +133,6 @@ export default function App() {
           <Route path="/carersSupportMap"><CarersSupportMap /></Route>
           <Route path="/counsellingSupportMap"><CounsellingSupportMap /></Route>
           <Route path="/disabilitySupportMap"><DisabilitySupportMap /></Route>
-          <Route path="/eatingDisordersSupportMap"><EatingDisordersSupportMap /></Route>
           <Route path="/ethnicMinoritySupportMap"><EthnicMinoritySupportMap /></Route>
           <Route path="/familyChildcareSupportMap"><FamilyChildcareSupportMap /></Route>
           <Route path="/heartDiseaseSupportMap"><HeartDiseaseSupportMap /></Route>
@@ -156,10 +154,10 @@ export default function App() {
           <Route path="/bereavementSupport"><BereavementView /></Route>
           <Route path="/cancerSupport"><CancerSupportView /></Route>
           <Route path="/carerSupport"><CarerSupportView /></Route>
+          <Route path="/chronicConditions"><ChronicConditions /></Route>
           <Route path="/communityOrganisation"><CommunityOrganisationView /></Route>
           <Route path="/counsellingSupport"><CounsellingView /></Route>
           <Route path="/disabilitySupport"><DisabilitySupportView /></Route>
-          <Route path="/eatingDisorderSupport"><EatingDisorder/></Route>
           <Route path="/ethnicMinoritySupport"><EthnicMinority/></Route>
           <Route path="/familyChildcareSupport"><FamilyChildcare/></Route>
           <Route path="/heartCirculatory"><HeartCirculatory/></Route>
@@ -181,9 +179,9 @@ export default function App() {
           <PrivateRoute exact path="/updateCancerSupport" component={CancerSupportUpdate} />
           <PrivateRoute exact path="/updateCarers" component={CarersUpdate} />
           <PrivateRoute exact path="/updateCommunityOrganisations" component={CommunityOrganisationsUpdate} />
+          <PrivateRoute exact path="/updateChronicConditions" component={ChronicConditionsUpdate} />
           <PrivateRoute exact path="/updateCounselling" component={CounsellingUpdate} />
           <PrivateRoute exact path="/updateDisabilitySupport" component={DisabilitySupportUpdate} />
-          <PrivateRoute exact path="/updateEatingDisorders" component={EatingDisordersUpdate} />
           <PrivateRoute exact path="/updateOldPersonSupport" component={OldPersonSupportUpdate} />
           <PrivateRoute exact path="/updateEthnicMinoritySupport" component={EthnicMinoritySupportUpdate} />
           <PrivateRoute exact path="/updateFamilyChildcareSupport" component={FamilyChildcareSupportUpdate} />

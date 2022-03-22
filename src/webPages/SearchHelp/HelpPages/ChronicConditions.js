@@ -4,12 +4,12 @@ import { collection, getDocs } from "firebase/firestore";
 import "../Help.css";
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 import Footer from "../../../components/Footer";
-import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
+import { Table } from "react-bootstrap"
 
 function CrisishelpDetails() {
 
   const [Helplines, setHelplines] = useState([]);
-  const helplineCollectionRef = collection(db, "EatingDisorders");
+  const helplineCollectionRef = collection(db, "ChronicConditions");
 
   useEffect(() => {
     const getHelplines = async () => {
@@ -25,8 +25,7 @@ function CrisishelpDetails() {
       <div class="container-fluid">
         <div class="row jumbotron">
           <div class="col-12">
-            <h1 class=" text-center display-4">Eating Disorder Support</h1>
-
+            <h1 class=" text-center display-4">Chronic Conditions</h1>
 
           </div>
         </div>
@@ -58,4 +57,5 @@ function CrisishelpDetails() {
     </div>
   );
 }
+
 export default CrisishelpDetails;

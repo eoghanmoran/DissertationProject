@@ -32,6 +32,9 @@ const Search = () => {
     else if (title == "Carers Support") {
       history.push("/carerSupport");
     }
+    else if (title == "Chronic Conditions") {
+      history.push("/chronicConditions");
+    }
     else if (title == "Community Organisations") {
       history.push("/communityOrganisation");
     }
@@ -40,9 +43,6 @@ const Search = () => {
     }
     else if (title == "Disability Support") {
       history.push("/disabilitySupport");
-    }
-    else if (title == "Eating Disorder Support") {
-      history.push("/eatingDisorderSupport");
     }
     else if (title == "Ethnic Minority Support") {
       history.push("/ethnicMinoritySupport");

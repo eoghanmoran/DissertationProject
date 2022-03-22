@@ -103,7 +103,6 @@ export default function App() {
                                         <a class="dropdown-item" href="/carersSupportMap">Carers Support</a>
                                         <a class="dropdown-item" href="/counsellingSupportMap">Counselling Support</a>
                                         <a class="dropdown-item" href="/disabilitySupportMap">Disability Support</a>
-                                        <a class="dropdown-item" href="/eatingDisordersSupportMap">Eating Disorders Supports</a>
                                         <a class="dropdown-item" href="/ethnicMinoritySupportMap">Ethnic Minority Support</a>
                                         <a class="dropdown-item" href="/familyChildcareSupportMap">Family Childcare Support</a>
                                         <a class="dropdown-item" href="/heartDiseaseSupportMap">Heart Disease Support</a>

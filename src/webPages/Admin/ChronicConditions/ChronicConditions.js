@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { Container, Navbar, Row, Col } from "react-bootstrap";
 import "../../../App.css";
-import "./CRUD.css";
 import AddService from "./AddService"
 import ServiceList from "./ServiceList"
-
+import "./CRUD.css";
 
 function App() {
 

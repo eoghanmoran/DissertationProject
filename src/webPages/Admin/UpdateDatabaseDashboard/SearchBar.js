@@ -38,11 +38,11 @@ const Search = () => {
         else if (title == "Counselling") {
             history.push("/updateCounselling");
         }
+        else if (title == "Chronic Conditions") {
+            history.push("/updateChronicConditions");
+        }
         else if (title == "Disability Support") {
             history.push("/updateDisabilitySupport");
-        }
-        else if (title == "Eating Disorder Support") {
-            history.push("/updateEatingDisorders");
         }
         else if (title == "Ethnic Minority Support") {
             history.push("/updateEthnicMinoritySupport");

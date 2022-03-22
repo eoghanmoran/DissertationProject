@@ -18,14 +18,17 @@ td {
   text-align: left;
   padding: 12px;
   font-size: 25px;
+  
 }
 
 th {
   background-color: rgb(112, 189, 112);
+  
 }
 
 td {
   background-color: white;
+  
 }
 
 form {
@@ -49,4 +52,10 @@ form * {
   to {
     transform: rotate(360deg);
   }
+}
+button.edit {
+  width: 120px;
+}
+button.delete {
+  width: 120px;
 }
