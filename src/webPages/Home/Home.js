@@ -44,7 +44,7 @@ export default function Home() {
                 <div class="col-12">
                   <div className="">
 
-                    <h1 class="display-3 text-info">Forward South Partnership</h1>
+                    <h1 class="display-2 text-info">Forward South Partnership</h1>
                     <blockquote class="blockquote">
                       <p class="mb-0 font-weight-bold ">South Belfast Health and Wellbeing Directory</p>
                     </blockquote>

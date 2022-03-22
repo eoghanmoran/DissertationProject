@@ -26,8 +26,7 @@ function CrisishelpDetails() {
         <div class="row jumbotron">
           <div class="col-12">
             <h1 class=" text-center display-4">Bereavement Support</h1>
-            <hr class="my-4" />
-            <h1 class=" text-center lead">Forward South Partnership</h1>
+
 
           </div>
         </div>
