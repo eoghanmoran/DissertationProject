@@ -70,7 +70,7 @@ export default function Home() {
                             <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" onClick={() => handleClick(item.title)}>
 
                               <div className="card p-0 overflow-hidden h-100 shadow" >
-                                <img src={item.img} className="card-img-top"></img>
+                                <img src={item.img} alt="Navigation Cards" className="card-img-top"></img>
                                 <div className="card-body">
                                   <h5 className="card-title">{item.title}</h5>
 
