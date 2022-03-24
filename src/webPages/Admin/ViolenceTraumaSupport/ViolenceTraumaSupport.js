@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Container, Navbar, Row, Col } from "react-bootstrap";
 import "../../../App.css";
 import "./CRUD.css";
 import AddService from "./AddService"
 import ServiceList from "./ServiceList"
+import { Container, Table } from "react-bootstrap";
 
 
 function App() {
@@ -17,23 +17,30 @@ function App() {
 
     return (
         <div className="background">
-            <div className="container">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><ServiceList getServiceId={getServiceIdHandler} /></td>
-                        </tr>
-                        <tr>
-                            <td><AddService id={serviceID} setServiceID={setServiceID}/></td>
-                        </tr>
-                    </tbody>
-                </table>
-       
+          <div class="container-fluid">
+            <div class="row jumbotron">
+              <div class="col-12">
+                <h1 class=" text-center display-4">Update Violence/Trauma Support</h1>
+              </div>
             </div>
+          </div>
+            
+            <Table responsive bordered className="noWrap">
+                <tbody>
+                    <tr>
+                        <td><ServiceList getServiceId={getServiceIdHandler} /></td>
+                    </tr>
+                    <tr>
+                        <td><AddService id={serviceID} setServiceID={setServiceID}/></td>
+                    </tr>
+                </tbody>
+                </Table>
+   
         </div>
-    );
+);
 
 
 }
 
 export default App;
+
