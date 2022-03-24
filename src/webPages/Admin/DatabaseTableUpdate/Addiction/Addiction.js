@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Container, Navbar, Row, Col } from "react-bootstrap";
 import "../../../../App.css";
 import "./CRUD.css";
 import AddService from "./AddService"
 import ServiceList from "./ServiceList"
+import { Form, Button, Card, Alert, Container, Table } from "react-bootstrap"
 
 
 function App() {
@@ -15,9 +15,26 @@ function App() {
         setServiceID(id);
     };
 
+
+    // return (
+    //     <div className="background">
+    //       <div class="container-fluid">
+    //         <div class="row jumbotron">
+    //           <div class="col-12">
+    //             <h1 class=" text-center display-4">Addiction Support</h1>
+    //             {/* <hr class="my-4" />
+    //             <h1 class=" text-center lead">Forward South Partnership</h1> */}
+    
+    //           </div>
+    //         </div>
+    //       </div>
+
+
+
     return (
         <div className="background">
-            <div className="container">
+            <div class="container-fluid">
+                <h1 class =" text center display-4">Addiction Support</h1>
                 <table>
                     <tbody>
                         <tr>

@@ -86,43 +86,40 @@ const Search = () => {
     }
 
     return (
-        <section className="py-4 container">
-            <div className="row justify-content-center">
-                <div className="col-12 mb-5">
-                    <div className="mb-3 col-4 mx-auto text-center">
-                    <p>Please select a table to update</p>
-                    <h1></h1>
-                        <label className="form-label h4">Search</label>
-                        <input
-                            type="text"
-                            className="from-control"
-                            value={filter}
-                            onChange={searchText.bind(this)}
-                        />
-                    </div>
-                </div>
-
-                {dataSearch.map((item, index) => {
-                    return (
-                        <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" onClick={() => handleClick(item.title)}>
-
-                            <div className="card p-0 overflow-hidden h-100 shadow" >
-                                <img src={item.img} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">{item.title}</h5>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-
+        <section className="py-4 container-fluid">
+          <div className="row justify-content-center">
+            <div className="col-12 mb-5">
+              <div className="justify-content-center">
+              <h1 className="text-center display-4"> Select a table to update or search below</h1> 
+              <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search" 
+                  value={filter}
+                  onChange={searchText.bind(this)}
+                />
+              </div>
             </div>
+
+
+            {dataSearch.map((item, index) => {
+              return (
+                <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" onClick={() => handleClick(item.title)}>
+
+                  <div className="card p-0 overflow-hidden h-100 shadow" >
+                    <img src={item.img} className="card-img-top"></img>
+                    <div className="card-body">
+                      <h5 className="card-title">{item.title}</h5>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+
+          </div>
 
         </section>
 
 
 
-    )
+)
 }
 
 export default Search;
