@@ -20,7 +20,7 @@ const data = {
         {
             id:2,
             img: img2,
-            title: 'Search For Support',
+            title: 'Search For Help',
             desc: 'desc 2',
             alt: 'Search for Help Card'
             
