@@ -22,7 +22,7 @@ export default function Home() {
   function handleClick(title) {
     if (title == "Urgent Support") {
       history.push("/crisisHelp");
-    } else if (title == "Search For Support") {
+    } else if (title == "Search For Help") {
       history.push("/searchHelp");
     } else if (title == "Support Map") {
       history.push("/allServicesMap");
