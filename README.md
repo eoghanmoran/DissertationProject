@@ -7,6 +7,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### 'Git Clone via ssh'
+Points to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
+
+### `npm install`
+This command installs a package, and any packages that it depends on. 
+
 ### `npm start`
 
 Runs the app in the development mode.\
